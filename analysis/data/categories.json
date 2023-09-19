@@ -1,0 +1,14 @@
+{
+    "Oversight after Code Change": {
+      "Replacement with Built-in or Alternate Library": "A dependency was replaced by a built-in function or an alternate library.",
+      "Replacement with Internal Implementation": "The dependency was replaced by a custom, internally-developed solution.",
+      "Feature or Code Section Removal": "A dependency was used in a section of the code that was removed.",
+      "Introduction without Application": "The dependency was added with the intention of being used, but it never was."
+    },
+    "Transitive Dependency Oversight": {
+        "Redundant Direct Listing of Transitive Dependency": "A transitive dependency was directly listed without a clear justification or direct usage in the code, which might have been added mistakenly or for potential compatibility/security reasons.",
+        "Security Constraint": "A transitive dependency was added or constrained due to security reasons but is unused directly.",
+        "Compatibility Constraint": "A transitive dependency was added or constrained due to compatibility reasons but is unused directly.",
+        "Optional Transitive Dependency Included as Direct": "An optional transitive dependency was included as a direct dependency, possibly due to explicit pinning or inclusion, without considering the required optional arguments. This approach may lead to suboptimal management of the transitive dependency."
+    }
+  }
