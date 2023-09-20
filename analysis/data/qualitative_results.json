@@ -323,8 +323,8 @@
     "gridsync/gridsync": {
         "hyperlink": {
             "Root Cause": "Redundant Direct Listing of Transitive Dependency",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
+            "PR Status": "Pending",
+            "PR URL": "https://github.com/gridsync/gridsync/pull/667"
         }
     }
 }
