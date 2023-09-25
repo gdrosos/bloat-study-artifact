@@ -1,7 +1,7 @@
 {
     "meejah/txtorcon": {
         "incremental": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Merged",
             "PR URL": "https://github.com/meejah/txtorcon/pull/388"
         }
@@ -22,7 +22,7 @@
     },
     "ewels/MultiQC": {
         "simplejson": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Merged",
             "PR URL": "https://github.com/ewels/MultiQC/pull/1973"
         }
@@ -36,7 +36,7 @@
     },
     "slaclab/pydm": {
         "requests": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Merged",
             "PR URL": "https://github.com/slaclab/pydm/pull/1021"
         }
@@ -50,7 +50,7 @@
     },
     "4dn-dcic/tibanna": {
         "requests": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Merged",
             "PR URL": "https://github.com/4dn-dcic/tibanna/pull/393"
         }
@@ -64,21 +64,21 @@
     },
     "sethblack/python-seo-analyzer": {
         "requests": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Pending",
             "PR URL": "https://github.com/sethblack/python-seo-analyzer/pull/98"
         }
     },
     "pyupio/safety": {
         "urllib3": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Possitive Feedback",
             "PR URL": "https://github.com/pyupio/safety/pull/481"
         }
     },
     "jrkerns/pylinac": {
         "cached-property": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Merged",
             "PR URL": "https://github.com/jrkerns/pylinac/pull/461"
         }
@@ -92,7 +92,7 @@
     },
     "SasView/sasview": {
         "h5py": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Merged",
             "PR URL": "https://github.com/SasView/sasview/pull/2585"
         }
@@ -120,7 +120,7 @@
     },
     "SDXorg/pysd": {
         "xlrd": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Possitive Feedback",
             "PR URL": "https://github.com/SDXorg/pysd/pull/423"
         }
@@ -153,7 +153,7 @@
     },
     "popsdroid/opsdroid": {
         "websockets": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Pending",
             "PR URL": "https://github.com/opsdroid/opsdroid/pull/2007"
         }
@@ -167,27 +167,27 @@
     },
     "maurosoria/dirsearch": {
         "urllib3": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "cryptography": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "cffi": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "idna": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "chardet": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         }
@@ -208,12 +208,12 @@
     },
     "lyft/confidant": {
         "greenlet": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/lyft/confidant/pull/403"
         },
         "cffi": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/lyft/confidant/pull/403"
         },
@@ -254,21 +254,21 @@
     },
     "ably/ably-python": {
         "h2": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Merged",
             "PR URL": "https://github.com/ably/ably-python/pull/526"
         }
     },
     "simple-salesforce/simple-salesforce": {
         "cryptography": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/simple-salesforce/simple-salesforce/pull/680"
         }
     },
     "fizzadar/pyinfra": {
         "colorama": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Pending",
             "PR URL": "https://github.com/Fizzadar/pyinfra/pull/1014"
         }
@@ -282,7 +282,7 @@
     },
     "edx/edx-drf-extensions": {
         "six": {
-            "Root Cause": "Replacement with built-in or alternate library",
+            "Root Cause": "Built-in or alternate library",
             "PR Status": "Merged",
             "PR URL": "https://github.com/openedx/edx-drf-extensions/pull/377"
         },
@@ -308,21 +308,21 @@
     },
     "booya-at/openglider": {
         "lxml:4.9.3": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/booya-at/OpenGlider/pull/74"
         }
     },
     "dmnfarrell/pandastable": {
         "xlrd": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Merged",
             "PR URL": "https://github.com/dmnfarrell/pandastable/pull/243"
         }
     },
     "gridsync/gridsync": {
         "hyperlink": {
-            "Root Cause": "Redundant declaration of a transitive dependency",
+            "Root Cause": "Transitive dependency",
             "PR Status": "Pending",
             "PR URL": "https://github.com/gridsync/gridsync/pull/667"
         }
