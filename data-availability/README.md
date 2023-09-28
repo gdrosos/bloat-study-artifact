@@ -26,4 +26,4 @@ These datasets and results are provided as supplementary material to validate an
 
 Upon acceptance of the paper,
 we intend to make the data publicly available on zenodo
-to facilitate future research and replication of our study.
+ o facilitate future research and replication of our study.
