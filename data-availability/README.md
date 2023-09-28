@@ -4,9 +4,9 @@ This repository contains supplementary material for the research paper submitted
 
 ## Directory Structure
 
-### [dependency_data/](./dependency_data/)
-- `direct_dependencies.json`: A JSON file mapping each GitHub project to its direct dependency declarations.
-- `resolved_dependencies.json`: Maps each of the 1302 GitHub projects to 21787 resolved direct and transitive dependencies, accounting for 3,232 unique PyPI releases.
+### [project-data](./project-data/)
+- `project_direct_dependencies.json`: A JSON file mapping each GitHub project to its direct dependency declarations.
+- `project_dependencies.json`: Maps each of the 1302 GitHub projects to 21787 resolved direct and transitive dependencies, accounting for 3,232 unique PyPI releases.
 - `projects_vulnerabilities.json`: Lists the 599 projects depending on at least one vulnerable package, along with their vulnerable dependencies and the specific [GHSA ID](https://github.com/github/advisory-database#ghsa-ids) affecting each dependency.
 
 
