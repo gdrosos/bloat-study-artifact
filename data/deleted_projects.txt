@@ -1,0 +1,9 @@
+pboardman/4scanner
+arc298/instagram-scraper
+yelp/synapse-tools
+cs50/help50
+imsglobal/caliper-python
+betterlife/betterlifepsi
+openmotics/gateway
+gem/engine
+uclouvain/osis
