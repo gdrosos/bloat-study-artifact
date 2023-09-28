@@ -1,0 +1,5536 @@
+{
+  "edges": [
+    [
+      0,
+      18
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      29
+    ],
+    [
+      11,
+      24
+    ],
+    [
+      11,
+      32
+    ],
+    [
+      24,
+      21
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      29,
+      26
+    ],
+    [
+      13,
+      30
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      30,
+      20
+    ],
+    [
+      30,
+      26
+    ],
+    [
+      14,
+      30
+    ],
+    [
+      14,
+      12
+    ],
+    [
+      16,
+      12
+    ],
+    [
+      18,
+      8
+    ],
+    [
+      33,
+      192
+    ],
+    [
+      33,
+      168
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      33,
+      176
+    ],
+    [
+      33,
+      189
+    ],
+    [
+      33,
+      159
+    ],
+    [
+      33,
+      158
+    ],
+    [
+      33,
+      172
+    ],
+    [
+      158,
+      184
+    ],
+    [
+      158,
+      167
+    ],
+    [
+      158,
+      82
+    ],
+    [
+      158,
+      165
+    ],
+    [
+      158,
+      191
+    ],
+    [
+      158,
+      150
+    ],
+    [
+      158,
+      152
+    ],
+    [
+      158,
+      146
+    ],
+    [
+      158,
+      173
+    ],
+    [
+      158,
+      144
+    ],
+    [
+      168,
+      147
+    ],
+    [
+      168,
+      151
+    ],
+    [
+      176,
+      151
+    ],
+    [
+      189,
+      190
+    ],
+    [
+      192,
+      147
+    ],
+    [
+      192,
+      151
+    ],
+    [
+      44,
+      43
+    ],
+    [
+      44,
+      38
+    ],
+    [
+      251,
+      253
+    ],
+    [
+      253,
+      257
+    ],
+    [
+      253,
+      256
+    ],
+    [
+      253,
+      82
+    ],
+    [
+      253,
+      255
+    ],
+    [
+      255,
+      108
+    ],
+    [
+      255,
+      109
+    ],
+    [
+      82,
+      84
+    ],
+    [
+      108,
+      96
+    ],
+    [
+      108,
+      109
+    ],
+    [
+      139,
+      141
+    ],
+    [
+      141,
+      82
+    ],
+    [
+      142,
+      105
+    ],
+    [
+      142,
+      106
+    ],
+    [
+      105,
+      96
+    ],
+    [
+      105,
+      106
+    ],
+    [
+      37,
+      49
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      37,
+      86
+    ],
+    [
+      86,
+      92
+    ],
+    [
+      39,
+      37
+    ],
+    [
+      46,
+      85
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      47,
+      73
+    ],
+    [
+      85,
+      89
+    ],
+    [
+      51,
+      37
+    ],
+    [
+      54,
+      46
+    ],
+    [
+      58,
+      55
+    ],
+    [
+      59,
+      55
+    ],
+    [
+      61,
+      58
+    ],
+    [
+      61,
+      56
+    ],
+    [
+      62,
+      55
+    ],
+    [
+      63,
+      66
+    ],
+    [
+      66,
+      46
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      66,
+      56
+    ],
+    [
+      66,
+      58
+    ],
+    [
+      64,
+      66
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      71,
+      70
+    ],
+    [
+      71,
+      73
+    ],
+    [
+      138,
+      37
+    ],
+    [
+      75,
+      81
+    ],
+    [
+      81,
+      87
+    ],
+    [
+      84,
+      154
+    ],
+    [
+      84,
+      142
+    ],
+    [
+      84,
+      155
+    ],
+    [
+      84,
+      254
+    ],
+    [
+      84,
+      263
+    ],
+    [
+      154,
+      153
+    ],
+    [
+      263,
+      105
+    ],
+    [
+      263,
+      260
+    ],
+    [
+      263,
+      108
+    ],
+    [
+      155,
+      162
+    ],
+    [
+      155,
+      97
+    ],
+    [
+      155,
+      153
+    ],
+    [
+      89,
+      96
+    ],
+    [
+      89,
+      97
+    ],
+    [
+      90,
+      85
+    ],
+    [
+      93,
+      89
+    ],
+    [
+      100,
+      96
+    ],
+    [
+      102,
+      96
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      111,
+      96
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      114,
+      96
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      117,
+      96
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      120,
+      96
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      123,
+      96
+    ],
+    [
+      123,
+      124
+    ],
+    [
+      258,
+      261
+    ],
+    [
+      261,
+      82
+    ],
+    [
+      261,
+      262
+    ],
+    [
+      143,
+      148
+    ],
+    [
+      146,
+      145
+    ],
+    [
+      147,
+      145
+    ],
+    [
+      151,
+      150
+    ],
+    [
+      153,
+      96
+    ],
+    [
+      162,
+      182
+    ],
+    [
+      162,
+      170
+    ],
+    [
+      162,
+      194
+    ],
+    [
+      162,
+      187
+    ],
+    [
+      162,
+      163
+    ],
+    [
+      162,
+      152
+    ],
+    [
+      191,
+      73
+    ],
+    [
+      169,
+      206
+    ],
+    [
+      169,
+      151
+    ],
+    [
+      174,
+      151
+    ],
+    [
+      175,
+      151
+    ],
+    [
+      177,
+      176
+    ],
+    [
+      178,
+      212
+    ],
+    [
+      178,
+      151
+    ],
+    [
+      179,
+      218
+    ],
+    [
+      180,
+      151
+    ],
+    [
+      185,
+      151
+    ],
+    [
+      186,
+      218
+    ],
+    [
+      193,
+      218
+    ],
+    [
+      202,
+      151
+    ],
+    [
+      208,
+      168
+    ],
+    [
+      209,
+      236
+    ],
+    [
+      236,
+      235
+    ],
+    [
+      213,
+      174
+    ],
+    [
+      214,
+      175
+    ],
+    [
+      215,
+      236
+    ],
+    [
+      222,
+      159
+    ],
+    [
+      223,
+      236
+    ],
+    [
+      224,
+      219
+    ],
+    [
+      225,
+      237
+    ],
+    [
+      234,
+      233
+    ],
+    [
+      235,
+      232
+    ],
+    [
+      237,
+      235
+    ],
+    [
+      237,
+      236
+    ],
+    [
+      239,
+      235
+    ],
+    [
+      244,
+      235
+    ],
+    [
+      245,
+      243
+    ],
+    [
+      245,
+      241
+    ],
+    [
+      246,
+      243
+    ],
+    [
+      246,
+      245
+    ],
+    [
+      247,
+      243
+    ],
+    [
+      248,
+      243
+    ],
+    [
+      249,
+      243
+    ],
+    [
+      249,
+      246
+    ],
+    [
+      250,
+      246
+    ],
+    [
+      27,
+      27
+    ],
+    [
+      25,
+      27
+    ],
+    [
+      26,
+      21
+    ],
+    [
+      28,
+      27
+    ],
+    [
+      265,
+      273
+    ],
+    [
+      273,
+      267
+    ],
+    [
+      273,
+      272
+    ],
+    [
+      273,
+      274
+    ],
+    [
+      270,
+      268
+    ],
+    [
+      270,
+      269
+    ],
+    [
+      272,
+      270
+    ],
+    [
+      272,
+      271
+    ],
+    [
+      274,
+      96
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      278,
+      281
+    ],
+    [
+      279,
+      97
+    ],
+    [
+      279,
+      280
+    ],
+    [
+      279,
+      96
+    ],
+    [
+      279,
+      25
+    ],
+    [
+      281,
+      73
+    ],
+    [
+      283,
+      278
+    ],
+    [
+      287,
+      302
+    ],
+    [
+      302,
+      299
+    ],
+    [
+      302,
+      297
+    ],
+    [
+      302,
+      291
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      302,
+      288
+    ],
+    [
+      288,
+      73
+    ],
+    [
+      293,
+      127
+    ],
+    [
+      296,
+      290
+    ],
+    [
+      296,
+      294
+    ],
+    [
+      297,
+      296
+    ],
+    [
+      297,
+      298
+    ],
+    [
+      297,
+      295
+    ],
+    [
+      298,
+      296
+    ],
+    [
+      298,
+      293
+    ],
+    [
+      298,
+      292
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      300,
+      299
+    ],
+    [
+      303,
+      300
+    ],
+    [
+      303,
+      96
+    ],
+    [
+      308,
+      311
+    ],
+    [
+      311,
+      305
+    ],
+    [
+      311,
+      85
+    ],
+    [
+      312,
+      307
+    ],
+    [
+      315,
+      38
+    ],
+    [
+      318,
+      336
+    ],
+    [
+      328,
+      329
+    ],
+    [
+      328,
+      330
+    ],
+    [
+      329,
+      350
+    ],
+    [
+      329,
+      347
+    ],
+    [
+      329,
+      342
+    ],
+    [
+      342,
+      345
+    ],
+    [
+      342,
+      339
+    ],
+    [
+      347,
+      344
+    ],
+    [
+      331,
+      348
+    ],
+    [
+      331,
+      330
+    ],
+    [
+      348,
+      344
+    ],
+    [
+      348,
+      338
+    ],
+    [
+      332,
+      348
+    ],
+    [
+      332,
+      330
+    ],
+    [
+      334,
+      330
+    ],
+    [
+      336,
+      326
+    ],
+    [
+      351,
+      490
+    ],
+    [
+      351,
+      510
+    ],
+    [
+      351,
+      507
+    ],
+    [
+      351,
+      486
+    ],
+    [
+      351,
+      477
+    ],
+    [
+      351,
+      494
+    ],
+    [
+      351,
+      362
+    ],
+    [
+      351,
+      476
+    ],
+    [
+      476,
+      468
+    ],
+    [
+      476,
+      509
+    ],
+    [
+      476,
+      502
+    ],
+    [
+      476,
+      470
+    ],
+    [
+      476,
+      483
+    ],
+    [
+      476,
+      400
+    ],
+    [
+      476,
+      491
+    ],
+    [
+      476,
+      462
+    ],
+    [
+      476,
+      464
+    ],
+    [
+      476,
+      485
+    ],
+    [
+      486,
+      465
+    ],
+    [
+      486,
+      469
+    ],
+    [
+      494,
+      469
+    ],
+    [
+      507,
+      508
+    ],
+    [
+      510,
+      465
+    ],
+    [
+      510,
+      469
+    ],
+    [
+      362,
+      361
+    ],
+    [
+      362,
+      356
+    ],
+    [
+      355,
+      366
+    ],
+    [
+      355,
+      367
+    ],
+    [
+      355,
+      404
+    ],
+    [
+      404,
+      410
+    ],
+    [
+      357,
+      355
+    ],
+    [
+      364,
+      365
+    ],
+    [
+      364,
+      403
+    ],
+    [
+      365,
+      391
+    ],
+    [
+      403,
+      407
+    ],
+    [
+      369,
+      355
+    ],
+    [
+      372,
+      364
+    ],
+    [
+      376,
+      373
+    ],
+    [
+      377,
+      373
+    ],
+    [
+      379,
+      374
+    ],
+    [
+      379,
+      376
+    ],
+    [
+      380,
+      373
+    ],
+    [
+      381,
+      384
+    ],
+    [
+      384,
+      376
+    ],
+    [
+      384,
+      385
+    ],
+    [
+      384,
+      374
+    ],
+    [
+      384,
+      364
+    ],
+    [
+      382,
+      384
+    ],
+    [
+      383,
+      384
+    ],
+    [
+      389,
+      388
+    ],
+    [
+      389,
+      391
+    ],
+    [
+      393,
+      399
+    ],
+    [
+      399,
+      405
+    ],
+    [
+      400,
+      402
+    ],
+    [
+      402,
+      473
+    ],
+    [
+      402,
+      460
+    ],
+    [
+      402,
+      472
+    ],
+    [
+      402,
+      572
+    ],
+    [
+      402,
+      581
+    ],
+    [
+      460,
+      424
+    ],
+    [
+      460,
+      423
+    ],
+    [
+      472,
+      471
+    ],
+    [
+      581,
+      423
+    ],
+    [
+      581,
+      426
+    ],
+    [
+      581,
+      578
+    ],
+    [
+      473,
+      415
+    ],
+    [
+      473,
+      471
+    ],
+    [
+      473,
+      480
+    ],
+    [
+      407,
+      414
+    ],
+    [
+      407,
+      415
+    ],
+    [
+      408,
+      403
+    ],
+    [
+      411,
+      407
+    ],
+    [
+      418,
+      414
+    ],
+    [
+      420,
+      421
+    ],
+    [
+      420,
+      414
+    ],
+    [
+      423,
+      414
+    ],
+    [
+      423,
+      424
+    ],
+    [
+      426,
+      427
+    ],
+    [
+      426,
+      414
+    ],
+    [
+      429,
+      430
+    ],
+    [
+      429,
+      414
+    ],
+    [
+      432,
+      433
+    ],
+    [
+      432,
+      414
+    ],
+    [
+      435,
+      414
+    ],
+    [
+      435,
+      436
+    ],
+    [
+      438,
+      439
+    ],
+    [
+      438,
+      414
+    ],
+    [
+      441,
+      442
+    ],
+    [
+      441,
+      414
+    ],
+    [
+      456,
+      355
+    ],
+    [
+      576,
+      579
+    ],
+    [
+      579,
+      580
+    ],
+    [
+      579,
+      400
+    ],
+    [
+      457,
+      459
+    ],
+    [
+      459,
+      400
+    ],
+    [
+      461,
+      466
+    ],
+    [
+      464,
+      463
+    ],
+    [
+      465,
+      463
+    ],
+    [
+      469,
+      468
+    ],
+    [
+      471,
+      414
+    ],
+    [
+      480,
+      500
+    ],
+    [
+      480,
+      470
+    ],
+    [
+      480,
+      512
+    ],
+    [
+      480,
+      505
+    ],
+    [
+      480,
+      481
+    ],
+    [
+      480,
+      488
+    ],
+    [
+      509,
+      391
+    ],
+    [
+      487,
+      524
+    ],
+    [
+      487,
+      469
+    ],
+    [
+      492,
+      469
+    ],
+    [
+      493,
+      469
+    ],
+    [
+      495,
+      494
+    ],
+    [
+      496,
+      530
+    ],
+    [
+      496,
+      469
+    ],
+    [
+      497,
+      536
+    ],
+    [
+      498,
+      469
+    ],
+    [
+      503,
+      469
+    ],
+    [
+      504,
+      536
+    ],
+    [
+      511,
+      536
+    ],
+    [
+      520,
+      469
+    ],
+    [
+      526,
+      486
+    ],
+    [
+      527,
+      554
+    ],
+    [
+      554,
+      553
+    ],
+    [
+      531,
+      492
+    ],
+    [
+      532,
+      493
+    ],
+    [
+      533,
+      554
+    ],
+    [
+      540,
+      477
+    ],
+    [
+      541,
+      554
+    ],
+    [
+      542,
+      537
+    ],
+    [
+      543,
+      555
+    ],
+    [
+      552,
+      551
+    ],
+    [
+      553,
+      550
+    ],
+    [
+      555,
+      553
+    ],
+    [
+      555,
+      554
+    ],
+    [
+      557,
+      553
+    ],
+    [
+      562,
+      553
+    ],
+    [
+      563,
+      559
+    ],
+    [
+      563,
+      561
+    ],
+    [
+      564,
+      563
+    ],
+    [
+      564,
+      561
+    ],
+    [
+      565,
+      561
+    ],
+    [
+      566,
+      561
+    ],
+    [
+      567,
+      564
+    ],
+    [
+      567,
+      561
+    ],
+    [
+      568,
+      564
+    ],
+    [
+      569,
+      571
+    ],
+    [
+      571,
+      573
+    ],
+    [
+      571,
+      574
+    ],
+    [
+      571,
+      400
+    ],
+    [
+      571,
+      575
+    ],
+    [
+      573,
+      426
+    ],
+    [
+      573,
+      427
+    ],
+    [
+      345,
+      345
+    ],
+    [
+      343,
+      345
+    ],
+    [
+      344,
+      339
+    ],
+    [
+      346,
+      345
+    ],
+    [
+      583,
+      591
+    ],
+    [
+      591,
+      592
+    ],
+    [
+      591,
+      590
+    ],
+    [
+      591,
+      585
+    ],
+    [
+      588,
+      587
+    ],
+    [
+      588,
+      586
+    ],
+    [
+      590,
+      588
+    ],
+    [
+      590,
+      589
+    ],
+    [
+      592,
+      414
+    ],
+    [
+      596,
+      597
+    ],
+    [
+      596,
+      599
+    ],
+    [
+      597,
+      598
+    ],
+    [
+      597,
+      343
+    ],
+    [
+      597,
+      414
+    ],
+    [
+      597,
+      415
+    ],
+    [
+      599,
+      391
+    ],
+    [
+      601,
+      596
+    ],
+    [
+      605,
+      620
+    ],
+    [
+      620,
+      606
+    ],
+    [
+      620,
+      615
+    ],
+    [
+      620,
+      617
+    ],
+    [
+      620,
+      609
+    ],
+    [
+      620,
+      621
+    ],
+    [
+      606,
+      391
+    ],
+    [
+      611,
+      445
+    ],
+    [
+      614,
+      608
+    ],
+    [
+      614,
+      612
+    ],
+    [
+      615,
+      616
+    ],
+    [
+      615,
+      613
+    ],
+    [
+      615,
+      614
+    ],
+    [
+      616,
+      611
+    ],
+    [
+      616,
+      610
+    ],
+    [
+      616,
+      614
+    ],
+    [
+      618,
+      619
+    ],
+    [
+      618,
+      617
+    ],
+    [
+      621,
+      618
+    ],
+    [
+      621,
+      414
+    ],
+    [
+      626,
+      629
+    ],
+    [
+      629,
+      403
+    ],
+    [
+      629,
+      623
+    ],
+    [
+      630,
+      625
+    ],
+    [
+      633,
+      356
+    ]
+  ],
+  "nodes": {
+    "0": {
+      "URI": "//prometheus-client/prometheus_client.values/",
+      "metadata": {
+        "LoC": 137
+      }
+    },
+    "1": {
+      "URI": "//prometheus-client/prometheus_client.values/MutexValue",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "2": {
+      "URI": "//prometheus-client/prometheus_client.values/MutexValue.__init__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "3": {
+      "URI": "//prometheus-client/prometheus_client.values/MutexValue.inc()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "4": {
+      "URI": "//prometheus-client/prometheus_client.values/MutexValue.set()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "5": {
+      "URI": "//prometheus-client/prometheus_client.values/MutexValue.set_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "6": {
+      "URI": "//prometheus-client/prometheus_client.values/MutexValue.get()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "7": {
+      "URI": "//prometheus-client/prometheus_client.values/MutexValue.get_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "8": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "9": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "10": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.__init__()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "11": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.__reset()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "12": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.__check_for_pid_change()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "13": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.inc()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "14": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.set()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "15": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.set_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "16": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.get()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "17": {
+      "URI": "//prometheus-client/prometheus_client.values/MultiProcessValue.MmapedValue.get_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "18": {
+      "URI": "//prometheus-client/prometheus_client.values/get_value_class()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "19": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/",
+      "metadata": {
+        "LoC": 145
+      }
+    },
+    "20": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/_pack_double()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "21": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/_pack_integer()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "22": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/_read_all_values()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "23": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "24": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict.__init__()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "25": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict.read_all_values_from_file()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "26": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict._init_value()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "27": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict._read_all_values()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "28": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict.read_all_values()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "29": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict.read_value()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "30": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict.write_value()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "31": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/MmapedDict.close()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "32": {
+      "URI": "//prometheus-client/prometheus_client.mmap_dict/mmap_key()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "33": {
+      "URI": "//prometheus-client/prometheus_client/",
+      "metadata": {
+        "LoC": 67
+      }
+    },
+    "34": {
+      "URI": "//prometheus-client/prometheus_client.exposition/",
+      "metadata": {
+        "LoC": 602
+      }
+    },
+    "35": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_PrometheusRedirectHandler",
+      "metadata": {
+        "LoC": 22
+      }
+    },
+    "36": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_PrometheusRedirectHandler.redirect_request()",
+      "metadata": {
+        "LoC": 31
+      }
+    },
+    "37": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_bake_output()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "38": {
+      "URI": "//prometheus-client/prometheus_client.exposition/make_wsgi_app()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "39": {
+      "URI": "//prometheus-client/prometheus_client.exposition/make_wsgi_app.prometheus_app()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "40": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_SilentHandler",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "41": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_SilentHandler.log_message()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "42": {
+      "URI": "//prometheus-client/prometheus_client.exposition/ThreadingWSGIServer",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "43": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_get_best_family()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "44": {
+      "URI": "//prometheus-client/prometheus_client.exposition/start_wsgi_server()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "45": {
+      "URI": "//prometheus-client/prometheus_client.exposition/start_wsgi_server.TmpServer",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "46": {
+      "URI": "//prometheus-client/prometheus_client.exposition/generate_latest()",
+      "metadata": {
+        "LoC": 47
+      }
+    },
+    "47": {
+      "URI": "//prometheus-client/prometheus_client.exposition/generate_latest.sample_line()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "48": {
+      "URI": "//prometheus-client/prometheus_client.exposition/choose_encoder()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "49": {
+      "URI": "//prometheus-client/prometheus_client.exposition/gzip_accepted()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "50": {
+      "URI": "//prometheus-client/prometheus_client.exposition/MetricsHandler",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "51": {
+      "URI": "//prometheus-client/prometheus_client.exposition/MetricsHandler.do_GET()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "52": {
+      "URI": "//prometheus-client/prometheus_client.exposition/MetricsHandler.log_message()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "53": {
+      "URI": "//prometheus-client/prometheus_client.exposition/MetricsHandler.factory()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "54": {
+      "URI": "//prometheus-client/prometheus_client.exposition/write_to_textfile()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "55": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_make_handler()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "56": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_make_handler.handle()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "57": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_make_handler.handle.<lambda1>()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "58": {
+      "URI": "//prometheus-client/prometheus_client.exposition/default_handler()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "59": {
+      "URI": "//prometheus-client/prometheus_client.exposition/passthrough_redirect_handler()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "60": {
+      "URI": "//prometheus-client/prometheus_client.exposition/basic_auth_handler()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "61": {
+      "URI": "//prometheus-client/prometheus_client.exposition/basic_auth_handler.handle()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "62": {
+      "URI": "//prometheus-client/prometheus_client.exposition/tls_auth_handler()",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "63": {
+      "URI": "//prometheus-client/prometheus_client.exposition/push_to_gateway()",
+      "metadata": {
+        "LoC": 47
+      }
+    },
+    "64": {
+      "URI": "//prometheus-client/prometheus_client.exposition/pushadd_to_gateway()",
+      "metadata": {
+        "LoC": 29
+      }
+    },
+    "65": {
+      "URI": "//prometheus-client/prometheus_client.exposition/delete_from_gateway()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "66": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_use_gateway()",
+      "metadata": {
+        "LoC": 35
+      }
+    },
+    "67": {
+      "URI": "//prometheus-client/prometheus_client.exposition/_escape_grouping_key()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "68": {
+      "URI": "//prometheus-client/prometheus_client.exposition/instance_ip_grouping_key()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "69": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.exposition/",
+      "metadata": {
+        "LoC": 72
+      }
+    },
+    "70": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.exposition/_is_valid_exemplar_metric()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "71": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.exposition/generate_latest()",
+      "metadata": {
+        "LoC": 55
+      }
+    },
+    "72": {
+      "URI": "//prometheus-client/prometheus_client.utils/",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "73": {
+      "URI": "//prometheus-client/prometheus_client.utils/floatToGoString()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "74": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics/",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "75": {
+      "URI": "//prometheus-client/prometheus_client.registry/",
+      "metadata": {
+        "LoC": 168
+      }
+    },
+    "76": {
+      "URI": "//prometheus-client/prometheus_client.registry/Collector",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "77": {
+      "URI": "//prometheus-client/prometheus_client.registry/Collector.collect()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "78": {
+      "URI": "//prometheus-client/prometheus_client.registry/_EmptyCollector",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "79": {
+      "URI": "//prometheus-client/prometheus_client.registry/_EmptyCollector.collect()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "80": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "81": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.__init__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "82": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.register()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "83": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.unregister()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "84": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry._get_names()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "85": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.collect()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "86": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.restricted_registry()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "87": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.set_target_info()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "88": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.get_target_info()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "89": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry._target_info_metric()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "90": {
+      "URI": "//prometheus-client/prometheus_client.registry/CollectorRegistry.get_sample_value()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "91": {
+      "URI": "//prometheus-client/prometheus_client.registry/RestrictedRegistry",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "92": {
+      "URI": "//prometheus-client/prometheus_client.registry/RestrictedRegistry.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "93": {
+      "URI": "//prometheus-client/prometheus_client.registry/RestrictedRegistry.collect()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "94": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/",
+      "metadata": {
+        "LoC": 418
+      }
+    },
+    "95": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/Metric",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "96": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/Metric.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "97": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/Metric.add_sample()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "98": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/Metric.__eq__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "99": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/Metric.__repr__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "100": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/Metric._restricted_metric()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "101": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/UnknownMetricFamily",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "102": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/UnknownMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "103": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/UnknownMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "104": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/CounterMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "105": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/CounterMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "106": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/CounterMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "107": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/GaugeMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "108": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/GaugeMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "109": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/GaugeMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "110": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/SummaryMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "111": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/SummaryMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "112": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/SummaryMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "113": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/HistogramMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "114": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/HistogramMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "115": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/HistogramMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 34
+      }
+    },
+    "116": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/GaugeHistogramMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "117": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/GaugeHistogramMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "118": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/GaugeHistogramMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "119": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/InfoMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "120": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/InfoMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "121": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/InfoMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "122": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/StateSetMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "123": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/StateSetMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "124": {
+      "URI": "//prometheus-client/prometheus_client.metrics_core/StateSetMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "125": {
+      "URI": "//prometheus-client/prometheus_client.samples/",
+      "metadata": {
+        "LoC": 50
+      }
+    },
+    "126": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "127": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp.__init__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "128": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp.__str__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "129": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp.__repr__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "130": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp.__float__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "131": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp.__eq__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "132": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp.__ne__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "133": {
+      "URI": "//prometheus-client/prometheus_client.samples/Timestamp.__gt__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "134": {
+      "URI": "//prometheus-client/prometheus_client.samples/Exemplar",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "135": {
+      "URI": "//prometheus-client/prometheus_client.samples/Sample",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "136": {
+      "URI": "//prometheus-client/prometheus_client.asgi/",
+      "metadata": {
+        "LoC": 40
+      }
+    },
+    "137": {
+      "URI": "//prometheus-client/prometheus_client.asgi/make_asgi_app()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "138": {
+      "URI": "//prometheus-client/prometheus_client.asgi/make_asgi_app.prometheus_app()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "139": {
+      "URI": "//prometheus-client/prometheus_client.gc_collector/",
+      "metadata": {
+        "LoC": 45
+      }
+    },
+    "140": {
+      "URI": "//prometheus-client/prometheus_client.gc_collector/GCCollector",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "141": {
+      "URI": "//prometheus-client/prometheus_client.gc_collector/GCCollector.__init__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "142": {
+      "URI": "//prometheus-client/prometheus_client.gc_collector/GCCollector.collect()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "143": {
+      "URI": "//prometheus-client/prometheus_client.metrics/",
+      "metadata": {
+        "LoC": 732
+      }
+    },
+    "144": {
+      "URI": "//prometheus-client/prometheus_client.metrics/_build_full_name()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "145": {
+      "URI": "//prometheus-client/prometheus_client.metrics/_validate_labelname()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "146": {
+      "URI": "//prometheus-client/prometheus_client.metrics/_validate_labelnames()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "147": {
+      "URI": "//prometheus-client/prometheus_client.metrics/_validate_exemplar()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "148": {
+      "URI": "//prometheus-client/prometheus_client.metrics/_get_use_created()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "149": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "150": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._is_observable()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "151": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._raise_if_not_observable()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "152": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._is_parent()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "153": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._get_metric()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "154": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.describe()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "155": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.collect()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "156": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.__str__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "157": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.__repr__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "158": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.__init__()",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "159": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.labels()",
+      "metadata": {
+        "LoC": 54
+      }
+    },
+    "160": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.remove()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "161": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase.clear()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "162": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._samples()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "163": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._multi_samples()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "164": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._child_samples()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "165": {
+      "URI": "//prometheus-client/prometheus_client.metrics/MetricWrapperBase._metric_init()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "166": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Counter",
+      "metadata": {
+        "LoC": 37
+      }
+    },
+    "167": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Counter._metric_init()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "168": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Counter.inc()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "169": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Counter.count_exceptions()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "170": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Counter._child_samples()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "171": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge",
+      "metadata": {
+        "LoC": 50
+      }
+    },
+    "172": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.__init__()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "173": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge._metric_init()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "174": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.inc()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "175": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.dec()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "176": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.set()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "177": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.set_to_current_time()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "178": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.track_inprogress()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "179": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.time()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "180": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.set_function()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "181": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge.set_function.samples()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "182": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Gauge._child_samples()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "183": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Summary",
+      "metadata": {
+        "LoC": 36
+      }
+    },
+    "184": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Summary._metric_init()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "185": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Summary.observe()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "186": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Summary.time()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "187": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Summary._child_samples()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "188": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Histogram",
+      "metadata": {
+        "LoC": 45
+      }
+    },
+    "189": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Histogram.__init__()",
+      "metadata": {
+        "LoC": 23
+      }
+    },
+    "190": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Histogram._prepare_buckets()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "191": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Histogram._metric_init()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "192": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Histogram.observe()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "193": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Histogram.time()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "194": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Histogram._child_samples()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "195": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Info",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "196": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Info._metric_init()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "197": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Info.info()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "198": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Info._child_samples()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "199": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Enum",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "200": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Enum.__init__()",
+      "metadata": {
+        "LoC": 26
+      }
+    },
+    "201": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Enum._metric_init()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "202": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Enum.state()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "203": {
+      "URI": "//prometheus-client/prometheus_client.metrics/Enum._child_samples()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "204": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/",
+      "metadata": {
+        "LoC": 85
+      }
+    },
+    "205": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/ExceptionCounter",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "206": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/ExceptionCounter.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "207": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/ExceptionCounter.__enter__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "208": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/ExceptionCounter.__exit__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "209": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/ExceptionCounter.__call__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "210": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/ExceptionCounter.__call__.wrapped()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "211": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/InprogressTracker",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "212": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/InprogressTracker.__init__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "213": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/InprogressTracker.__enter__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "214": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/InprogressTracker.__exit__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "215": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/InprogressTracker.__call__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "216": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/InprogressTracker.__call__.wrapped()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "217": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "218": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "219": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer._new_timer()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "220": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer.__enter__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "221": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer.__exit__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "222": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer.labels()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "223": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer.__call__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "224": {
+      "URI": "//prometheus-client/prometheus_client.context_managers/Timer.__call__.wrapped()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "225": {
+      "URI": "//prometheus-client/prometheus_client.decorator/",
+      "metadata": {
+        "LoC": 427
+      }
+    },
+    "226": {
+      "URI": "//prometheus-client/prometheus_client.decorator/get_init()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "227": {
+      "URI": "//prometheus-client/prometheus_client.decorator/getfullargspec",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "228": {
+      "URI": "//prometheus-client/prometheus_client.decorator/getfullargspec.__init__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "229": {
+      "URI": "//prometheus-client/prometheus_client.decorator/getfullargspec.__iter__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "230": {
+      "URI": "//prometheus-client/prometheus_client.decorator/getargspec()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "231": {
+      "URI": "//prometheus-client/prometheus_client.decorator/FunctionMaker",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "232": {
+      "URI": "//prometheus-client/prometheus_client.decorator/FunctionMaker.__init__()",
+      "metadata": {
+        "LoC": 56
+      }
+    },
+    "233": {
+      "URI": "//prometheus-client/prometheus_client.decorator/FunctionMaker.update()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "234": {
+      "URI": "//prometheus-client/prometheus_client.decorator/FunctionMaker.make()",
+      "metadata": {
+        "LoC": 33
+      }
+    },
+    "235": {
+      "URI": "//prometheus-client/prometheus_client.decorator/FunctionMaker.create()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "236": {
+      "URI": "//prometheus-client/prometheus_client.decorator/decorate()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "237": {
+      "URI": "//prometheus-client/prometheus_client.decorator/decorator()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "238": {
+      "URI": "//prometheus-client/prometheus_client.decorator/ContextManager",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "239": {
+      "URI": "//prometheus-client/prometheus_client.decorator/ContextManager.__call__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "240": {
+      "URI": "//prometheus-client/prometheus_client.decorator/__init__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "241": {
+      "URI": "//prometheus-client/prometheus_client.decorator/append()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "242": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "243": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.check()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "244": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.gen_func_dec()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "245": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.gen_func_dec.vancestors()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "246": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.gen_func_dec.ancestors()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "247": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.gen_func_dec.register()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "248": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.gen_func_dec.register.dec()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "249": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.gen_func_dec.dispatch_info()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "250": {
+      "URI": "//prometheus-client/prometheus_client.decorator/dispatch_on.gen_func_dec._dispatch()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "251": {
+      "URI": "//prometheus-client/prometheus_client.platform_collector/",
+      "metadata": {
+        "LoC": 59
+      }
+    },
+    "252": {
+      "URI": "//prometheus-client/prometheus_client.platform_collector/PlatformCollector",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "253": {
+      "URI": "//prometheus-client/prometheus_client.platform_collector/PlatformCollector.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "254": {
+      "URI": "//prometheus-client/prometheus_client.platform_collector/PlatformCollector.collect()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "255": {
+      "URI": "//prometheus-client/prometheus_client.platform_collector/PlatformCollector._add_metric()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "256": {
+      "URI": "//prometheus-client/prometheus_client.platform_collector/PlatformCollector._info()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "257": {
+      "URI": "//prometheus-client/prometheus_client.platform_collector/PlatformCollector._java()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "258": {
+      "URI": "//prometheus-client/prometheus_client.process_collector/",
+      "metadata": {
+        "LoC": 101
+      }
+    },
+    "259": {
+      "URI": "//prometheus-client/prometheus_client.process_collector/ProcessCollector",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "260": {
+      "URI": "//prometheus-client/prometheus_client.process_collector/ProcessCollector.<lambda1>()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "261": {
+      "URI": "//prometheus-client/prometheus_client.process_collector/ProcessCollector.__init__()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "262": {
+      "URI": "//prometheus-client/prometheus_client.process_collector/ProcessCollector._boot_time()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "263": {
+      "URI": "//prometheus-client/prometheus_client.process_collector/ProcessCollector.collect()",
+      "metadata": {
+        "LoC": 44
+      }
+    },
+    "264": {
+      "URI": "//prometheus-client/prometheus_client.parser/",
+      "metadata": {
+        "LoC": 225
+      }
+    },
+    "265": {
+      "URI": "//prometheus-client/prometheus_client.parser/text_string_to_metric_families()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "266": {
+      "URI": "//prometheus-client/prometheus_client.parser/replace_escape_sequence()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "267": {
+      "URI": "//prometheus-client/prometheus_client.parser/_replace_help_escaping()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "268": {
+      "URI": "//prometheus-client/prometheus_client.parser/_replace_escaping()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "269": {
+      "URI": "//prometheus-client/prometheus_client.parser/_is_character_escaped()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "270": {
+      "URI": "//prometheus-client/prometheus_client.parser/_parse_labels()",
+      "metadata": {
+        "LoC": 48
+      }
+    },
+    "271": {
+      "URI": "//prometheus-client/prometheus_client.parser/_parse_value_and_timestamp()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "272": {
+      "URI": "//prometheus-client/prometheus_client.parser/_parse_sample()",
+      "metadata": {
+        "LoC": 23
+      }
+    },
+    "273": {
+      "URI": "//prometheus-client/prometheus_client.parser/text_fd_to_metric_families()",
+      "metadata": {
+        "LoC": 75
+      }
+    },
+    "274": {
+      "URI": "//prometheus-client/prometheus_client.parser/text_fd_to_metric_families.build_metric()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "275": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/",
+      "metadata": {
+        "LoC": 163
+      }
+    },
+    "276": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "277": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector.__init__()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "278": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector.merge()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "279": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector._read_metrics()",
+      "metadata": {
+        "LoC": 33
+      }
+    },
+    "280": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector._read_metrics._parse_key()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "281": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector._accumulate_metrics()",
+      "metadata": {
+        "LoC": 58
+      }
+    },
+    "282": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector._accumulate_metrics.<lambda1>()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "283": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/MultiProcessCollector.collect()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "284": {
+      "URI": "//prometheus-client/prometheus_client.multiprocess/mark_process_dead()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "285": {
+      "URI": "//prometheus-client/prometheus_client.core/",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "286": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/",
+      "metadata": {
+        "LoC": 614
+      }
+    },
+    "287": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/text_string_to_metric_families()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "288": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_isUncanonicalNumber()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "289": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_replace_escape_sequence()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "290": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_replace_escaping()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "291": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_unescape_help()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "292": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_parse_value()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "293": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_parse_timestamp()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "294": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_is_character_escaped()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "295": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_parse_labels_with_state_machine()",
+      "metadata": {
+        "LoC": 64
+      }
+    },
+    "296": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_parse_labels()",
+      "metadata": {
+        "LoC": 66
+      }
+    },
+    "297": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_parse_sample()",
+      "metadata": {
+        "LoC": 29
+      }
+    },
+    "298": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_parse_remaining_text()",
+      "metadata": {
+        "LoC": 84
+      }
+    },
+    "299": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_group_for_sample()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "300": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_check_histogram()",
+      "metadata": {
+        "LoC": 42
+      }
+    },
+    "301": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/_check_histogram.do_checks()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "302": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/text_fd_to_metric_families()",
+      "metadata": {
+        "LoC": 149
+      }
+    },
+    "303": {
+      "URI": "//prometheus-client/prometheus_client.openmetrics.parser/text_fd_to_metric_families.build_metric()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "304": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/",
+      "metadata": {
+        "LoC": 94
+      }
+    },
+    "305": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/_sanitize()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "306": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/_RegularPush",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "307": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/_RegularPush.__init__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "308": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/_RegularPush.run()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "309": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/GraphiteBridge",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "310": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/GraphiteBridge.__init__()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "311": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/GraphiteBridge.push()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "312": {
+      "URI": "//prometheus-client/prometheus_client.bridge.graphite/GraphiteBridge.start()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "313": {
+      "URI": "//prometheus-client/prometheus_client.bridge/",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "314": {
+      "URI": "//prometheus-client/prometheus_client.twisted._exposition/",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "315": {
+      "URI": "//prometheus-client/prometheus_client.twisted._exposition/<lambda1>()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "316": {
+      "URI": "//prometheus-client/prometheus_client.twisted/",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "317": {
+      "URI": "//prometheus#client_python/setup/",
+      "metadata": {
+        "LoC": 52
+      }
+    },
+    "318": {
+      "URI": "//prometheus#client_python/prometheus_client.values/",
+      "metadata": {
+        "LoC": 137
+      }
+    },
+    "319": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MutexValue",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "320": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MutexValue.__init__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "321": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MutexValue.inc()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "322": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MutexValue.set()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "323": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MutexValue.set_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "324": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MutexValue.get()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "325": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MutexValue.get_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "326": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "327": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "328": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.__init__()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "329": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.__reset()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "330": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.__check_for_pid_change()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "331": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.inc()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "332": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.set()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "333": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.set_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "334": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.get()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "335": {
+      "URI": "//prometheus#client_python/prometheus_client.values/MultiProcessValue.MmapedValue.get_exemplar()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "336": {
+      "URI": "//prometheus#client_python/prometheus_client.values/get_value_class()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "337": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/",
+      "metadata": {
+        "LoC": 145
+      }
+    },
+    "338": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/_pack_double()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "339": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/_pack_integer()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "340": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/_read_all_values()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "341": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "342": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict.__init__()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "343": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict.read_all_values_from_file()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "344": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict._init_value()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "345": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict._read_all_values()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "346": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict.read_all_values()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "347": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict.read_value()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "348": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict.write_value()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "349": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/MmapedDict.close()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "350": {
+      "URI": "//prometheus#client_python/prometheus_client.mmap_dict/mmap_key()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "351": {
+      "URI": "//prometheus#client_python/prometheus_client/",
+      "metadata": {
+        "LoC": 67
+      }
+    },
+    "352": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/",
+      "metadata": {
+        "LoC": 602
+      }
+    },
+    "353": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_PrometheusRedirectHandler",
+      "metadata": {
+        "LoC": 22
+      }
+    },
+    "354": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_PrometheusRedirectHandler.redirect_request()",
+      "metadata": {
+        "LoC": 31
+      }
+    },
+    "355": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_bake_output()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "356": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/make_wsgi_app()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "357": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/make_wsgi_app.prometheus_app()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "358": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_SilentHandler",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "359": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_SilentHandler.log_message()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "360": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/ThreadingWSGIServer",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "361": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_get_best_family()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "362": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/start_wsgi_server()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "363": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/start_wsgi_server.TmpServer",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "364": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/generate_latest()",
+      "metadata": {
+        "LoC": 47
+      }
+    },
+    "365": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/generate_latest.sample_line()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "366": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/choose_encoder()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "367": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/gzip_accepted()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "368": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/MetricsHandler",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "369": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/MetricsHandler.do_GET()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "370": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/MetricsHandler.log_message()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "371": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/MetricsHandler.factory()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "372": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/write_to_textfile()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "373": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_make_handler()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "374": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_make_handler.handle()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "375": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_make_handler.handle.<lambda1>()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "376": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/default_handler()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "377": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/passthrough_redirect_handler()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "378": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/basic_auth_handler()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "379": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/basic_auth_handler.handle()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "380": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/tls_auth_handler()",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "381": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/push_to_gateway()",
+      "metadata": {
+        "LoC": 47
+      }
+    },
+    "382": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/pushadd_to_gateway()",
+      "metadata": {
+        "LoC": 29
+      }
+    },
+    "383": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/delete_from_gateway()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "384": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_use_gateway()",
+      "metadata": {
+        "LoC": 35
+      }
+    },
+    "385": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/_escape_grouping_key()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "386": {
+      "URI": "//prometheus#client_python/prometheus_client.exposition/instance_ip_grouping_key()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "387": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.exposition/",
+      "metadata": {
+        "LoC": 72
+      }
+    },
+    "388": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.exposition/_is_valid_exemplar_metric()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "389": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.exposition/generate_latest()",
+      "metadata": {
+        "LoC": 55
+      }
+    },
+    "390": {
+      "URI": "//prometheus#client_python/prometheus_client.utils/",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "391": {
+      "URI": "//prometheus#client_python/prometheus_client.utils/floatToGoString()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "392": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics/",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "393": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/",
+      "metadata": {
+        "LoC": 168
+      }
+    },
+    "394": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/Collector",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "395": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/Collector.collect()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "396": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/_EmptyCollector",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "397": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/_EmptyCollector.collect()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "398": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "399": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.__init__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "400": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.register()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "401": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.unregister()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "402": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry._get_names()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "403": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.collect()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "404": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.restricted_registry()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "405": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.set_target_info()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "406": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.get_target_info()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "407": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry._target_info_metric()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "408": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/CollectorRegistry.get_sample_value()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "409": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/RestrictedRegistry",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "410": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/RestrictedRegistry.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "411": {
+      "URI": "//prometheus#client_python/prometheus_client.registry/RestrictedRegistry.collect()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "412": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/",
+      "metadata": {
+        "LoC": 418
+      }
+    },
+    "413": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/Metric",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "414": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/Metric.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "415": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/Metric.add_sample()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "416": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/Metric.__eq__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "417": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/Metric.__repr__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "418": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/Metric._restricted_metric()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "419": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/UnknownMetricFamily",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "420": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/UnknownMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "421": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/UnknownMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "422": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/CounterMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "423": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/CounterMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "424": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/CounterMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "425": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/GaugeMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "426": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/GaugeMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "427": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/GaugeMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "428": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/SummaryMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "429": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/SummaryMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "430": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/SummaryMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "431": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/HistogramMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "432": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/HistogramMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "433": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/HistogramMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 34
+      }
+    },
+    "434": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/GaugeHistogramMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "435": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/GaugeHistogramMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "436": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/GaugeHistogramMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "437": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/InfoMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "438": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/InfoMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "439": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/InfoMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "440": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/StateSetMetricFamily",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "441": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/StateSetMetricFamily.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "442": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics_core/StateSetMetricFamily.add_metric()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "443": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/",
+      "metadata": {
+        "LoC": 50
+      }
+    },
+    "444": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "445": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp.__init__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "446": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp.__str__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "447": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp.__repr__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "448": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp.__float__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "449": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp.__eq__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "450": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp.__ne__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "451": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Timestamp.__gt__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "452": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Exemplar",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "453": {
+      "URI": "//prometheus#client_python/prometheus_client.samples/Sample",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "454": {
+      "URI": "//prometheus#client_python/prometheus_client.asgi/",
+      "metadata": {
+        "LoC": 40
+      }
+    },
+    "455": {
+      "URI": "//prometheus#client_python/prometheus_client.asgi/make_asgi_app()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "456": {
+      "URI": "//prometheus#client_python/prometheus_client.asgi/make_asgi_app.prometheus_app()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "457": {
+      "URI": "//prometheus#client_python/prometheus_client.gc_collector/",
+      "metadata": {
+        "LoC": 45
+      }
+    },
+    "458": {
+      "URI": "//prometheus#client_python/prometheus_client.gc_collector/GCCollector",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "459": {
+      "URI": "//prometheus#client_python/prometheus_client.gc_collector/GCCollector.__init__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "460": {
+      "URI": "//prometheus#client_python/prometheus_client.gc_collector/GCCollector.collect()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "461": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/",
+      "metadata": {
+        "LoC": 732
+      }
+    },
+    "462": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/_build_full_name()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "463": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/_validate_labelname()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "464": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/_validate_labelnames()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "465": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/_validate_exemplar()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "466": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/_get_use_created()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "467": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "468": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._is_observable()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "469": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._raise_if_not_observable()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "470": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._is_parent()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "471": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._get_metric()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "472": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.describe()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "473": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.collect()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "474": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.__str__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "475": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.__repr__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "476": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.__init__()",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "477": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.labels()",
+      "metadata": {
+        "LoC": 54
+      }
+    },
+    "478": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.remove()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "479": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase.clear()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "480": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._samples()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "481": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._multi_samples()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "482": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._child_samples()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "483": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/MetricWrapperBase._metric_init()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "484": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Counter",
+      "metadata": {
+        "LoC": 37
+      }
+    },
+    "485": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Counter._metric_init()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "486": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Counter.inc()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "487": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Counter.count_exceptions()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "488": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Counter._child_samples()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "489": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge",
+      "metadata": {
+        "LoC": 50
+      }
+    },
+    "490": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.__init__()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "491": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge._metric_init()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "492": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.inc()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "493": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.dec()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "494": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.set()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "495": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.set_to_current_time()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "496": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.track_inprogress()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "497": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.time()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "498": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.set_function()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "499": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge.set_function.samples()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "500": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Gauge._child_samples()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "501": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Summary",
+      "metadata": {
+        "LoC": 36
+      }
+    },
+    "502": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Summary._metric_init()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "503": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Summary.observe()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "504": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Summary.time()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "505": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Summary._child_samples()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "506": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Histogram",
+      "metadata": {
+        "LoC": 45
+      }
+    },
+    "507": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Histogram.__init__()",
+      "metadata": {
+        "LoC": 23
+      }
+    },
+    "508": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Histogram._prepare_buckets()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "509": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Histogram._metric_init()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "510": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Histogram.observe()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "511": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Histogram.time()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "512": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Histogram._child_samples()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "513": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Info",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "514": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Info._metric_init()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "515": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Info.info()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "516": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Info._child_samples()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "517": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Enum",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "518": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Enum.__init__()",
+      "metadata": {
+        "LoC": 26
+      }
+    },
+    "519": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Enum._metric_init()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "520": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Enum.state()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "521": {
+      "URI": "//prometheus#client_python/prometheus_client.metrics/Enum._child_samples()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "522": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/",
+      "metadata": {
+        "LoC": 85
+      }
+    },
+    "523": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/ExceptionCounter",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "524": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/ExceptionCounter.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "525": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/ExceptionCounter.__enter__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "526": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/ExceptionCounter.__exit__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "527": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/ExceptionCounter.__call__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "528": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/ExceptionCounter.__call__.wrapped()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "529": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/InprogressTracker",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "530": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/InprogressTracker.__init__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "531": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/InprogressTracker.__enter__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "532": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/InprogressTracker.__exit__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "533": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/InprogressTracker.__call__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "534": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/InprogressTracker.__call__.wrapped()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "535": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "536": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "537": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer._new_timer()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "538": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer.__enter__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "539": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer.__exit__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "540": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer.labels()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "541": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer.__call__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "542": {
+      "URI": "//prometheus#client_python/prometheus_client.context_managers/Timer.__call__.wrapped()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "543": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/",
+      "metadata": {
+        "LoC": 427
+      }
+    },
+    "544": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/get_init()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "545": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/getfullargspec",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "546": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/getfullargspec.__init__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "547": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/getfullargspec.__iter__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "548": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/getargspec()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "549": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/FunctionMaker",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "550": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/FunctionMaker.__init__()",
+      "metadata": {
+        "LoC": 56
+      }
+    },
+    "551": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/FunctionMaker.update()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "552": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/FunctionMaker.make()",
+      "metadata": {
+        "LoC": 33
+      }
+    },
+    "553": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/FunctionMaker.create()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "554": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/decorate()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "555": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/decorator()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "556": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/ContextManager",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "557": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/ContextManager.__call__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "558": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/__init__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "559": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/append()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "560": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "561": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.check()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "562": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.gen_func_dec()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "563": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.gen_func_dec.vancestors()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "564": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.gen_func_dec.ancestors()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "565": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.gen_func_dec.register()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "566": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.gen_func_dec.register.dec()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "567": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.gen_func_dec.dispatch_info()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "568": {
+      "URI": "//prometheus#client_python/prometheus_client.decorator/dispatch_on.gen_func_dec._dispatch()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "569": {
+      "URI": "//prometheus#client_python/prometheus_client.platform_collector/",
+      "metadata": {
+        "LoC": 59
+      }
+    },
+    "570": {
+      "URI": "//prometheus#client_python/prometheus_client.platform_collector/PlatformCollector",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "571": {
+      "URI": "//prometheus#client_python/prometheus_client.platform_collector/PlatformCollector.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "572": {
+      "URI": "//prometheus#client_python/prometheus_client.platform_collector/PlatformCollector.collect()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "573": {
+      "URI": "//prometheus#client_python/prometheus_client.platform_collector/PlatformCollector._add_metric()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "574": {
+      "URI": "//prometheus#client_python/prometheus_client.platform_collector/PlatformCollector._info()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "575": {
+      "URI": "//prometheus#client_python/prometheus_client.platform_collector/PlatformCollector._java()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "576": {
+      "URI": "//prometheus#client_python/prometheus_client.process_collector/",
+      "metadata": {
+        "LoC": 101
+      }
+    },
+    "577": {
+      "URI": "//prometheus#client_python/prometheus_client.process_collector/ProcessCollector",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "578": {
+      "URI": "//prometheus#client_python/prometheus_client.process_collector/ProcessCollector.<lambda1>()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "579": {
+      "URI": "//prometheus#client_python/prometheus_client.process_collector/ProcessCollector.__init__()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "580": {
+      "URI": "//prometheus#client_python/prometheus_client.process_collector/ProcessCollector._boot_time()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "581": {
+      "URI": "//prometheus#client_python/prometheus_client.process_collector/ProcessCollector.collect()",
+      "metadata": {
+        "LoC": 44
+      }
+    },
+    "582": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/",
+      "metadata": {
+        "LoC": 225
+      }
+    },
+    "583": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/text_string_to_metric_families()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "584": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/replace_escape_sequence()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "585": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/_replace_help_escaping()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "586": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/_replace_escaping()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "587": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/_is_character_escaped()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "588": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/_parse_labels()",
+      "metadata": {
+        "LoC": 48
+      }
+    },
+    "589": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/_parse_value_and_timestamp()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "590": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/_parse_sample()",
+      "metadata": {
+        "LoC": 23
+      }
+    },
+    "591": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/text_fd_to_metric_families()",
+      "metadata": {
+        "LoC": 75
+      }
+    },
+    "592": {
+      "URI": "//prometheus#client_python/prometheus_client.parser/text_fd_to_metric_families.build_metric()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "593": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/",
+      "metadata": {
+        "LoC": 163
+      }
+    },
+    "594": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "595": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector.__init__()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "596": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector.merge()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "597": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector._read_metrics()",
+      "metadata": {
+        "LoC": 33
+      }
+    },
+    "598": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector._read_metrics._parse_key()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "599": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector._accumulate_metrics()",
+      "metadata": {
+        "LoC": 58
+      }
+    },
+    "600": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector._accumulate_metrics.<lambda1>()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "601": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/MultiProcessCollector.collect()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "602": {
+      "URI": "//prometheus#client_python/prometheus_client.multiprocess/mark_process_dead()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "603": {
+      "URI": "//prometheus#client_python/prometheus_client.core/",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "604": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/",
+      "metadata": {
+        "LoC": 614
+      }
+    },
+    "605": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/text_string_to_metric_families()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "606": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_isUncanonicalNumber()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "607": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_replace_escape_sequence()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "608": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_replace_escaping()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "609": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_unescape_help()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "610": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_parse_value()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "611": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_parse_timestamp()",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "612": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_is_character_escaped()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "613": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_parse_labels_with_state_machine()",
+      "metadata": {
+        "LoC": 64
+      }
+    },
+    "614": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_parse_labels()",
+      "metadata": {
+        "LoC": 66
+      }
+    },
+    "615": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_parse_sample()",
+      "metadata": {
+        "LoC": 29
+      }
+    },
+    "616": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_parse_remaining_text()",
+      "metadata": {
+        "LoC": 84
+      }
+    },
+    "617": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_group_for_sample()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "618": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_check_histogram()",
+      "metadata": {
+        "LoC": 42
+      }
+    },
+    "619": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/_check_histogram.do_checks()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "620": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/text_fd_to_metric_families()",
+      "metadata": {
+        "LoC": 149
+      }
+    },
+    "621": {
+      "URI": "//prometheus#client_python/prometheus_client.openmetrics.parser/text_fd_to_metric_families.build_metric()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "622": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/",
+      "metadata": {
+        "LoC": 94
+      }
+    },
+    "623": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/_sanitize()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "624": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/_RegularPush",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "625": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/_RegularPush.__init__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "626": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/_RegularPush.run()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "627": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/GraphiteBridge",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "628": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/GraphiteBridge.__init__()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "629": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/GraphiteBridge.push()",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "630": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge.graphite/GraphiteBridge.start()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "631": {
+      "URI": "//prometheus#client_python/prometheus_client.bridge/",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "632": {
+      "URI": "//prometheus#client_python/prometheus_client.twisted._exposition/",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "633": {
+      "URI": "//prometheus#client_python/prometheus_client.twisted._exposition/<lambda1>()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "634": {
+      "URI": "//prometheus#client_python/prometheus_client.twisted/",
+      "metadata": {
+        "LoC": 3
+      }
+    }
+  }
+}

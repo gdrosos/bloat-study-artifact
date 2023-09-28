@@ -1,0 +1,4508 @@
+{
+  "edges": [
+    [
+      7,
+      30
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      15,
+      8
+    ],
+    [
+      16,
+      8
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      18,
+      8
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      250,
+      32
+    ],
+    [
+      251,
+      33
+    ],
+    [
+      252,
+      34
+    ],
+    [
+      254,
+      34
+    ],
+    [
+      256,
+      34
+    ],
+    [
+      259,
+      34
+    ],
+    [
+      261,
+      34
+    ],
+    [
+      263,
+      34
+    ],
+    [
+      264,
+      34
+    ],
+    [
+      265,
+      35
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      91,
+      91
+    ],
+    [
+      91,
+      93
+    ],
+    [
+      92,
+      94
+    ],
+    [
+      92,
+      92
+    ],
+    [
+      100,
+      98
+    ],
+    [
+      104,
+      90
+    ],
+    [
+      107,
+      105
+    ],
+    [
+      107,
+      106
+    ],
+    [
+      108,
+      98
+    ],
+    [
+      109,
+      97
+    ],
+    [
+      117,
+      113
+    ],
+    [
+      117,
+      175
+    ],
+    [
+      118,
+      113
+    ],
+    [
+      118,
+      175
+    ],
+    [
+      119,
+      122
+    ],
+    [
+      122,
+      116
+    ],
+    [
+      122,
+      182
+    ],
+    [
+      122,
+      122
+    ],
+    [
+      120,
+      176
+    ],
+    [
+      120,
+      120
+    ],
+    [
+      120,
+      114
+    ],
+    [
+      120,
+      116
+    ],
+    [
+      120,
+      182
+    ],
+    [
+      176,
+      181
+    ],
+    [
+      176,
+      138
+    ],
+    [
+      121,
+      181
+    ],
+    [
+      121,
+      116
+    ],
+    [
+      121,
+      182
+    ],
+    [
+      121,
+      121
+    ],
+    [
+      121,
+      115
+    ],
+    [
+      181,
+      181
+    ],
+    [
+      181,
+      115
+    ],
+    [
+      123,
+      113
+    ],
+    [
+      123,
+      175
+    ],
+    [
+      124,
+      113
+    ],
+    [
+      124,
+      175
+    ],
+    [
+      126,
+      113
+    ],
+    [
+      126,
+      181
+    ],
+    [
+      126,
+      175
+    ],
+    [
+      126,
+      115
+    ],
+    [
+      127,
+      113
+    ],
+    [
+      127,
+      175
+    ],
+    [
+      128,
+      113
+    ],
+    [
+      128,
+      175
+    ],
+    [
+      131,
+      112
+    ],
+    [
+      131,
+      120
+    ],
+    [
+      133,
+      113
+    ],
+    [
+      133,
+      175
+    ],
+    [
+      135,
+      131
+    ],
+    [
+      137,
+      176
+    ],
+    [
+      137,
+      114
+    ],
+    [
+      138,
+      181
+    ],
+    [
+      138,
+      115
+    ],
+    [
+      139,
+      31
+    ],
+    [
+      140,
+      112
+    ],
+    [
+      140,
+      142
+    ],
+    [
+      142,
+      116
+    ],
+    [
+      142,
+      141
+    ],
+    [
+      142,
+      182
+    ],
+    [
+      142,
+      142
+    ],
+    [
+      145,
+      144
+    ],
+    [
+      146,
+      36
+    ],
+    [
+      146,
+      31
+    ],
+    [
+      148,
+      157
+    ],
+    [
+      148,
+      121
+    ],
+    [
+      154,
+      152
+    ],
+    [
+      154,
+      150
+    ],
+    [
+      155,
+      153
+    ],
+    [
+      155,
+      150
+    ],
+    [
+      158,
+      150
+    ],
+    [
+      158,
+      148
+    ],
+    [
+      158,
+      157
+    ],
+    [
+      158,
+      142
+    ],
+    [
+      160,
+      140
+    ],
+    [
+      161,
+      141
+    ],
+    [
+      162,
+      31
+    ],
+    [
+      162,
+      164
+    ],
+    [
+      162,
+      163
+    ],
+    [
+      162,
+      37
+    ],
+    [
+      164,
+      31
+    ],
+    [
+      163,
+      31
+    ],
+    [
+      166,
+      31
+    ],
+    [
+      169,
+      150
+    ],
+    [
+      170,
+      171
+    ],
+    [
+      173,
+      112
+    ],
+    [
+      173,
+      120
+    ],
+    [
+      174,
+      173
+    ],
+    [
+      179,
+      176
+    ],
+    [
+      180,
+      178
+    ],
+    [
+      180,
+      179
+    ],
+    [
+      194,
+      38
+    ],
+    [
+      194,
+      39
+    ],
+    [
+      196,
+      195
+    ],
+    [
+      72,
+      74
+    ],
+    [
+      79,
+      78
+    ],
+    [
+      83,
+      74
+    ],
+    [
+      84,
+      74
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      274,
+      270
+    ],
+    [
+      275,
+      270
+    ],
+    [
+      276,
+      270
+    ],
+    [
+      277,
+      270
+    ],
+    [
+      278,
+      270
+    ],
+    [
+      65,
+      30
+    ],
+    [
+      199,
+      204
+    ],
+    [
+      199,
+      201
+    ],
+    [
+      201,
+      207
+    ],
+    [
+      201,
+      213
+    ],
+    [
+      201,
+      204
+    ],
+    [
+      201,
+      15
+    ],
+    [
+      204,
+      205
+    ],
+    [
+      213,
+      207
+    ],
+    [
+      213,
+      206
+    ],
+    [
+      213,
+      211
+    ],
+    [
+      213,
+      204
+    ],
+    [
+      213,
+      209
+    ],
+    [
+      236,
+      237
+    ],
+    [
+      237,
+      235
+    ],
+    [
+      237,
+      234
+    ],
+    [
+      238,
+      235
+    ],
+    [
+      238,
+      234
+    ],
+    [
+      239,
+      238
+    ],
+    [
+      240,
+      239
+    ],
+    [
+      240,
+      241
+    ],
+    [
+      241,
+      242
+    ],
+    [
+      242,
+      235
+    ],
+    [
+      242,
+      234
+    ],
+    [
+      244,
+      243
+    ],
+    [
+      244,
+      236
+    ],
+    [
+      244,
+      241
+    ],
+    [
+      244,
+      240
+    ],
+    [
+      245,
+      41
+    ],
+    [
+      245,
+      40
+    ],
+    [
+      245,
+      42
+    ],
+    [
+      246,
+      245
+    ],
+    [
+      246,
+      232
+    ],
+    [
+      246,
+      244
+    ],
+    [
+      246,
+      374
+    ],
+    [
+      246,
+      234
+    ],
+    [
+      374,
+      46
+    ],
+    [
+      232,
+      218
+    ],
+    [
+      232,
+      216
+    ],
+    [
+      232,
+      220
+    ],
+    [
+      247,
+      244
+    ],
+    [
+      248,
+      234
+    ],
+    [
+      248,
+      244
+    ],
+    [
+      215,
+      43
+    ],
+    [
+      215,
+      44
+    ],
+    [
+      224,
+      25
+    ],
+    [
+      225,
+      26
+    ],
+    [
+      226,
+      27
+    ],
+    [
+      227,
+      27
+    ],
+    [
+      227,
+      26
+    ],
+    [
+      228,
+      28
+    ],
+    [
+      229,
+      29
+    ],
+    [
+      230,
+      45
+    ],
+    [
+      231,
+      246
+    ],
+    [
+      293,
+      291
+    ],
+    [
+      294,
+      292
+    ],
+    [
+      296,
+      298
+    ],
+    [
+      296,
+      295
+    ],
+    [
+      296,
+      297
+    ],
+    [
+      296,
+      299
+    ],
+    [
+      300,
+      289
+    ],
+    [
+      301,
+      303
+    ],
+    [
+      301,
+      289
+    ],
+    [
+      301,
+      304
+    ],
+    [
+      302,
+      288
+    ],
+    [
+      302,
+      290
+    ],
+    [
+      302,
+      287
+    ],
+    [
+      304,
+      302
+    ],
+    [
+      304,
+      287
+    ],
+    [
+      304,
+      288
+    ],
+    [
+      303,
+      302
+    ],
+    [
+      303,
+      287
+    ],
+    [
+      303,
+      288
+    ],
+    [
+      305,
+      296
+    ],
+    [
+      305,
+      291
+    ],
+    [
+      305,
+      300
+    ],
+    [
+      305,
+      292
+    ],
+    [
+      306,
+      305
+    ],
+    [
+      307,
+      301
+    ],
+    [
+      307,
+      296
+    ],
+    [
+      308,
+      307
+    ],
+    [
+      309,
+      306
+    ],
+    [
+      310,
+      306
+    ],
+    [
+      310,
+      307
+    ],
+    [
+      311,
+      310
+    ],
+    [
+      312,
+      310
+    ],
+    [
+      313,
+      293
+    ],
+    [
+      313,
+      311
+    ],
+    [
+      313,
+      314
+    ],
+    [
+      325,
+      324
+    ],
+    [
+      328,
+      350
+    ],
+    [
+      330,
+      329
+    ],
+    [
+      330,
+      328
+    ],
+    [
+      363,
+      369
+    ],
+    [
+      365,
+      366
+    ],
+    [
+      368,
+      366
+    ],
+    [
+      368,
+      367
+    ],
+    [
+      369,
+      365
+    ],
+    [
+      369,
+      368
+    ],
+    [
+      340,
+      339
+    ],
+    [
+      341,
+      342
+    ],
+    [
+      341,
+      339
+    ],
+    [
+      342,
+      339
+    ],
+    [
+      343,
+      339
+    ],
+    [
+      344,
+      339
+    ],
+    [
+      345,
+      339
+    ],
+    [
+      347,
+      334
+    ],
+    [
+      348,
+      369
+    ],
+    [
+      361,
+      362
+    ],
+    [
+      362,
+      357
+    ],
+    [
+      373,
+      246
+    ],
+    [
+      377,
+      376
+    ],
+    [
+      377,
+      47
+    ],
+    [
+      378,
+      48
+    ],
+    [
+      378,
+      376
+    ],
+    [
+      379,
+      376
+    ],
+    [
+      380,
+      376
+    ],
+    [
+      381,
+      380
+    ],
+    [
+      381,
+      49
+    ],
+    [
+      382,
+      50
+    ],
+    [
+      382,
+      380
+    ],
+    [
+      383,
+      51
+    ],
+    [
+      383,
+      380
+    ],
+    [
+      384,
+      52
+    ],
+    [
+      384,
+      380
+    ],
+    [
+      386,
+      406
+    ],
+    [
+      386,
+      53
+    ],
+    [
+      386,
+      380
+    ],
+    [
+      386,
+      384
+    ],
+    [
+      387,
+      406
+    ],
+    [
+      388,
+      54
+    ],
+    [
+      388,
+      380
+    ],
+    [
+      389,
+      387
+    ],
+    [
+      389,
+      380
+    ],
+    [
+      389,
+      55
+    ],
+    [
+      390,
+      406
+    ],
+    [
+      390,
+      57
+    ],
+    [
+      390,
+      380
+    ],
+    [
+      390,
+      387
+    ],
+    [
+      390,
+      56
+    ],
+    [
+      392,
+      406
+    ],
+    [
+      392,
+      380
+    ],
+    [
+      392,
+      58
+    ],
+    [
+      392,
+      384
+    ],
+    [
+      393,
+      406
+    ],
+    [
+      394,
+      59
+    ],
+    [
+      394,
+      380
+    ],
+    [
+      395,
+      380
+    ],
+    [
+      395,
+      60
+    ],
+    [
+      396,
+      61
+    ],
+    [
+      396,
+      380
+    ],
+    [
+      396,
+      393
+    ],
+    [
+      397,
+      62
+    ],
+    [
+      397,
+      380
+    ],
+    [
+      397,
+      393
+    ],
+    [
+      398,
+      380
+    ],
+    [
+      398,
+      393
+    ],
+    [
+      398,
+      63
+    ],
+    [
+      399,
+      397
+    ],
+    [
+      400,
+      397
+    ],
+    [
+      401,
+      397
+    ],
+    [
+      402,
+      397
+    ],
+    [
+      403,
+      380
+    ],
+    [
+      403,
+      64
+    ],
+    [
+      412,
+      413
+    ],
+    [
+      418,
+      442
+    ],
+    [
+      418,
+      447
+    ],
+    [
+      418,
+      448
+    ],
+    [
+      418,
+      445
+    ],
+    [
+      448,
+      444
+    ],
+    [
+      447,
+      440
+    ],
+    [
+      419,
+      442
+    ],
+    [
+      419,
+      447
+    ],
+    [
+      419,
+      448
+    ],
+    [
+      419,
+      445
+    ],
+    [
+      420,
+      446
+    ],
+    [
+      420,
+      442
+    ],
+    [
+      420,
+      447
+    ],
+    [
+      420,
+      448
+    ],
+    [
+      421,
+      446
+    ],
+    [
+      421,
+      442
+    ],
+    [
+      421,
+      447
+    ],
+    [
+      421,
+      448
+    ],
+    [
+      422,
+      423
+    ],
+    [
+      423,
+      442
+    ],
+    [
+      423,
+      427
+    ],
+    [
+      423,
+      430
+    ],
+    [
+      423,
+      424
+    ],
+    [
+      423,
+      425
+    ],
+    [
+      423,
+      446
+    ],
+    [
+      423,
+      429
+    ],
+    [
+      423,
+      436
+    ],
+    [
+      423,
+      447
+    ],
+    [
+      423,
+      431
+    ],
+    [
+      423,
+      426
+    ],
+    [
+      423,
+      448
+    ],
+    [
+      423,
+      445
+    ],
+    [
+      425,
+      431
+    ],
+    [
+      425,
+      433
+    ],
+    [
+      436,
+      435
+    ],
+    [
+      426,
+      431
+    ],
+    [
+      426,
+      432
+    ],
+    [
+      427,
+      431
+    ],
+    [
+      427,
+      438
+    ],
+    [
+      427,
+      436
+    ],
+    [
+      427,
+      428
+    ],
+    [
+      429,
+      436
+    ],
+    [
+      430,
+      424
+    ],
+    [
+      433,
+      434
+    ],
+    [
+      432,
+      434
+    ],
+    [
+      438,
+      437
+    ],
+    [
+      438,
+      435
+    ],
+    [
+      428,
+      432
+    ],
+    [
+      449,
+      450
+    ],
+    [
+      449,
+      476
+    ],
+    [
+      459,
+      453
+    ],
+    [
+      460,
+      453
+    ],
+    [
+      463,
+      459
+    ],
+    [
+      463,
+      460
+    ],
+    [
+      465,
+      458
+    ],
+    [
+      466,
+      468
+    ],
+    [
+      466,
+      467
+    ],
+    [
+      466,
+      469
+    ],
+    [
+      470,
+      470
+    ],
+    [
+      471,
+      470
+    ],
+    [
+      475,
+      455
+    ],
+    [
+      475,
+      472
+    ],
+    [
+      475,
+      456
+    ],
+    [
+      475,
+      463
+    ],
+    [
+      475,
+      471
+    ],
+    [
+      475,
+      465
+    ],
+    [
+      475,
+      473
+    ],
+    [
+      475,
+      474
+    ],
+    [
+      475,
+      466
+    ],
+    [
+      476,
+      464
+    ],
+    [
+      476,
+      475
+    ],
+    [
+      455,
+      381
+    ],
+    [
+      455,
+      272
+    ],
+    [
+      455,
+      272
+    ],
+    [
+      456,
+      277
+    ],
+    [
+      456,
+      403
+    ],
+    [
+      458,
+      403
+    ],
+    [
+      458,
+      37
+    ],
+    [
+      459,
+      29
+    ],
+    [
+      459,
+      29
+    ],
+    [
+      460,
+      379
+    ],
+    [
+      465,
+      15
+    ],
+    [
+      465,
+      362
+    ],
+    [
+      465,
+      124
+    ],
+    [
+      465,
+      15
+    ],
+    [
+      466,
+      277
+    ],
+    [
+      466,
+      362
+    ],
+    [
+      468,
+      40
+    ],
+    [
+      468,
+      277
+    ],
+    [
+      468,
+      277
+    ],
+    [
+      468,
+      217
+    ],
+    [
+      468,
+      40
+    ],
+    [
+      468,
+      277
+    ],
+    [
+      469,
+      362
+    ],
+    [
+      472,
+      15
+    ],
+    [
+      472,
+      231
+    ],
+    [
+      472,
+      320
+    ],
+    [
+      472,
+      362
+    ],
+    [
+      472,
+      231
+    ],
+    [
+      472,
+      15
+    ],
+    [
+      472,
+      15
+    ],
+    [
+      472,
+      231
+    ],
+    [
+      472,
+      15
+    ],
+    [
+      473,
+      231
+    ],
+    [
+      473,
+      231
+    ],
+    [
+      473,
+      231
+    ],
+    [
+      473,
+      362
+    ],
+    [
+      474,
+      231
+    ],
+    [
+      474,
+      124
+    ],
+    [
+      474,
+      231
+    ],
+    [
+      474,
+      124
+    ],
+    [
+      474,
+      231
+    ],
+    [
+      474,
+      31
+    ],
+    [
+      474,
+      362
+    ],
+    [
+      475,
+      379
+    ],
+    [
+      475,
+      362
+    ],
+    [
+      475,
+      277
+    ],
+    [
+      475,
+      362
+    ],
+    [
+      475,
+      403
+    ],
+    [
+      475,
+      272
+    ],
+    [
+      475,
+      403
+    ]
+  ],
+  "nodes": {
+    "0": {
+      "URI": "//pygame/pygame.sndarray/",
+      "metadata": {
+        "LoC": 139
+      }
+    },
+    "1": {
+      "URI": "//pygame/pygame.sndarray/array()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "2": {
+      "URI": "//pygame/pygame.sndarray/samples()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "3": {
+      "URI": "//pygame/pygame.sndarray/make_sound()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "4": {
+      "URI": "//pygame/pygame.sndarray/use_arraytype()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "5": {
+      "URI": "//pygame/pygame.sndarray/get_arraytype()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "6": {
+      "URI": "//pygame/pygame.sndarray/get_arraytypes()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "7": {
+      "URI": "//pygame/pygame/",
+      "metadata": {
+        "LoC": 345
+      }
+    },
+    "8": {
+      "URI": "//pygame/pygame/_attribute_undefined()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "9": {
+      "URI": "//pygame/pygame/MissingModule",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "10": {
+      "URI": "//pygame/pygame/MissingModule.__init__()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "11": {
+      "URI": "//pygame/pygame/MissingModule.__getattr__()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "12": {
+      "URI": "//pygame/pygame/MissingModule.__bool__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "13": {
+      "URI": "//pygame/pygame/MissingModule.warn()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "14": {
+      "URI": "//pygame/pygame/Cursor()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "15": {
+      "URI": "//pygame/pygame/Surface()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "16": {
+      "URI": "//pygame/pygame/Mask()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "17": {
+      "URI": "//pygame/pygame/PixelArray()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "18": {
+      "URI": "//pygame/pygame/Overlay()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "19": {
+      "URI": "//pygame/pygame/packager_imports()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "20": {
+      "URI": "//pygame/pygame/__rect_constructor()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "21": {
+      "URI": "//pygame/pygame/__rect_reduce()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "22": {
+      "URI": "//pygame/pygame/__color_constructor()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "23": {
+      "URI": "//pygame/pygame/__color_reduce()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "24": {
+      "URI": "//pygame/pygame/_freetype.Font.antialiased",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "25": {
+      "URI": "//pygame/pygame/_freetype.Font.get_metrics",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "26": {
+      "URI": "//pygame/pygame/_freetype.Font.get_sized_ascender",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "27": {
+      "URI": "//pygame/pygame/_freetype.Font.get_sized_descender",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "28": {
+      "URI": "//pygame/pygame/_freetype.Font.get_sized_height",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "29": {
+      "URI": "//pygame/pygame/_freetype.Font.get_rect",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "30": {
+      "URI": "//pygame/pygame/base.get_sdl_version",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "31": {
+      "URI": "//pygame/pygame/rect.Rect",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "32": {
+      "URI": "//pygame/pygame/pixelcopy.array_to_surface",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "33": {
+      "URI": "//pygame/pygame/pixelcopy.make_surface",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "34": {
+      "URI": "//pygame/pygame/pixelcopy.surface_to_array",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "35": {
+      "URI": "//pygame/pygame/pixelcopy.map_array",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "36": {
+      "URI": "//pygame/pygame/rect.Rect.collidelistall",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "37": {
+      "URI": "//pygame/pygame/time.get_ticks",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "38": {
+      "URI": "//pygame/pygame/mask.from_surface",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "39": {
+      "URI": "//pygame/pygame/mask.from_surface.overlap",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "40": {
+      "URI": "//pygame/pygame/font.Font",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "41": {
+      "URI": "//pygame/pygame/font.Font.set_bold",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "42": {
+      "URI": "//pygame/pygame/font.Font.set_italic",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "43": {
+      "URI": "//pygame/pygame/_freetype.get_default_font",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "44": {
+      "URI": "//pygame/pygame/rwobject.encode_file_path",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "45": {
+      "URI": "//pygame/pygame/_freetype.get_init",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "46": {
+      "URI": "//pygame/pygame/_freetype.Font",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "47": {
+      "URI": "//pygame/pygame/pypm.Initialize",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "48": {
+      "URI": "//pygame/pygame/pypm.Terminate",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "49": {
+      "URI": "//pygame/pygame/pypm.CountDevices",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "50": {
+      "URI": "//pygame/pygame/pypm.GetDefaultInputDeviceID",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "51": {
+      "URI": "//pygame/pygame/pypm.GetDefaultOutputDeviceID",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "52": {
+      "URI": "//pygame/pygame/pypm.GetDeviceInfo",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "53": {
+      "URI": "//pygame/pygame/pypm.Input",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "54": {
+      "URI": "//pygame/pygame/pypm.Input.Close",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "55": {
+      "URI": "//pygame/pygame/pypm.Input.Read",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "56": {
+      "URI": "//pygame/pygame/pypm.Input.Poll",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "57": {
+      "URI": "//pygame/pygame/pypm.GetErrorText",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "58": {
+      "URI": "//pygame/pygame/pypm.Output",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "59": {
+      "URI": "//pygame/pygame/pypm.Output.Close",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "60": {
+      "URI": "//pygame/pygame/pypm.Output.Abort",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "61": {
+      "URI": "//pygame/pygame/pypm.Output.Write",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "62": {
+      "URI": "//pygame/pygame/pypm.Output.WriteShort",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "63": {
+      "URI": "//pygame/pygame/pypm.Output.WriteSysEx",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "64": {
+      "URI": "//pygame/pygame/pypm.Time",
+      "metadata": {
+        "LoC": 0
+      }
+    },
+    "65": {
+      "URI": "//pygame/pygame.version/",
+      "metadata": {
+        "LoC": 72
+      }
+    },
+    "66": {
+      "URI": "//pygame/pygame.version/SoftwareVersion",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "67": {
+      "URI": "//pygame/pygame.version/SoftwareVersion.__new__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "68": {
+      "URI": "//pygame/pygame.version/SoftwareVersion.__repr__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "69": {
+      "URI": "//pygame/pygame.version/SoftwareVersion.__str__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "70": {
+      "URI": "//pygame/pygame.version/PygameVersion",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "71": {
+      "URI": "//pygame/pygame.version/SDLVersion",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "72": {
+      "URI": "//pygame/pygame.cursors/",
+      "metadata": {
+        "LoC": 844
+      }
+    },
+    "73": {
+      "URI": "//pygame/pygame.cursors/Cursor",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "74": {
+      "URI": "//pygame/pygame.cursors/Cursor.__init__()",
+      "metadata": {
+        "LoC": 36
+      }
+    },
+    "75": {
+      "URI": "//pygame/pygame.cursors/Cursor.__len__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "76": {
+      "URI": "//pygame/pygame.cursors/Cursor.__iter__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "77": {
+      "URI": "//pygame/pygame.cursors/Cursor.__getitem__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "78": {
+      "URI": "//pygame/pygame.cursors/Cursor.__eq__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "79": {
+      "URI": "//pygame/pygame.cursors/Cursor.__ne__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "80": {
+      "URI": "//pygame/pygame.cursors/Cursor.__copy__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "81": {
+      "URI": "//pygame/pygame.cursors/Cursor.__hash__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "82": {
+      "URI": "//pygame/pygame.cursors/Cursor.__repr__()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "83": {
+      "URI": "//pygame/pygame.cursors/set_cursor()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "84": {
+      "URI": "//pygame/pygame.cursors/get_cursor()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "85": {
+      "URI": "//pygame/pygame.cursors/compile()",
+      "metadata": {
+        "LoC": 56
+      }
+    },
+    "86": {
+      "URI": "//pygame/pygame.cursors/load_xbm()",
+      "metadata": {
+        "LoC": 64
+      }
+    },
+    "87": {
+      "URI": "//pygame/pygame.cursors/load_xbm.bitswap()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "88": {
+      "URI": "//pygame/pygame.sprite/",
+      "metadata": {
+        "LoC": 1812
+      }
+    },
+    "89": {
+      "URI": "//pygame/pygame.sprite/Sprite",
+      "metadata": {
+        "LoC": 45
+      }
+    },
+    "90": {
+      "URI": "//pygame/pygame.sprite/Sprite.__init__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "91": {
+      "URI": "//pygame/pygame.sprite/Sprite.add()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "92": {
+      "URI": "//pygame/pygame.sprite/Sprite.remove()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "93": {
+      "URI": "//pygame/pygame.sprite/Sprite.add_internal()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "94": {
+      "URI": "//pygame/pygame.sprite/Sprite.remove_internal()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "95": {
+      "URI": "//pygame/pygame.sprite/Sprite.update()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "96": {
+      "URI": "//pygame/pygame.sprite/Sprite.kill()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "97": {
+      "URI": "//pygame/pygame.sprite/Sprite.groups()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "98": {
+      "URI": "//pygame/pygame.sprite/Sprite.alive()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "99": {
+      "URI": "//pygame/pygame.sprite/Sprite.__repr__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "100": {
+      "URI": "//pygame/pygame.sprite/Sprite.layer()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "101": {
+      "URI": "//pygame/pygame.sprite/WeakSprite",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "102": {
+      "URI": "//pygame/pygame.sprite/WeakSprite.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "103": {
+      "URI": "//pygame/pygame.sprite/DirtySprite",
+      "metadata": {
+        "LoC": 55
+      }
+    },
+    "104": {
+      "URI": "//pygame/pygame.sprite/DirtySprite.__init__()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "105": {
+      "URI": "//pygame/pygame.sprite/DirtySprite._set_visible()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "106": {
+      "URI": "//pygame/pygame.sprite/DirtySprite._get_visible()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "107": {
+      "URI": "//pygame/pygame.sprite/DirtySprite.visible()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "108": {
+      "URI": "//pygame/pygame.sprite/DirtySprite.layer()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "109": {
+      "URI": "//pygame/pygame.sprite/DirtySprite.__repr__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "110": {
+      "URI": "//pygame/pygame.sprite/WeakDirtySprite",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "111": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup",
+      "metadata": {
+        "LoC": 33
+      }
+    },
+    "112": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "113": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.sprites()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "114": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.add_internal()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "115": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.remove_internal()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "116": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.has_internal()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "117": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.copy()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "118": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.__iter__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "119": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.__contains__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "120": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.add()",
+      "metadata": {
+        "LoC": 34
+      }
+    },
+    "121": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.remove()",
+      "metadata": {
+        "LoC": 31
+      }
+    },
+    "122": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.has()",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "123": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.update()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "124": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.draw()",
+      "metadata": {
+        "LoC": 29
+      }
+    },
+    "125": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.clear()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "126": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.empty()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "127": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.__bool__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "128": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.__len__()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "129": {
+      "URI": "//pygame/pygame.sprite/AbstractGroup.__repr__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "130": {
+      "URI": "//pygame/pygame.sprite/Group",
+      "metadata": {
+        "LoC": 20
+      }
+    },
+    "131": {
+      "URI": "//pygame/pygame.sprite/Group.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "132": {
+      "URI": "//pygame/pygame.sprite/RenderUpdates",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "133": {
+      "URI": "//pygame/pygame.sprite/RenderUpdates.draw()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "134": {
+      "URI": "//pygame/pygame.sprite/OrderedUpdates",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "135": {
+      "URI": "//pygame/pygame.sprite/OrderedUpdates.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "136": {
+      "URI": "//pygame/pygame.sprite/OrderedUpdates.sprites()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "137": {
+      "URI": "//pygame/pygame.sprite/OrderedUpdates.add_internal()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "138": {
+      "URI": "//pygame/pygame.sprite/OrderedUpdates.remove_internal()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "139": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates",
+      "metadata": {
+        "LoC": 31
+      }
+    },
+    "140": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.__init__()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "141": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.add_internal()",
+      "metadata": {
+        "LoC": 36
+      }
+    },
+    "142": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.add()",
+      "metadata": {
+        "LoC": 42
+      }
+    },
+    "143": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.remove_internal()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "144": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.sprites()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "145": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.draw()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "146": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.get_sprites_at()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "147": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.get_sprite()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "148": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.remove_sprites_of_layer()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "149": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.layers()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "150": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.change_layer()",
+      "metadata": {
+        "LoC": 35
+      }
+    },
+    "151": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.get_layer_of_sprite()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "152": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.get_top_layer()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "153": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.get_bottom_layer()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "154": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.move_to_front()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "155": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.move_to_back()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "156": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.get_top_sprite()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "157": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.get_sprites_from_layer()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "158": {
+      "URI": "//pygame/pygame.sprite/LayeredUpdates.switch_layer()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "159": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty",
+      "metadata": {
+        "LoC": 40
+      }
+    },
+    "160": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.__init__()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "161": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.add_internal()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "162": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.draw()",
+      "metadata": {
+        "LoC": 91
+      }
+    },
+    "163": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty._draw_dirty_internal()",
+      "metadata": {
+        "LoC": 41
+      }
+    },
+    "164": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty._find_dirty_area()",
+      "metadata": {
+        "LoC": 30
+      }
+    },
+    "165": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.clear()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "166": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.repaint_rect()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "167": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.set_clip()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "168": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.get_clip()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "169": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.change_layer()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "170": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.set_timing_treshold()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "171": {
+      "URI": "//pygame/pygame.sprite/LayeredDirty.set_timing_threshold()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "172": {
+      "URI": "//pygame/pygame.sprite/GroupSingle",
+      "metadata": {
+        "LoC": 28
+      }
+    },
+    "173": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.__init__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "174": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.copy()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "175": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.sprites()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "176": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.add_internal()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "177": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.__bool__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "178": {
+      "URI": "//pygame/pygame.sprite/GroupSingle._get_sprite()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "179": {
+      "URI": "//pygame/pygame.sprite/GroupSingle._set_sprite()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "180": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.sprite()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "181": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.remove_internal()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "182": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.has_internal()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "183": {
+      "URI": "//pygame/pygame.sprite/GroupSingle.__contains__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "184": {
+      "URI": "//pygame/pygame.sprite/collide_rect()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "185": {
+      "URI": "//pygame/pygame.sprite/collide_rect_ratio",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "186": {
+      "URI": "//pygame/pygame.sprite/collide_rect_ratio.__init__()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "187": {
+      "URI": "//pygame/pygame.sprite/collide_rect_ratio.__repr__()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "188": {
+      "URI": "//pygame/pygame.sprite/collide_rect_ratio.__call__()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "189": {
+      "URI": "//pygame/pygame.sprite/collide_circle()",
+      "metadata": {
+        "LoC": 41
+      }
+    },
+    "190": {
+      "URI": "//pygame/pygame.sprite/collide_circle_ratio",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "191": {
+      "URI": "//pygame/pygame.sprite/collide_circle_ratio.__init__()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "192": {
+      "URI": "//pygame/pygame.sprite/collide_circle_ratio.__repr__()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "193": {
+      "URI": "//pygame/pygame.sprite/collide_circle_ratio.__call__()",
+      "metadata": {
+        "LoC": 40
+      }
+    },
+    "194": {
+      "URI": "//pygame/pygame.sprite/collide_mask()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "195": {
+      "URI": "//pygame/pygame.sprite/spritecollide()",
+      "metadata": {
+        "LoC": 49
+      }
+    },
+    "196": {
+      "URI": "//pygame/pygame.sprite/groupcollide()",
+      "metadata": {
+        "LoC": 34
+      }
+    },
+    "197": {
+      "URI": "//pygame/pygame.sprite/spritecollideany()",
+      "metadata": {
+        "LoC": 34
+      }
+    },
+    "198": {
+      "URI": "//pygame/pygame.threads/",
+      "metadata": {
+        "LoC": 271
+      }
+    },
+    "199": {
+      "URI": "//pygame/pygame.threads/init()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "200": {
+      "URI": "//pygame/pygame.threads/quit()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "201": {
+      "URI": "//pygame/pygame.threads/benchmark_workers()",
+      "metadata": {
+        "LoC": 59
+      }
+    },
+    "202": {
+      "URI": "//pygame/pygame.threads/benchmark_workers.doit()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "203": {
+      "URI": "//pygame/pygame.threads/WorkerQueue",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "204": {
+      "URI": "//pygame/pygame.threads/WorkerQueue.__init__()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "205": {
+      "URI": "//pygame/pygame.threads/WorkerQueue._setup_workers()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "206": {
+      "URI": "//pygame/pygame.threads/WorkerQueue.do()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "207": {
+      "URI": "//pygame/pygame.threads/WorkerQueue.stop()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "208": {
+      "URI": "//pygame/pygame.threads/WorkerQueue.threadloop()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "209": {
+      "URI": "//pygame/pygame.threads/WorkerQueue.wait()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "210": {
+      "URI": "//pygame/pygame.threads/FuncResult",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "211": {
+      "URI": "//pygame/pygame.threads/FuncResult.__init__()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "212": {
+      "URI": "//pygame/pygame.threads/FuncResult.__call__()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "213": {
+      "URI": "//pygame/pygame.threads/tmap()",
+      "metadata": {
+        "LoC": 67
+      }
+    },
+    "214": {
+      "URI": "//pygame/pygame.ftfont/",
+      "metadata": {
+        "LoC": 203
+      }
+    },
+    "215": {
+      "URI": "//pygame/pygame.ftfont/Font",
+      "metadata": {
+        "LoC": 33
+      }
+    },
+    "216": {
+      "URI": "//pygame/pygame.ftfont/Font.__init__()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "217": {
+      "URI": "//pygame/pygame.ftfont/Font.render()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "218": {
+      "URI": "//pygame/pygame.ftfont/Font.set_bold()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "219": {
+      "URI": "//pygame/pygame.ftfont/Font.get_bold()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "220": {
+      "URI": "//pygame/pygame.ftfont/Font.set_italic()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "221": {
+      "URI": "//pygame/pygame.ftfont/Font.get_italic()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "222": {
+      "URI": "//pygame/pygame.ftfont/Font.set_underline()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "223": {
+      "URI": "//pygame/pygame.ftfont/Font.get_underline()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "224": {
+      "URI": "//pygame/pygame.ftfont/Font.metrics()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "225": {
+      "URI": "//pygame/pygame.ftfont/Font.get_ascent()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "226": {
+      "URI": "//pygame/pygame.ftfont/Font.get_descent()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "227": {
+      "URI": "//pygame/pygame.ftfont/Font.get_height()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "228": {
+      "URI": "//pygame/pygame.ftfont/Font.get_linesize()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "229": {
+      "URI": "//pygame/pygame.ftfont/Font.size()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "230": {
+      "URI": "//pygame/pygame.ftfont/get_init()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "231": {
+      "URI": "//pygame/pygame.ftfont/SysFont()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "232": {
+      "URI": "//pygame/pygame.ftfont/SysFont.constructor()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "233": {
+      "URI": "//pygame/pygame.sysfont/",
+      "metadata": {
+        "LoC": 517
+      }
+    },
+    "234": {
+      "URI": "//pygame/pygame.sysfont/_simplename()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "235": {
+      "URI": "//pygame/pygame.sysfont/_addfont()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "236": {
+      "URI": "//pygame/pygame.sysfont/initsysfonts_win32()",
+      "metadata": {
+        "LoC": 38
+      }
+    },
+    "237": {
+      "URI": "//pygame/pygame.sysfont/_parse_font_entry_win()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "238": {
+      "URI": "//pygame/pygame.sysfont/_parse_font_entry_darwin()",
+      "metadata": {
+        "LoC": 26
+      }
+    },
+    "239": {
+      "URI": "//pygame/pygame.sysfont/_font_finder_darwin()",
+      "metadata": {
+        "LoC": 31
+      }
+    },
+    "240": {
+      "URI": "//pygame/pygame.sysfont/initsysfonts_darwin()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "241": {
+      "URI": "//pygame/pygame.sysfont/initsysfonts_unix()",
+      "metadata": {
+        "LoC": 42
+      }
+    },
+    "242": {
+      "URI": "//pygame/pygame.sysfont/_parse_font_entry_unix()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "243": {
+      "URI": "//pygame/pygame.sysfont/create_aliases()",
+      "metadata": {
+        "LoC": 69
+      }
+    },
+    "244": {
+      "URI": "//pygame/pygame.sysfont/initsysfonts()",
+      "metadata": {
+        "LoC": 22
+      }
+    },
+    "245": {
+      "URI": "//pygame/pygame.sysfont/font_constructor()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "246": {
+      "URI": "//pygame/pygame.sysfont/SysFont()",
+      "metadata": {
+        "LoC": 71
+      }
+    },
+    "247": {
+      "URI": "//pygame/pygame.sysfont/get_fonts()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "248": {
+      "URI": "//pygame/pygame.sysfont/match_font()",
+      "metadata": {
+        "LoC": 40
+      }
+    },
+    "249": {
+      "URI": "//pygame/pygame.surfarray/",
+      "metadata": {
+        "LoC": 447
+      }
+    },
+    "250": {
+      "URI": "//pygame/pygame.surfarray/blit_array()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "251": {
+      "URI": "//pygame/pygame.surfarray/make_surface()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "252": {
+      "URI": "//pygame/pygame.surfarray/array2d()",
+      "metadata": {
+        "LoC": 22
+      }
+    },
+    "253": {
+      "URI": "//pygame/pygame.surfarray/pixels2d()",
+      "metadata": {
+        "LoC": 23
+      }
+    },
+    "254": {
+      "URI": "//pygame/pygame.surfarray/array3d()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "255": {
+      "URI": "//pygame/pygame.surfarray/pixels3d()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "256": {
+      "URI": "//pygame/pygame.surfarray/array_alpha()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "257": {
+      "URI": "//pygame/pygame.surfarray/pixels_alpha()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "258": {
+      "URI": "//pygame/pygame.surfarray/pixels_red()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "259": {
+      "URI": "//pygame/pygame.surfarray/array_red()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "260": {
+      "URI": "//pygame/pygame.surfarray/pixels_green()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "261": {
+      "URI": "//pygame/pygame.surfarray/array_green()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "262": {
+      "URI": "//pygame/pygame.surfarray/pixels_blue()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "263": {
+      "URI": "//pygame/pygame.surfarray/array_blue()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "264": {
+      "URI": "//pygame/pygame.surfarray/array_colorkey()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "265": {
+      "URI": "//pygame/pygame.surfarray/map_array()",
+      "metadata": {
+        "LoC": 22
+      }
+    },
+    "266": {
+      "URI": "//pygame/pygame.surfarray/use_arraytype()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "267": {
+      "URI": "//pygame/pygame.surfarray/get_arraytype()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "268": {
+      "URI": "//pygame/pygame.surfarray/get_arraytypes()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "269": {
+      "URI": "//pygame/pygame.fastevent/",
+      "metadata": {
+        "LoC": 88
+      }
+    },
+    "270": {
+      "URI": "//pygame/pygame.fastevent/_ft_init_check()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "271": {
+      "URI": "//pygame/pygame.fastevent/_quit_hook()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "272": {
+      "URI": "//pygame/pygame.fastevent/init()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "273": {
+      "URI": "//pygame/pygame.fastevent/get_init()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "274": {
+      "URI": "//pygame/pygame.fastevent/pump()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "275": {
+      "URI": "//pygame/pygame.fastevent/wait()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "276": {
+      "URI": "//pygame/pygame.fastevent/poll()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "277": {
+      "URI": "//pygame/pygame.fastevent/get()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "278": {
+      "URI": "//pygame/pygame.fastevent/post()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "279": {
+      "URI": "//pygame/pygame.pkgdata/",
+      "metadata": {
+        "LoC": 77
+      }
+    },
+    "280": {
+      "URI": "//pygame/pygame.pkgdata/resource_exists()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "281": {
+      "URI": "//pygame/pygame.pkgdata/resource_stream()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "282": {
+      "URI": "//pygame/pygame.pkgdata/getResource()",
+      "metadata": {
+        "LoC": 33
+      }
+    },
+    "283": {
+      "URI": "//pygame/pygame.macosx/",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "284": {
+      "URI": "//pygame/pygame.macosx/Video_AutoInit()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "285": {
+      "URI": "//pygame/pygame.colordict/",
+      "metadata": {
+        "LoC": 692
+      }
+    },
+    "286": {
+      "URI": "//pygame/pygame.draw_py/",
+      "metadata": {
+        "LoC": 562
+      }
+    },
+    "287": {
+      "URI": "//pygame/pygame.draw_py/frac()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "288": {
+      "URI": "//pygame/pygame.draw_py/inv_frac()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "289": {
+      "URI": "//pygame/pygame.draw_py/set_at()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "290": {
+      "URI": "//pygame/pygame.draw_py/draw_pixel()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "291": {
+      "URI": "//pygame/pygame.draw_py/_drawhorzline()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "292": {
+      "URI": "//pygame/pygame.draw_py/_drawvertline()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "293": {
+      "URI": "//pygame/pygame.draw_py/_clip_and_draw_horizline()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "294": {
+      "URI": "//pygame/pygame.draw_py/_clip_and_draw_vertline()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "295": {
+      "URI": "//pygame/pygame.draw_py/encode()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "296": {
+      "URI": "//pygame/pygame.draw_py/clip_line()",
+      "metadata": {
+        "LoC": 54
+      }
+    },
+    "297": {
+      "URI": "//pygame/pygame.draw_py/clip_line.inside()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "298": {
+      "URI": "//pygame/pygame.draw_py/clip_line.accept()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "299": {
+      "URI": "//pygame/pygame.draw_py/clip_line.reject()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "300": {
+      "URI": "//pygame/pygame.draw_py/_draw_line()",
+      "metadata": {
+        "LoC": 50
+      }
+    },
+    "301": {
+      "URI": "//pygame/pygame.draw_py/_draw_aaline()",
+      "metadata": {
+        "LoC": 52
+      }
+    },
+    "302": {
+      "URI": "//pygame/pygame.draw_py/_draw_aaline.draw_two_pixel()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "303": {
+      "URI": "//pygame/pygame.draw_py/_draw_aaline_dy()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "304": {
+      "URI": "//pygame/pygame.draw_py/_draw_aaline_dx()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "305": {
+      "URI": "//pygame/pygame.draw_py/_clip_and_draw_line()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "306": {
+      "URI": "//pygame/pygame.draw_py/_clip_and_draw_line_width()",
+      "metadata": {
+        "LoC": 39
+      }
+    },
+    "307": {
+      "URI": "//pygame/pygame.draw_py/_clip_and_draw_aaline()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "308": {
+      "URI": "//pygame/pygame.draw_py/draw_aaline()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "309": {
+      "URI": "//pygame/pygame.draw_py/draw_line()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "310": {
+      "URI": "//pygame/pygame.draw_py/_multi_lines()",
+      "metadata": {
+        "LoC": 47
+      }
+    },
+    "311": {
+      "URI": "//pygame/pygame.draw_py/draw_lines()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "312": {
+      "URI": "//pygame/pygame.draw_py/draw_aalines()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "313": {
+      "URI": "//pygame/pygame.draw_py/draw_polygon()",
+      "metadata": {
+        "LoC": 38
+      }
+    },
+    "314": {
+      "URI": "//pygame/pygame.draw_py/_draw_polygon_inner_loop()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "315": {
+      "URI": "//pygame/pygame.camera/",
+      "metadata": {
+        "LoC": 211
+      }
+    },
+    "316": {
+      "URI": "//pygame/pygame.camera/AbstractCamera",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "317": {
+      "URI": "//pygame/pygame.camera/AbstractCamera.__init__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "318": {
+      "URI": "//pygame/pygame.camera/AbstractCamera.start()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "319": {
+      "URI": "//pygame/pygame.camera/AbstractCamera.stop()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "320": {
+      "URI": "//pygame/pygame.camera/AbstractCamera.get_size()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "321": {
+      "URI": "//pygame/pygame.camera/AbstractCamera.query_image()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "322": {
+      "URI": "//pygame/pygame.camera/AbstractCamera.get_image()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "323": {
+      "URI": "//pygame/pygame.camera/AbstractCamera.get_raw()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "324": {
+      "URI": "//pygame/pygame.camera/_pre_init_placeholder()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "325": {
+      "URI": "//pygame/pygame.camera/_pre_init_placeholder_varargs()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "326": {
+      "URI": "//pygame/pygame.camera/_PreInitPlaceholderCamera",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "327": {
+      "URI": "//pygame/pygame.camera/_colorspace_not_available()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "328": {
+      "URI": "//pygame/pygame.camera/_setup_backend()",
+      "metadata": {
+        "LoC": 36
+      }
+    },
+    "329": {
+      "URI": "//pygame/pygame.camera/get_backends()",
+      "metadata": {
+        "LoC": 37
+      }
+    },
+    "330": {
+      "URI": "//pygame/pygame.camera/init()",
+      "metadata": {
+        "LoC": 30
+      }
+    },
+    "331": {
+      "URI": "//pygame/pygame.camera/quit()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "332": {
+      "URI": "//pygame/pygame._camera_opencv/",
+      "metadata": {
+        "LoC": 208
+      }
+    },
+    "333": {
+      "URI": "//pygame/pygame._camera_opencv/list_cameras()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "334": {
+      "URI": "//pygame/pygame._camera_opencv/list_cameras_darwin()",
+      "metadata": {
+        "LoC": 21
+      }
+    },
+    "335": {
+      "URI": "//pygame/pygame._camera_opencv/Camera",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "336": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.__init__()",
+      "metadata": {
+        "LoC": 25
+      }
+    },
+    "337": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.start()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "338": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.stop()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "339": {
+      "URI": "//pygame/pygame._camera_opencv/Camera._check_open()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "340": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.get_size()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "341": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.set_controls()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "342": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.get_controls()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "343": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.query_image()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "344": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.get_image()",
+      "metadata": {
+        "LoC": 31
+      }
+    },
+    "345": {
+      "URI": "//pygame/pygame._camera_opencv/Camera.get_raw()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "346": {
+      "URI": "//pygame/pygame._camera_opencv/CameraMac",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "347": {
+      "URI": "//pygame/pygame._camera_opencv/CameraMac.__init__()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "348": {
+      "URI": "//pygame/pygame._camera_vidcapture/",
+      "metadata": {
+        "LoC": 117
+      }
+    },
+    "349": {
+      "URI": "//pygame/pygame._camera_vidcapture/list_cameras()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "350": {
+      "URI": "//pygame/pygame._camera_vidcapture/init()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "351": {
+      "URI": "//pygame/pygame._camera_vidcapture/quit()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "352": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "353": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.__init__()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "354": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.display_capture_filter_properties()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "355": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.display_capture_pin_properties()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "356": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.set_resolution()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "357": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.get_buffer()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "358": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.start()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "359": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.set_controls()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "360": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.stop()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "361": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.get_image()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "362": {
+      "URI": "//pygame/pygame._camera_vidcapture/Camera.get_surface()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "363": {
+      "URI": "//pygame/pygame.examples.camera/",
+      "metadata": {
+        "LoC": 121
+      }
+    },
+    "364": {
+      "URI": "//pygame/pygame.examples.camera/VideoCapturePlayer",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "365": {
+      "URI": "//pygame/pygame.examples.camera/VideoCapturePlayer.__init__()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "366": {
+      "URI": "//pygame/pygame.examples.camera/VideoCapturePlayer.init_cams()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "367": {
+      "URI": "//pygame/pygame.examples.camera/VideoCapturePlayer.get_and_flip()",
+      "metadata": {
+        "LoC": 24
+      }
+    },
+    "368": {
+      "URI": "//pygame/pygame.examples.camera/VideoCapturePlayer.main()",
+      "metadata": {
+        "LoC": 29
+      }
+    },
+    "369": {
+      "URI": "//pygame/pygame.examples.camera/main()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "370": {
+      "URI": "//pygame/pygame.examples/",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "371": {
+      "URI": "//pygame/pygame.locals/",
+      "metadata": {
+        "LoC": 30
+      }
+    },
+    "372": {
+      "URI": "//pygame/pygame.freetype/",
+      "metadata": {
+        "LoC": 78
+      }
+    },
+    "373": {
+      "URI": "//pygame/pygame.freetype/SysFont()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "374": {
+      "URI": "//pygame/pygame.freetype/SysFont.constructor()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "375": {
+      "URI": "//pygame/pygame.midi/",
+      "metadata": {
+        "LoC": 717
+      }
+    },
+    "376": {
+      "URI": "//pygame/pygame.midi/_module_init()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "377": {
+      "URI": "//pygame/pygame.midi/init()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "378": {
+      "URI": "//pygame/pygame.midi/quit()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "379": {
+      "URI": "//pygame/pygame.midi/get_init()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "380": {
+      "URI": "//pygame/pygame.midi/_check_init()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "381": {
+      "URI": "//pygame/pygame.midi/get_count()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "382": {
+      "URI": "//pygame/pygame.midi/get_default_input_id()",
+      "metadata": {
+        "LoC": 48
+      }
+    },
+    "383": {
+      "URI": "//pygame/pygame.midi/get_default_output_id()",
+      "metadata": {
+        "LoC": 48
+      }
+    },
+    "384": {
+      "URI": "//pygame/pygame.midi/get_device_info()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "385": {
+      "URI": "//pygame/pygame.midi/Input",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "386": {
+      "URI": "//pygame/pygame.midi/Input.__init__()",
+      "metadata": {
+        "LoC": 40
+      }
+    },
+    "387": {
+      "URI": "//pygame/pygame.midi/Input._check_open()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "388": {
+      "URI": "//pygame/pygame.midi/Input.close()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "389": {
+      "URI": "//pygame/pygame.midi/Input.read()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "390": {
+      "URI": "//pygame/pygame.midi/Input.poll()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "391": {
+      "URI": "//pygame/pygame.midi/Output",
+      "metadata": {
+        "LoC": 38
+      }
+    },
+    "392": {
+      "URI": "//pygame/pygame.midi/Output.__init__()",
+      "metadata": {
+        "LoC": 62
+      }
+    },
+    "393": {
+      "URI": "//pygame/pygame.midi/Output._check_open()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "394": {
+      "URI": "//pygame/pygame.midi/Output.close()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "395": {
+      "URI": "//pygame/pygame.midi/Output.abort()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "396": {
+      "URI": "//pygame/pygame.midi/Output.write()",
+      "metadata": {
+        "LoC": 26
+      }
+    },
+    "397": {
+      "URI": "//pygame/pygame.midi/Output.write_short()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "398": {
+      "URI": "//pygame/pygame.midi/Output.write_sys_ex()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "399": {
+      "URI": "//pygame/pygame.midi/Output.note_on()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "400": {
+      "URI": "//pygame/pygame.midi/Output.note_off()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "401": {
+      "URI": "//pygame/pygame.midi/Output.set_instrument()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "402": {
+      "URI": "//pygame/pygame.midi/Output.pitch_bend()",
+      "metadata": {
+        "LoC": 27
+      }
+    },
+    "403": {
+      "URI": "//pygame/pygame.midi/time()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "404": {
+      "URI": "//pygame/pygame.midi/midis2events()",
+      "metadata": {
+        "LoC": 22
+      }
+    },
+    "405": {
+      "URI": "//pygame/pygame.midi/MidiException",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "406": {
+      "URI": "//pygame/pygame.midi/MidiException.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "407": {
+      "URI": "//pygame/pygame.midi/MidiException.__str__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "408": {
+      "URI": "//pygame/pygame.midi/frequency_to_midi()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "409": {
+      "URI": "//pygame/pygame.midi/midi_to_frequency()",
+      "metadata": {
+        "LoC": 13
+      }
+    },
+    "410": {
+      "URI": "//pygame/pygame.midi/midi_to_ansi_note()",
+      "metadata": {
+        "LoC": 17
+      }
+    },
+    "411": {
+      "URI": "//pygame/pygame._sdl2/",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "412": {
+      "URI": "//pygame/pygame.__pyinstaller.hook_pygame/",
+      "metadata": {
+        "LoC": 45
+      }
+    },
+    "413": {
+      "URI": "//pygame/pygame.__pyinstaller.hook_pygame/_append_to_datas()",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "414": {
+      "URI": "//pygame/pygame.__pyinstaller/",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "415": {
+      "URI": "//pygame/pygame.__pyinstaller/get_hook_dirs()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "416": {
+      "URI": "//porridge#bambam/test_e2e_test/",
+      "metadata": {
+        "LoC": 66
+      }
+    },
+    "417": {
+      "URI": "//porridge#bambam/test_e2e_test/TestStreamChecker",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "418": {
+      "URI": "//porridge#bambam/test_e2e_test/TestStreamChecker.test_string_emitted_true()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "419": {
+      "URI": "//porridge#bambam/test_e2e_test/TestStreamChecker.test_string_emitted_false()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "420": {
+      "URI": "//porridge#bambam/test_e2e_test/TestStreamChecker.test_string_not_emitted_true()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "421": {
+      "URI": "//porridge#bambam/test_e2e_test/TestStreamChecker.test_string_not_emitted_false()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "422": {
+      "URI": "//porridge#bambam/test_e2e/",
+      "metadata": {
+        "LoC": 301
+      }
+    },
+    "423": {
+      "URI": "//porridge#bambam/test_e2e/main()",
+      "metadata": {
+        "LoC": 34
+      }
+    },
+    "424": {
+      "URI": "//porridge#bambam/test_e2e/remove_if_exists()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "425": {
+      "URI": "//porridge#bambam/test_e2e/await_welcome_screen()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "426": {
+      "URI": "//porridge#bambam/test_e2e/await_blank_screen()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "427": {
+      "URI": "//porridge#bambam/test_e2e/test_functionality()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "428": {
+      "URI": "//porridge#bambam/test_e2e/is_screen_colorful_enough()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "429": {
+      "URI": "//porridge#bambam/test_e2e/shut_bambam_down()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "430": {
+      "URI": "//porridge#bambam/test_e2e/check_audio()",
+      "metadata": {
+        "LoC": 34
+      }
+    },
+    "431": {
+      "URI": "//porridge#bambam/test_e2e/take_screenshot()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "432": {
+      "URI": "//porridge#bambam/test_e2e/get_average_color()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "433": {
+      "URI": "//porridge#bambam/test_e2e/get_average_hsl()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "434": {
+      "URI": "//porridge#bambam/test_e2e/summarize_screen()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "435": {
+      "URI": "//porridge#bambam/test_e2e/xdotool()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "436": {
+      "URI": "//porridge#bambam/test_e2e/send_keycodes()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "437": {
+      "URI": "//porridge#bambam/test_e2e/random_move()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "438": {
+      "URI": "//porridge#bambam/test_e2e/send_mouse_move()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "439": {
+      "URI": "//porridge#bambam/test_e2e/StreamChecker",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "440": {
+      "URI": "//porridge#bambam/test_e2e/StreamChecker.__init__()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "441": {
+      "URI": "//porridge#bambam/test_e2e/StreamChecker._ingest()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "442": {
+      "URI": "//porridge#bambam/test_e2e/StreamChecker.check()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "443": {
+      "URI": "//porridge#bambam/test_e2e/_StreamCheckerBuilder",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "444": {
+      "URI": "//porridge#bambam/test_e2e/_StreamCheckerBuilder.__init__()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "445": {
+      "URI": "//porridge#bambam/test_e2e/_StreamCheckerBuilder.contains_line()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "446": {
+      "URI": "//porridge#bambam/test_e2e/_StreamCheckerBuilder.not_contains_line()",
+      "metadata": {
+        "LoC": 5
+      }
+    },
+    "447": {
+      "URI": "//porridge#bambam/test_e2e/_StreamCheckerBuilder.start()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "448": {
+      "URI": "//porridge#bambam/test_e2e/check_stream()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "449": {
+      "URI": "//porridge#bambam/bambam/",
+      "metadata": {
+        "LoC": 536
+      }
+    },
+    "450": {
+      "URI": "//porridge#bambam/bambam/N_()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "451": {
+      "URI": "//porridge#bambam/bambam/BambamException",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "452": {
+      "URI": "//porridge#bambam/bambam/ResourceLoadException",
+      "metadata": {
+        "LoC": 4
+      }
+    },
+    "453": {
+      "URI": "//porridge#bambam/bambam/ResourceLoadException.__init__()",
+      "metadata": {
+        "LoC": 3
+      }
+    },
+    "454": {
+      "URI": "//porridge#bambam/bambam/ResourceLoadException.__str__()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "455": {
+      "URI": "//porridge#bambam/bambam/init_joysticks()",
+      "metadata": {
+        "LoC": 9
+      }
+    },
+    "456": {
+      "URI": "//porridge#bambam/bambam/poll_for_any_key_press()",
+      "metadata": {
+        "LoC": 6
+      }
+    },
+    "457": {
+      "URI": "//porridge#bambam/bambam/Bambam",
+      "metadata": {
+        "LoC": 22
+      }
+    },
+    "458": {
+      "URI": "//porridge#bambam/bambam/Bambam.get_color()",
+      "metadata": {
+        "LoC": 8
+      }
+    },
+    "459": {
+      "URI": "//porridge#bambam/bambam/Bambam.load_image()",
+      "metadata": {
+        "LoC": 23
+      }
+    },
+    "460": {
+      "URI": "//porridge#bambam/bambam/Bambam.load_sound()",
+      "metadata": {
+        "LoC": 10
+      }
+    },
+    "461": {
+      "URI": "//porridge#bambam/bambam/Bambam.load_sound.NoneSound",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "462": {
+      "URI": "//porridge#bambam/bambam/Bambam.load_sound.NoneSound.play()",
+      "metadata": {
+        "LoC": 1
+      }
+    },
+    "463": {
+      "URI": "//porridge#bambam/bambam/Bambam.load_items()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "464": {
+      "URI": "//porridge#bambam/bambam/Bambam.__init__()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "465": {
+      "URI": "//porridge#bambam/bambam/Bambam.draw_dot()",
+      "metadata": {
+        "LoC": 12
+      }
+    },
+    "466": {
+      "URI": "//porridge#bambam/bambam/Bambam.process_keypress()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "467": {
+      "URI": "//porridge#bambam/bambam/Bambam._maybe_process_command()",
+      "metadata": {
+        "LoC": 15
+      }
+    },
+    "468": {
+      "URI": "//porridge#bambam/bambam/Bambam._select_response()",
+      "metadata": {
+        "LoC": 19
+      }
+    },
+    "469": {
+      "URI": "//porridge#bambam/bambam/Bambam._display_image()",
+      "metadata": {
+        "LoC": 7
+      }
+    },
+    "470": {
+      "URI": "//porridge#bambam/bambam/Bambam.glob_dir()",
+      "metadata": {
+        "LoC": 14
+      }
+    },
+    "471": {
+      "URI": "//porridge#bambam/bambam/Bambam.glob_data()",
+      "metadata": {
+        "LoC": 11
+      }
+    },
+    "472": {
+      "URI": "//porridge#bambam/bambam/Bambam._prepare_background()",
+      "metadata": {
+        "LoC": 16
+      }
+    },
+    "473": {
+      "URI": "//porridge#bambam/bambam/Bambam._prepare_wayland_warning()",
+      "metadata": {
+        "LoC": 18
+      }
+    },
+    "474": {
+      "URI": "//porridge#bambam/bambam/Bambam._prepare_welcome_message()",
+      "metadata": {
+        "LoC": 80
+      }
+    },
+    "475": {
+      "URI": "//porridge#bambam/bambam/Bambam.run()",
+      "metadata": {
+        "LoC": 116
+      }
+    },
+    "476": {
+      "URI": "//porridge#bambam/bambam/main()",
+      "metadata": {
+        "LoC": 8
+      }
+    }
+  }
+}
