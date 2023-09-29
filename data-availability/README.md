@@ -32,8 +32,21 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `PBD-LOC`: Percentage of Bloated Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependencies that are bloated
     - `PBFD-LOC`: Percentage of Bloated Files in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency files that are bloated.
     - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
--  `rq1b.csv`, `rq2a.csv`, `rq2b.csv`:  Contain the quantitative analysis results to answer the  RQ1 & RQ2 research questions.
-#### `rq3.json`:  Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated direct dependencies.
+
+#### `rq2a.csv`: 
+- Contains the quantitative results for the second research question (RQ2), representing Python projects having vulnerable dependencies. 
+- ach row specifies a dependency from a project to a vulnerable dependency.
+  - Columns:
+    - `project`: Github Owner-Repository Name, representing the Python project.
+    - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
+    - `dependency_type`: Distinguishes whether the vulnerable package is a direct or transitive dependency of the project.
+    - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
+
+
+
+-  `rq1b.csv`, `rq2b.csv`:  Contain the quantitative analysis results to answer the  RQ1 & RQ2 research questions.
+#### `rq3.json`: 
+- Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated direct dependencies.
 
 
 ## Usage

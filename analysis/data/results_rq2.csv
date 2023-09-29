@@ -1,4 +1,4 @@
-project,package_name,status,activation_status
+project,package_name,dependency_type,activation_status
 mozillasecurity/grizzly,certifi,Transitive,Bloated
 mozillasecurity/grizzly,cryptography,Direct,Inactive
 mozillasecurity/funfuzz,certifi,Transitive,Bloated
