@@ -34,17 +34,30 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
 
 #### `rq2a.csv`: 
-- Contains the quantitative results for the second research question (RQ2), representing Python projects having vulnerable dependencies. 
-- ach row specifies a dependency from a project to a vulnerable dependency.
+- Contains the quantitative results for the second research question (RQ2), representing Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
   - Columns:
     - `project`: Github Owner-Repository Name, representing the Python project.
     - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
     - `dependency_type`: Distinguishes whether the vulnerable package is a direct or transitive dependency of the project.
     - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
 
+#### `rq2b.csv`: 
+- Contains metrics regarding usage of the active and inactive vulnerable packages witihn each Python project (RQ2). Each row encapsulates the project’s interaction with a vulnerable dependency, revealing the extent of bloat and usage in both files and functions of this dependency.
+
+  - Columns:
+    - `project`: Github Owner-Repository Name, signifying the particular Python project being analyzed.
+    - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
+    - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is active or inactive.
+    - `bloated_files`: Quantifies the number of bloated files present in the vulnerable dependency.
+    - `used_files`: Enumerates the number of files from the vulnerable dependency that are actually utilized in the project.
+    - `bloated_functions`: Enumerates the number of bloated functions present in the vulnerable dependency.
+    - `used_functions`: Measures the number of functions from the vulnerable dependency that are actually utilized in the project.
+    - `percentage_bloated_functions`: Calculates the percentage of bloated functions within the functions of the vulnerable dependency.
+    - `percentage_bloated_files`: Computes the percentage of bloated files within the files of the vulnerable dependency.
 
 
--  `rq1b.csv`, `rq2b.csv`:  Contain the quantitative analysis results to answer the  RQ1 & RQ2 research questions.
+
+-  `rq1b.csv`:  Contain the quantitative analysis results to answer the  RQ1 & RQ2 research questions.
 #### `rq3.json`: 
 - Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated direct dependencies.
 
