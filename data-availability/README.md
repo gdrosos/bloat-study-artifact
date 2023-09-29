@@ -1,11 +1,11 @@
 # Supplementary Material for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"
 
-This  document details the supplementary material for the research paper submitted to FSE'2024 titled "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis".
+This document details the supplementary material for the research paper submitted to FSE'2024 titled "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis".
 
 ## Directory Structure
 
 ### [project-data](./project-data/)
-- `project_dependencies.json`: Maps each of the 1302 GitHub projects to 21787 resolved direct and transitive dependencies, accounting for 3,232 unique PyPI releases.
+- `project_dependencies.json`: Json file mapping each of the 1302 GitHub projects to its set of resolved direct and transitive dependencies, accounting for 3,232 unique PyPI releases.
 
 ### [callgraphs](./callgraphs)
 - Contains a sample number of JSON files representing the stitched call graphs of Python GitHub projects.
@@ -34,7 +34,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
 
 #### `rq1b.csv`: 
-- For each Python project, includes the different usage statuses of its direct and transitive dependencies, showcasing metrics related to bloat and usage in various granularities.
+- For each Python project, includes the different usage statuses of its direct and transitive dependencies, showcasing metrics related to bloat and usage in various granularities (RQ1).
 
   - Columns:
     - `project`: Github Owner-Repository Name.
@@ -68,7 +68,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `transitive_dependency_functions_used_loc`: Lines of code in the used functions of transitive dependencies.
 
 #### `rq2a.csv`: 
-- Contains the quantitative results for the second research question (RQ2), representing Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
+- Contains the quantitative results for the second research question (RQ2), including all Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
   - Columns:
     - `project`: Github Owner-Repository Name, representing the Python project.
     - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
@@ -76,7 +76,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
 
 #### `rq2b.csv`: 
-- Contains metrics regarding usage of the active and inactive vulnerable packages witihn each Python project (RQ2). Each row encapsulates the project’s interaction with a vulnerable dependency, revealing the extent of bloat and usage in both files and functions of this dependency.
+- Contains metrics regarding usage of the active and inactive vulnerable packages witihn each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency,  and more precicely the extent of bloat and usage in both files and functions of this dependency.
 
   - Columns:
     - `project`: Github Owner-Repository Name, signifying the particular Python project being analyzed.
@@ -90,10 +90,8 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `percentage_bloated_files`: Computes the percentage of bloated files within the files of the vulnerable dependency.
 
 
-
--  `rq1b.csv`:  Contain the quantitative analysis results to answer the  RQ1 & RQ2 research questions.
 #### `rq3.json`: 
-- Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated direct dependencies.
+- Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated dependencies.
 
 
 ## Usage
