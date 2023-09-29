@@ -86423,7 +86423,7 @@
     "10047": {
       "URI": "//environ-config/environ._environ_config/config()",
       "metadata": {
-        "LoC": -5
+        "LoC": 5
       }
     },
     "10048": {
@@ -87629,7 +87629,7 @@
     "10248": {
       "URI": "//playpauseandstop#rororo/src.rororo.openapi.openapi/OperationTableDef.register()",
       "metadata": {
-        "LoC": -10
+        "LoC": 10
       }
     },
     "10249": {

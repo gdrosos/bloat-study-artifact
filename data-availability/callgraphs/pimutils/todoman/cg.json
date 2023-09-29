@@ -27475,7 +27475,7 @@
     "2373": {
       "URI": "//click/click.core/Group.command()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "2374": {
@@ -27487,7 +27487,7 @@
     "2375": {
       "URI": "//click/click.core/Group.group()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "2376": {
@@ -29359,7 +29359,7 @@
     "2687": {
       "URI": "//click/click.decorators/command()",
       "metadata": {
-        "LoC": -28
+        "LoC": 28
       }
     },
     "2688": {

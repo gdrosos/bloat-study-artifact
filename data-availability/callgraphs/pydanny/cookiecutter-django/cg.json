@@ -105775,7 +105775,7 @@
     "5911": {
       "URI": "//pluggy/pluggy._hooks/HookspecMarker.__call__()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "5912": {
@@ -106561,7 +106561,7 @@
     "6042": {
       "URI": "//click/click.decorators/command()",
       "metadata": {
-        "LoC": -28
+        "LoC": 28
       }
     },
     "6043": {
@@ -115603,7 +115603,7 @@
     "7549": {
       "URI": "//GitPython/git.cmd/Git.execute()",
       "metadata": {
-        "LoC": -29
+        "LoC": 29
       }
     },
     "7550": {
@@ -122611,7 +122611,7 @@
     "8717": {
       "URI": "//typing_extensions/./Protocol",
       "metadata": {
-        "LoC": -23
+        "LoC": 23
       }
     },
     "8718": {
@@ -137671,7 +137671,7 @@
     "11227": {
       "URI": "//click/click.core/Group.command()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "11228": {
@@ -137683,7 +137683,7 @@
     "11229": {
       "URI": "//click/click.core/Group.group()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "11230": {
@@ -141931,7 +141931,7 @@
     "11937": {
       "URI": "//typing_extensions/./ParamSpec",
       "metadata": {
-        "LoC": -33
+        "LoC": 33
       }
     },
     "11938": {
@@ -142225,7 +142225,7 @@
     "11986": {
       "URI": "//typing_extensions/./TypeVarTuple",
       "metadata": {
-        "LoC": -14
+        "LoC": 14
       }
     },
     "11987": {

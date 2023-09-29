@@ -44267,7 +44267,7 @@
     "623": {
       "URI": "//typing_extensions/./Protocol",
       "metadata": {
-        "LoC": -23
+        "LoC": 23
       }
     },
     "624": {
@@ -44639,7 +44639,7 @@
     "685": {
       "URI": "//typing_extensions/./ParamSpec",
       "metadata": {
-        "LoC": -33
+        "LoC": 33
       }
     },
     "686": {
@@ -44939,7 +44939,7 @@
     "735": {
       "URI": "//typing_extensions/./TypeVarTuple",
       "metadata": {
-        "LoC": -14
+        "LoC": 14
       }
     },
     "736": {
@@ -86801,7 +86801,7 @@
     "7712": {
       "URI": "//pyocd#pyocd/pyocd.coresight.ap/MEM_AP._read_memory()",
       "metadata": {
-        "LoC": -21
+        "LoC": 21
       }
     },
     "7713": {
@@ -87209,7 +87209,7 @@
     "7780": {
       "URI": "//pyocd#pyocd/pyocd.coresight.dap/DebugPort.read_dp()",
       "metadata": {
-        "LoC": -10
+        "LoC": 10
       }
     },
     "7781": {
@@ -87239,7 +87239,7 @@
     "7785": {
       "URI": "//pyocd#pyocd/pyocd.coresight.dap/DebugPort.read_ap()",
       "metadata": {
-        "LoC": -10
+        "LoC": 10
       }
     },
     "7786": {
@@ -87257,7 +87257,7 @@
     "7788": {
       "URI": "//pyocd#pyocd/pyocd.coresight.dap/DebugPort.read_ap_multiple()",
       "metadata": {
-        "LoC": -8
+        "LoC": 8
       }
     },
     "7789": {
@@ -93869,7 +93869,7 @@
     "8890": {
       "URI": "//pyocd#pyocd/pyocd.probe.cmsis_dap_probe/CMSISDAPProbe.read_dp()",
       "metadata": {
-        "LoC": -6
+        "LoC": 6
       }
     },
     "8891": {
@@ -93887,7 +93887,7 @@
     "8893": {
       "URI": "//pyocd#pyocd/pyocd.probe.cmsis_dap_probe/CMSISDAPProbe.read_ap()",
       "metadata": {
-        "LoC": -6
+        "LoC": 6
       }
     },
     "8894": {
@@ -93905,7 +93905,7 @@
     "8896": {
       "URI": "//pyocd#pyocd/pyocd.probe.cmsis_dap_probe/CMSISDAPProbe.read_ap_multiple()",
       "metadata": {
-        "LoC": -8
+        "LoC": 8
       }
     },
     "8897": {

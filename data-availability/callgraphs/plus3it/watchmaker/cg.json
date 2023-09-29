@@ -15345,7 +15345,7 @@
     "1464": {
       "URI": "//click/click.core/Group.command()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "1465": {
@@ -15357,7 +15357,7 @@
     "1466": {
       "URI": "//click/click.core/Group.group()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "1467": {
@@ -17247,7 +17247,7 @@
     "1781": {
       "URI": "//click/click.decorators/command()",
       "metadata": {
-        "LoC": -28
+        "LoC": 28
       }
     },
     "1782": {

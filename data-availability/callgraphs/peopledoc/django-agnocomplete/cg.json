@@ -60153,7 +60153,7 @@
     "910": {
       "URI": "//typing_extensions/./Protocol",
       "metadata": {
-        "LoC": -23
+        "LoC": 23
       }
     },
     "911": {
@@ -60525,7 +60525,7 @@
     "972": {
       "URI": "//typing_extensions/./ParamSpec",
       "metadata": {
-        "LoC": -33
+        "LoC": 33
       }
     },
     "973": {
@@ -60819,7 +60819,7 @@
     "1021": {
       "URI": "//typing_extensions/./TypeVarTuple",
       "metadata": {
-        "LoC": -14
+        "LoC": 14
       }
     },
     "1022": {
@@ -102057,7 +102057,7 @@
     "7894": {
       "URI": "//Django/django.db.backends.postgresql.base/CursorDebugWrapper",
       "metadata": {
-        "LoC": -5
+        "LoC": 5
       }
     },
     "7895": {

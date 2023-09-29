@@ -16541,7 +16541,7 @@
     "534": {
       "URI": "//anyio/anyio._core._sockets/connect_tcp()",
       "metadata": {
-        "LoC": -4
+        "LoC": 4
       }
     },
     "535": {

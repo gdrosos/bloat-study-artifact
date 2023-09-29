@@ -24881,7 +24881,7 @@
     "1978": {
       "URI": "//typing_extensions/./Protocol",
       "metadata": {
-        "LoC": -23
+        "LoC": 23
       }
     },
     "1979": {
@@ -25253,7 +25253,7 @@
     "2040": {
       "URI": "//typing_extensions/./ParamSpec",
       "metadata": {
-        "LoC": -33
+        "LoC": 33
       }
     },
     "2041": {
@@ -25553,7 +25553,7 @@
     "2090": {
       "URI": "//typing_extensions/./TypeVarTuple",
       "metadata": {
-        "LoC": -14
+        "LoC": 14
       }
     },
     "2091": {

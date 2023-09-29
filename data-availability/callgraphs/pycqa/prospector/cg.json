@@ -40847,7 +40847,7 @@
     "41": {
       "URI": "//typing_extensions/./Protocol",
       "metadata": {
-        "LoC": -23
+        "LoC": 23
       }
     },
     "42": {
@@ -41219,7 +41219,7 @@
     "103": {
       "URI": "//typing_extensions/./ParamSpec",
       "metadata": {
-        "LoC": -33
+        "LoC": 33
       }
     },
     "104": {
@@ -41519,7 +41519,7 @@
     "153": {
       "URI": "//typing_extensions/./TypeVarTuple",
       "metadata": {
-        "LoC": -14
+        "LoC": 14
       }
     },
     "154": {
@@ -70661,7 +70661,7 @@
     "5010": {
       "URI": "//dill/dill._dill/save_dict_view()",
       "metadata": {
-        "LoC": -10
+        "LoC": 10
       }
     },
     "5011": {
@@ -92879,7 +92879,7 @@
     "8713": {
       "URI": "//GitPython/git.cmd/Git.execute()",
       "metadata": {
-        "LoC": -29
+        "LoC": 29
       }
     },
     "8714": {

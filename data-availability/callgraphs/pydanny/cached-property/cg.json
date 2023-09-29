@@ -37377,7 +37377,7 @@
     "210": {
       "URI": "//pytest/_pytest.compat/CaptureIO",
       "metadata": {
-        "LoC": -3
+        "LoC": 3
       }
     },
     "211": {
@@ -92433,7 +92433,7 @@
     "9386": {
       "URI": "//pluggy/pluggy._hooks/HookspecMarker.__call__()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "9387": {

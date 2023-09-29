@@ -16785,7 +16785,7 @@
     "512": {
       "URI": "//anyio/anyio._core._sockets/connect_tcp()",
       "metadata": {
-        "LoC": -4
+        "LoC": 4
       }
     },
     "513": {
@@ -21525,7 +21525,7 @@
     "1302": {
       "URI": "//typing-extensions/./Protocol",
       "metadata": {
-        "LoC": -23
+        "LoC": 23
       }
     },
     "1303": {
@@ -21897,7 +21897,7 @@
     "1364": {
       "URI": "//typing-extensions/./ParamSpec",
       "metadata": {
-        "LoC": -33
+        "LoC": 33
       }
     },
     "1365": {
@@ -22197,7 +22197,7 @@
     "1414": {
       "URI": "//typing-extensions/./TypeVarTuple",
       "metadata": {
-        "LoC": -14
+        "LoC": 14
       }
     },
     "1415": {
@@ -31053,7 +31053,7 @@
     "2890": {
       "URI": "//click/click.core/Group.command()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "2891": {
@@ -31065,7 +31065,7 @@
     "2892": {
       "URI": "//click/click.core/Group.group()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "2893": {
@@ -32955,7 +32955,7 @@
     "3207": {
       "URI": "//click/click.decorators/command()",
       "metadata": {
-        "LoC": -28
+        "LoC": 28
       }
     },
     "3208": {

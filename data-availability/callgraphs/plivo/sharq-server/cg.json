@@ -121181,7 +121181,7 @@
     "1724": {
       "URI": "//argparse/test.test_argparse/TestArgumentError",
       "metadata": {
-        "LoC": -13
+        "LoC": 13
       }
     },
     "1725": {
@@ -135167,7 +135167,7 @@
     "4055": {
       "URI": "//Werkzeug/werkzeug.testsuite.utils/GeneralUtilityTestCase.test_cached_property.A",
       "metadata": {
-        "LoC": -1
+        "LoC": 1
       }
     },
     "4056": {

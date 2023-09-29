@@ -143429,7 +143429,7 @@
     "9244": {
       "URI": "//Paste/recursive/ForwardRequestException.__init__.factory_()",
       "metadata": {
-        "LoC": -6
+        "LoC": 6
       }
     },
     "9245": {
@@ -144431,13 +144431,13 @@
     "9411": {
       "URI": "//Paste/httpserver/SecureHTTPServer",
       "metadata": {
-        "LoC": -7
+        "LoC": 7
       }
     },
     "9412": {
       "URI": "//Paste/httpserver/SecureHTTPServer.__init__()",
       "metadata": {
-        "LoC": -7
+        "LoC": 7
       }
     },
     "9413": {
@@ -150209,7 +150209,7 @@
     "10374": {
       "URI": "//Paste/util.threadinglocal/local",
       "metadata": {
-        "LoC": -16
+        "LoC": 16
       }
     },
     "10375": {
@@ -186323,7 +186323,7 @@
     "16393": {
       "URI": "//click/click.core/Group.command()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "16394": {
@@ -186335,7 +186335,7 @@
     "16395": {
       "URI": "//click/click.core/Group.group()",
       "metadata": {
-        "LoC": -2
+        "LoC": 2
       }
     },
     "16396": {
@@ -188183,7 +188183,7 @@
     "16703": {
       "URI": "//click/click.decorators/command()",
       "metadata": {
-        "LoC": -28
+        "LoC": 28
       }
     },
     "16704": {
@@ -189215,7 +189215,7 @@
     "16875": {
       "URI": "//protobuf/protobuf.symbol_database/SymbolDatabase.GetMessages()",
       "metadata": {
-        "LoC": -1
+        "LoC": 1
       }
     },
     "16876": {

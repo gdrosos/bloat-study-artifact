@@ -20327,7 +20327,7 @@
     "1569": {
       "URI": "//redis/redis.commands.core/Script",
       "metadata": {
-        "LoC": -11
+        "LoC": 11
       }
     },
     "1570": {
