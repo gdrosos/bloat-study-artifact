@@ -33,6 +33,40 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `PBFD-LOC`: Percentage of Bloated Files in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency files that are bloated.
     - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
 
+#### `rq1b.csv`: 
+- For each Python project, includes the different usage statuses of its direct and transitive dependencies, showcasing metrics related to bloat and usage in various granularities.
+
+  - Columns:
+    - `project`: Github Owner-Repository Name.
+    
+    #### Direct Dependencies:
+    - `direct_dependencies_bloated_count`: Number of bloated direct dependencies.
+    - `direct_dependencies_bloated_loc`: Lines of code in bloated direct dependencies.
+    - `direct_dependency_files_bloated_count`: Number of bloated files in direct dependencies.
+    - `direct_dependency_files_bloated_loc`: Lines of code in the bloated files of direct dependencies.
+    - `direct_dependency_functions_bloated_count`: Number of bloated functions in direct dependencies.
+    - `direct_dependency_functions_bloated_loc`: Lines of code in the bloated functions of direct dependencies.
+    - `direct_dependencies_used_count`: Number of used direct dependencies.
+    - `direct_dependencies_used_loc`: Lines of code in used direct dependencies.
+    - `direct_dependency_files_used_count`: Number of used files in direct dependencies.
+    - `direct_dependency_files_used_loc`: Lines of code in the used files of direct dependencies.
+    - `direct_dependency_functions_used_count`: Number of used functions in direct dependencies.
+    - `direct_dependency_functions_used_loc`: Lines of code in the used functions of direct dependencies.
+        
+    #### Transitive Dependencies:
+    - `transitive_dependencies_bloated_count`: Number of bloated transitive dependencies.
+    - `transitive_dependencies_bloated_loc`: Lines of code in bloated transitive dependencies.
+    - `transitive_dependency_files_bloated_count`: Number of bloated files in transitive dependencies.
+    - `transitive_dependency_files_bloated_loc`: Lines of code in the bloated files of transitive dependencies.
+    - `transitive_dependency_functions_bloated_count`: Number of bloated functions in transitive dependencies.
+    - `transitive_dependency_functions_bloated_loc`: Lines of code in the bloated functions of transitive dependencies.
+    - `transitive_dependencies_used_count`: Number of used transitive dependencies.
+    - `transitive_dependencies_used_loc`: Lines of code in used transitive dependencies.
+    - `transitive_dependency_files_used_count`: Number of used files in transitive dependencies.
+    - `transitive_dependency_files_used_loc`: Lines of code in the used files of transitive dependencies.
+    - `transitive_dependency_functions_used_count`: Number of used functions in transitive dependencies.
+    - `transitive_dependency_functions_used_loc`: Lines of code in the used functions of transitive dependencies.
+
 #### `rq2a.csv`: 
 - Contains the quantitative results for the second research question (RQ2), representing Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
   - Columns:
