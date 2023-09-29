@@ -1,4 +1,4 @@
-project,package_name,status,bloated_files,used_files,bloated_functions,used_functions,percentage_bloated_functions,percentage_bloated_files
+project,package_name,status,bloated_files,used_files,bloated_methods,used_methods,percentage_bloated_methods,percentage_bloated_files
 mozillasecurity/grizzly,cryptography,Inactive,61,11,1270,23,0.9822119102861562,0.8472222222222222
 buckket/twtxt,aiohttp,Inactive,40,5,1217,15,0.9878246753246753,0.8888888888888888
 certbot/certbot,cryptography,Inactive,56,16,1226,72,0.9445300462249615,0.7777777777777778
