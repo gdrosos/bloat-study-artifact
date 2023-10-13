@@ -58,7 +58,7 @@
     "django-helpdesk/django-helpdesk": {
         "simplejson": {
             "Root Cause": "Feature removal",
-            "PR Status": "Approved",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/django-helpdesk/django-helpdesk/pull/1112"
         }
     },
