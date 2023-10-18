@@ -323,7 +323,7 @@
     "gridsync/gridsync": {
         "hyperlink": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/gridsync/gridsync/pull/667"
         }
     }
