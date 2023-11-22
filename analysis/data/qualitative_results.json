@@ -168,27 +168,27 @@
     "maurosoria/dirsearch": {
         "urllib3": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "cryptography": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "cffi": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "idna": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         },
         "chardet": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
         }
     },
