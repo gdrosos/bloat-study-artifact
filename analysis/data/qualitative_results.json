@@ -1,330 +1,426 @@
 {
-    "meejah/txtorcon": {
-        "incremental": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/meejah/txtorcon/pull/388"
-        }
-    },
-    "EasyPost/easypost-python": {
-        "typing-extesions": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/EasyPost/easypost-python/pull/294"
-        }
-    },
-    "electricitymaps/electricitymaps-contrib": {
-        "deepdiff": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/electricitymaps/electricitymaps-contrib/pull/5717"
-        }
-    },
-    "ewels/MultiQC": {
-        "simplejson": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/ewels/MultiQC/pull/1973"
-        }
-    },
-    "kivy/kivy-ios": {
-        "requests": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/kivy/kivy-ios/pull/840"
-        }
-    },
-    "slaclab/pydm": {
-        "requests": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/slaclab/pydm/pull/1021"
-        }
-    },
-    "instana/python-sensor": {
-        "certifi": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/instana/python-sensor/pull/437"
-        }
-    },
-    "4dn-dcic/tibanna": {
-        "requests": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/4dn-dcic/tibanna/pull/393"
-        }
-    },
-    "django-helpdesk/django-helpdesk": {
-        "simplejson": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/django-helpdesk/django-helpdesk/pull/1112"
-        }
-    },
-    "sethblack/python-seo-analyzer": {
-        "requests": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Approved",
-            "PR URL": "https://github.com/sethblack/python-seo-analyzer/pull/98"
-        }
-    },
-    "pyupio/safety": {
-        "urllib3": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Approved",
-            "PR URL": "https://github.com/pyupio/safety/pull/481"
-        }
-    },
-    "jrkerns/pylinac": {
-        "cached-property": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/jrkerns/pylinac/pull/461"
-        }
-    },
-    "HadrienG/InSilicoSeq": {
-        "future": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/HadrienG/InSilicoSeq/pull/238"
-        }
-    },
-    "SasView/sasview": {
-        "h5py": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/SasView/sasview/pull/2585"
-        }
-    },
-    "RedHatQE/widgetastic.core": {
-        "typing_extensions": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/RedHatQE/widgetastic.core/pull/245"
-        }
-    },
-    "ocrmypdf/OCRmyPDF": {
-        "deprecation": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Rejected",
-            "PR URL": "https://github.com/ocrmypdf/OCRmyPDF/pull/1135"
-        }
-    },
-    "Juniper/py-junos-eznc": {
-        "netaddr": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/Juniper/py-junos-eznc/pull/1257"
-        }
-    },
-    "SDXorg/pysd": {
-        "xlrd": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/SDXorg/pysd/pull/423"
-        }
-    },
-    "PSLmodels/Cost-of-Capital-Calculator": {
-        "psutil": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/PSLmodels/Cost-of-Capital-Calculator/pull/377"
-        }
-    },
-    "PSLmodels/OG-Core": {
-        "psutil": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/PSLmodels/OG-Core/pull/875"
-        }
-    },
-    "panoptes/pocs": {
-        "click": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/panoptes/POCS/pull/1193"
-        },
-        "urllib3": {
-            "Root Cause": "Security constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        }
-    },
-    "popsdroid/opsdroid": {
-        "websockets": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Pending",
-            "PR URL": "https://github.com/opsdroid/opsdroid/pull/2007"
-        }
-    },
-    "googleads/googleads-python-lib": {
-        "xmltodict": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Pending",
-            "PR URL": "https://github.com/googleads/googleads-python-lib/pull/524"
-        }
-    },
-    "maurosoria/dirsearch": {
-        "urllib3": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
-        },
-        "cryptography": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
-        },
-        "cffi": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
-        },
-        "idna": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
-        },
-        "chardet": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319"
-        }
-    },
-    "opentok/opentok-python-sdk": {
-        "rsa": {
-            "Root Cause": "Security constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        }
-    },
-    "lxc/pylxd": {
-        "urllib3": {
-            "Root Cause": "Compatibility constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        }
-    },
-    "lyft/confidant": {
-        "greenlet": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
-            "PR URL": "https://github.com/lyft/confidant/pull/403"
-        },
-        "cffi": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
-            "PR URL": "https://github.com/lyft/confidant/pull/403"
-        },
-        "pyasn1": {
-            "Root Cause": "Security constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        },
-        "pyOpenSSL": {
-            "Root Cause": "Security constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        },
-        "ndg-httpsclient": {
-            "Root Cause": "Security constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        }
-    },
-    "20c/vaping": {
-        "Werkzeug": {
-            "Root Cause": "Compatibility constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        },
-        "Flask": {
-            "Root Cause": "Compatibility constraint",
-            "PR Status": "Not Opened",
-            "PR URL": "None"
-        }
-    },
-    "glotaran/pyglotaran": {
-        "rich": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/glotaran/pyglotaran/pull/1345"
-        }
-    },
-    "ably/ably-python": {
-        "h2": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/ably/ably-python/pull/526"
-        }
-    },
-    "simple-salesforce/simple-salesforce": {
-        "cryptography": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
-            "PR URL": "https://github.com/simple-salesforce/simple-salesforce/pull/680"
-        }
-    },
-    "fizzadar/pyinfra": {
-        "colorama": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/Fizzadar/pyinfra/pull/1014"
-        }
-    },
-    "materialsproject/fireworks": {
-        "six": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/materialsproject/fireworks/pull/511"
-        }
-    },
-    "edx/edx-drf-extensions": {
-        "six": {
-            "Root Cause": "Built-in or alternate library",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/openedx/edx-drf-extensions/pull/377"
-        },
-        "python-dateutil": {
-            "Root Cause": "Feature removal",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/openedx/edx-drf-extensions/pull/377"
-        }
-    },
-    "juniper/jsnapy": {
-        "future": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Pending",
-            "PR URL": "https://github.com/Juniper/jsnapy/pull/406"
-        }
-    },
-    "revoltek/losoto": {
-        "numexpr": {
-            "Root Cause": "Unused from the first time",
-            "PR Status": "Merged",
-             "PR URL": "https://github.com/revoltek/losoto/pull/148"
-        }
-    },
-    "booya-at/openglider": {
-        "lxml:4.9.3": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
-            "PR URL": "https://github.com/booya-at/OpenGlider/pull/74"
-        }
-    },
-    "dmnfarrell/pandastable": {
-        "xlrd": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/dmnfarrell/pandastable/pull/243"
-        }
-    },
-    "gridsync/gridsync": {
-        "hyperlink": {
-            "Root Cause": "Transitive dependency",
-            "PR Status": "Merged",
-            "PR URL": "https://github.com/gridsync/gridsync/pull/667"
-        }
+  "meejah/txtorcon": {
+    "incremental": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/meejah/txtorcon/pull/388",
+      "Duration": 0,
+      "Created At": "2023-08-12T10:58:47Z",
+      "Merged At": "2023-08-12T15:43:10Z"
     }
+  },
+  "EasyPost/easypost-python": {
+    "typing-extesions": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/EasyPost/easypost-python/pull/294",
+      "Duration": 3,
+      "Created At": "2023-08-11T18:40:43Z",
+      "Merged At": "2023-08-15T15:03:39Z"
+    }
+  },
+  "electricitymaps/electricitymaps-contrib": {
+    "deepdiff": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/electricitymaps/electricitymaps-contrib/pull/5717",
+      "Duration": 0,
+      "Created At": "2023-08-11T01:15:26Z",
+      "Merged At": "2023-08-11T11:22:41Z"
+    }
+  },
+  "ewels/MultiQC": {
+    "simplejson": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/ewels/MultiQC/pull/1973",
+      "Duration": 4,
+      "Created At": "2023-08-11T00:27:57Z",
+      "Merged At": "2023-08-15T21:15:16Z"
+    }
+  },
+  "kivy/kivy-ios": {
+    "requests": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/kivy/kivy-ios/pull/840",
+      "Duration": 14,
+      "Created At": "2023-08-10T13:51:54Z",
+      "Merged At": "2023-08-24T14:56:00Z"
+    }
+  },
+  "slaclab/pydm": {
+    "requests": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/slaclab/pydm/pull/1021",
+      "Duration": 1,
+      "Created At": "2023-08-09T18:10:56Z",
+      "Merged At": "2023-08-10T20:21:24Z"
+    }
+  },
+  "instana/python-sensor": {
+    "certifi": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/instana/python-sensor/pull/437",
+      "Duration": 1,
+      "Created At": "2023-08-09T16:31:57Z",
+      "Merged At": "2023-08-11T09:18:57Z"
+    }
+  },
+  "4dn-dcic/tibanna": {
+    "requests": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/4dn-dcic/tibanna/pull/393",
+      "Duration": 33,
+      "Created At": "2023-08-10T12:16:36Z",
+      "Merged At": "2023-09-12T15:53:40Z"
+    }
+  },
+  "django-helpdesk/django-helpdesk": {
+    "simplejson": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/django-helpdesk/django-helpdesk/pull/1112",
+      "Duration": 63,
+      "Created At": "2023-08-10T14:44:58Z",
+      "Merged At": "2023-10-13T09:11:55Z"
+    }
+  },
+  "sethblack/python-seo-analyzer": {
+    "requests": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Approved",
+      "PR URL": "https://github.com/sethblack/python-seo-analyzer/pull/98"
+    }
+  },
+  "pyupio/safety": {
+    "urllib3": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Approved",
+      "PR URL": "https://github.com/pyupio/safety/pull/481"
+    }
+  },
+  "jrkerns/pylinac": {
+    "cached-property": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/jrkerns/pylinac/pull/461",
+      "Duration": 32,
+      "Created At": "2023-08-11T11:25:34Z",
+      "Merged At": "2023-09-12T16:58:58Z"
+    }
+  },
+  "HadrienG/InSilicoSeq": {
+    "future": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/HadrienG/InSilicoSeq/pull/238",
+      "Duration": 32,
+      "Created At": "2023-08-11T09:54:24Z",
+      "Merged At": "2023-09-13T07:47:26Z"
+    }
+  },
+  "SasView/sasview": {
+    "h5py": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/SasView/sasview/pull/2585",
+      "Duration": 30,
+      "Created At": "2023-08-11T13:31:31Z",
+      "Merged At": "2023-09-11T13:00:59Z"
+    }
+  },
+  "RedHatQE/widgetastic.core": {
+    "typing_extensions": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/RedHatQE/widgetastic.core/pull/245",
+      "Duration": 16,
+      "Created At": "2023-08-11T17:41:05Z",
+      "Merged At": "2023-08-28T06:59:00Z"
+    }
+  },
+  "ocrmypdf/OCRmyPDF": {
+    "deprecation": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Rejected",
+      "PR URL": "https://github.com/ocrmypdf/OCRmyPDF/pull/1135"
+    }
+  },
+  "Juniper/py-junos-eznc": {
+    "netaddr": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/Juniper/py-junos-eznc/pull/1257",
+      "Duration": 30,
+      "Created At": "2023-08-12T11:20:54Z",
+      "Merged At": "2023-09-12T03:56:00Z"
+    }
+  },
+  "SDXorg/pysd": {
+    "xlrd": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/SDXorg/pysd/pull/423",
+      "Duration": 50,
+      "Created At": "2023-08-12T11:56:19Z",
+      "Merged At": "2023-10-02T11:02:19Z"
+    }
+  },
+  "PSLmodels/Cost-of-Capital-Calculator": {
+    "psutil": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/PSLmodels/Cost-of-Capital-Calculator/pull/377",
+      "Duration": 24,
+      "Created At": "2023-08-12T13:13:34Z",
+      "Merged At": "2023-09-05T20:07:59Z"
+    }
+  },
+  "PSLmodels/OG-Core": {
+    "psutil": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/PSLmodels/OG-Core/pull/875",
+      "Duration": 17,
+      "Created At": "2023-08-12T13:44:20Z",
+      "Merged At": "2023-08-30T05:26:52Z"
+    }
+  },
+  "panoptes/pocs": {
+    "click": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/panoptes/POCS/pull/1193",
+      "Duration": 1,
+      "Created At": "2023-08-27T10:53:36Z",
+      "Merged At": "2023-08-28T19:47:29Z"
+    },
+    "urllib3": {
+      "Root Cause": "Security constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    }
+  },
+  "popsdroid/opsdroid": {
+    "websockets": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Pending",
+      "PR URL": "https://github.com/opsdroid/opsdroid/pull/2007"
+    }
+  },
+  "googleads/googleads-python-lib": {
+    "xmltodict": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Pending",
+      "PR URL": "https://github.com/googleads/googleads-python-lib/pull/524"
+    }
+  },
+  "maurosoria/dirsearch": {
+    "urllib3": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319",
+      "Duration": 87,
+      "Created At": "2023-08-27T11:44:10Z",
+      "Merged At": "2023-11-22T14:09:48Z"
+    },
+    "cryptography": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319",
+      "Duration": 87,
+      "Created At": "2023-08-27T11:44:10Z",
+      "Merged At": "2023-11-22T14:09:48Z"
+    },
+    "cffi": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319",
+      "Duration": 87,
+      "Created At": "2023-08-27T11:44:10Z",
+      "Merged At": "2023-11-22T14:09:48Z"
+    },
+    "idna": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319",
+      "Duration": 87,
+      "Created At": "2023-08-27T11:44:10Z",
+      "Merged At": "2023-11-22T14:09:48Z"
+    },
+    "chardet": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/maurosoria/dirsearch/pull/1319",
+      "Duration": 87,
+      "Created At": "2023-08-27T11:44:10Z",
+      "Merged At": "2023-11-22T14:09:48Z"
+    }
+  },
+  "opentok/opentok-python-sdk": {
+    "rsa": {
+      "Root Cause": "Security constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    }
+  },
+  "lxc/pylxd": {
+    "urllib3": {
+      "Root Cause": "Compatibility constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    }
+  },
+  "lyft/confidant": {
+    "greenlet": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Pending",
+      "PR URL": "https://github.com/lyft/confidant/pull/403"
+    },
+    "cffi": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Pending",
+      "PR URL": "https://github.com/lyft/confidant/pull/403"
+    },
+    "pyasn1": {
+      "Root Cause": "Security constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    },
+    "pyOpenSSL": {
+      "Root Cause": "Security constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    },
+    "ndg-httpsclient": {
+      "Root Cause": "Security constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    }
+  },
+  "20c/vaping": {
+    "Werkzeug": {
+      "Root Cause": "Compatibility constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    },
+    "Flask": {
+      "Root Cause": "Compatibility constraint",
+      "PR Status": "Not Opened",
+      "PR URL": "None"
+    }
+  },
+  "glotaran/pyglotaran": {
+    "rich": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/glotaran/pyglotaran/pull/1345",
+      "Duration": 0,
+      "Created At": "2023-08-29T15:50:15Z",
+      "Merged At": "2023-08-29T16:36:50Z"
+    }
+  },
+  "ably/ably-python": {
+    "h2": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/ably/ably-python/pull/526",
+      "Duration": 21,
+      "Created At": "2023-08-29T16:19:01Z",
+      "Merged At": "2023-09-20T16:10:27Z"
+    }
+  },
+  "simple-salesforce/simple-salesforce": {
+    "cryptography": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Pending",
+      "PR URL": "https://github.com/simple-salesforce/simple-salesforce/pull/680"
+    }
+  },
+  "fizzadar/pyinfra": {
+    "colorama": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/Fizzadar/pyinfra/pull/1014",
+      "Duration": 75,
+      "Created At": "2023-09-04T07:44:03Z",
+      "Merged At": "2023-11-18T09:14:26Z"
+    }
+  },
+  "materialsproject/fireworks": {
+    "six": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/materialsproject/fireworks/pull/511",
+      "Duration": 0,
+      "Created At": "2023-09-04T08:24:46Z",
+      "Merged At": "2023-09-04T09:45:20Z"
+    }
+  },
+  "edx/edx-drf-extensions": {
+    "six": {
+      "Root Cause": "Built-in or alternate library",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/openedx/edx-drf-extensions/pull/377",
+      "Duration": 4,
+      "Created At": "2023-09-04T09:21:29Z",
+      "Merged At": "2023-09-08T13:59:06Z"
+    },
+    "python-dateutil": {
+      "Root Cause": "Feature removal",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/openedx/edx-drf-extensions/pull/377",
+      "Duration": 4,
+      "Created At": "2023-09-04T09:21:29Z",
+      "Merged At": "2023-09-08T13:59:06Z"
+    }
+  },
+  "juniper/jsnapy": {
+    "future": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Pending",
+      "PR URL": "https://github.com/Juniper/jsnapy/pull/406"
+    }
+  },
+  "revoltek/losoto": {
+    "numexpr": {
+      "Root Cause": "Unused from the first time",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/revoltek/losoto/pull/148",
+      "Duration": 0,
+      "Created At": "2023-09-04T09:45:58Z",
+      "Merged At": "2023-09-04T09:49:33Z"
+    }
+  },
+  "booya-at/openglider": {
+    "lxml:4.9.3": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Pending",
+      "PR URL": "https://github.com/booya-at/OpenGlider/pull/74"
+    }
+  },
+  "dmnfarrell/pandastable": {
+    "xlrd": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/dmnfarrell/pandastable/pull/243",
+      "Duration": 10,
+      "Created At": "2023-09-04T11:04:19Z",
+      "Merged At": "2023-09-14T19:32:14Z"
+    }
+  },
+  "gridsync/gridsync": {
+    "hyperlink": {
+      "Root Cause": "Transitive dependency",
+      "PR Status": "Merged",
+      "PR URL": "https://github.com/gridsync/gridsync/pull/667",
+      "Duration": 28,
+      "Created At": "2023-09-20T14:31:30Z",
+      "Merged At": "2023-10-18T17:39:15Z"
+    }
+  }
 }
