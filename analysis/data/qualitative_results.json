@@ -65,14 +65,14 @@
     "sethblack/python-seo-analyzer": {
         "requests": {
             "Root Cause": "Built-in or alternate library",
-            "PR Status": "Pending",
+            "PR Status": "Approved",
             "PR URL": "https://github.com/sethblack/python-seo-analyzer/pull/98"
         }
     },
     "pyupio/safety": {
         "urllib3": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Possitive Feedback",
+            "PR Status": "Approved",
             "PR URL": "https://github.com/pyupio/safety/pull/481"
         }
     },
