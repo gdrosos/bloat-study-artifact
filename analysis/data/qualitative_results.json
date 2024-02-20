@@ -545,8 +545,11 @@
     "simple-salesforce/simple-salesforce": {
         "cryptography": {
             "Root Cause": "Transitive dependency",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/simple-salesforce/simple-salesforce/pull/680",
+            "Duration": 174,
+            "Created At": "2023-08-29T16:19:01Z",
+            "Merged At": "2024-02-20T16:10:27Z",
             "Version": "41.0.1",
             "LoC": 17639,
             "Size": 17153696,
