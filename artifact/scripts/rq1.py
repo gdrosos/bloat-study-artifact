@@ -19,7 +19,7 @@ plt.rcParams['figure.figsize'] = (6, 4)
 
 def get_args():
     parser = argparse.ArgumentParser(
-        description='Generate symptoms figure')
+        description='Generate Bloat Prevalence metrics')
     parser.add_argument("data", help="CSV with bloat metrics")
     parser.add_argument(
             "--output",

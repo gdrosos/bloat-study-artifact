@@ -149,3 +149,56 @@ Package     Bloated LoC     1302.00 34.39 32.28 0.00  5.93 24.78 52.93 100.00
 The acronym of each metric is described in detail [here](#rq1a.csv).
 Some of those total and average numbers are utilized in Section 3.1 of our paper
 (e.g. {Total, average} number of bloated {dependencies, files, methods}, in the context of entries or LoC).
+
+Moreover, to produce Figure 7, simply run:
+
+```bash
+python scripts/rq1_dep_comp.py data/results/rq1b.csv --output figures/bloat_prevalence_direct_vs_transitive.pdf
+```
+
+The above command produces the figure `figures/bloat_prevalence_direct_vs_transitive.pdf` (Figure 5)
+and prints the following stats in the standard output:
+
+```
+Number of dependencies
+
+Direct bloated      : 5.69%
+Transitive bloated  : 52.99%
+Direct used         : 22.71%
+Transitive used     : 18.61%
+
+Number of files
+
+Direct bloated      : 44.86%
+Transitive bloated  : 45.72%
+Direct used         : 6.41%
+Transitive used     : 3.02%
+
+Number of functions
+
+Direct bloated      : 47.87%
+Transitive bloated  : 48.13%
+Direct used         : 2.74%
+Transitive used     : 1.26%
+
+Size of dependencies (LoC)
+
+Direct bloated      : 4.45%
+Transitive bloated  : 24.36%
+Direct used         : 47.76%
+Transitive used     : 23.42%
+
+Size of files (LoC)
+
+Direct bloated      : 38.06%
+Transitive bloated  : 40.94%
+Direct used         : 14.15%
+Transitive used     : 6.84%
+
+Size of functions(LoC)
+
+Direct bloated      : 49.55%
+Transitive bloated  : 44.19%
+Direct used         : 4.21%
+Transitive used     : 2.05%
+```
