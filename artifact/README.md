@@ -278,3 +278,116 @@ Transitive dependency: 15/50 (30.00%)
 Security constraint: 5/50 (10.00%)
 Compatibility constraint: 3/50 (6.00%)
 ```
+
+## RQ3: Developer Perception (Section 3.4)
+
+In the last research question, we investigate developer's perception on dependency bloat.
+To reproduce table 3, simply run:
+
+```bash
+python scripts/rq4.py data/results/qualitative_results.json --table3
+```
+
+The command will print the following table in the standard output:
+
+
+```
++-------------+-----------------+-------------------------+
+| PR Status   |   Number of PRs |   Number of  BD removed |
++=============+=================+=========================+
+| Merged      |              30 |                      35 |
++-------------+-----------------+-------------------------+
+| Approved    |               1 |                       1 |
++-------------+-----------------+-------------------------+
+| Pending     |               4 |                       5 |
++-------------+-----------------+-------------------------+
+| Rejected    |               1 |                       1 |
++-------------+-----------------+-------------------------+
+| Total       |              36 |                      42 |
++-------------+-----------------+-------------------------+
+
+Number of LoC removed: 393837
+```
+
+In addition, the above command will measure and output the number of LoC removed, which
+is reported on Section 3.4.
+
+Moreover, to reproduce Figure 10, run:
+
+
+```bash
+python scripts/rq4.py data/results/qualitative_results.json --output_fig_10 figures/pr_per_root_cause.pdf
+```
+
+The above command produces the figure `figures/pr_per_root_cause.pdf` (Figure 10)
+and prints the following table in the standard output:
+
+```
++-------------------------------+-------------+---------+
+| Root Cause                    | PR Status   |   Count |
++===============================+=============+=========+
+| Built-in or alternate library | Approved    |       0 |
++-------------------------------+-------------+---------+
+| Built-in or alternate library | Merged      |       9 |
++-------------------------------+-------------+---------+
+| Built-in or alternate library | Pending     |       0 |
++-------------------------------+-------------+---------+
+| Built-in or alternate library | Rejected    |       0 |
++-------------------------------+-------------+---------+
+| Feature removal               | Approved    |       0 |
++-------------------------------+-------------+---------+
+| Feature removal               | Merged      |       9 |
++-------------------------------+-------------+---------+
+| Feature removal               | Pending     |       1 |
++-------------------------------+-------------+---------+
+| Feature removal               | Rejected    |       0 |
++-------------------------------+-------------+---------+
+| Transitive dependency         | Approved    |       1 |
++-------------------------------+-------------+---------+
+| Transitive dependency         | Merged      |      11 |
++-------------------------------+-------------+---------+
+| Transitive dependency         | Pending     |       3 |
++-------------------------------+-------------+---------+
+| Transitive dependency         | Rejected    |       0 |
++-------------------------------+-------------+---------+
+| Unused from the first time    | Approved    |       0 |
++-------------------------------+-------------+---------+
+| Unused from the first time    | Merged      |       6 |
++-------------------------------+-------------+---------+
+| Unused from the first time    | Pending     |       1 |
++-------------------------------+-------------+---------+
+| Unused from the first time    | Rejected    |       1 |
++-------------------------------+-------------+---------+
+```
+
+In the same manner, to reproduce Figure 11, run:
+
+
+```bash
+python scripts/rq4.py data/results/qualitative_results.json --output_fig_11 figures/pr_durations.pdf
+```
+
+The above command produces the figure `figures/pr_durations.pdf` (Figure 11)
+and prints the following data in the standard output:
+
+```
+Pull Requests Merged on the Same Date: 5
+Pull Requests Merged Within Week: 6
+Pull Requests Merged Within Month: 9
+Pull Requests Merged more than Month: 10
+```
+
+Finally, to reproduce Figure 12, run:
+
+```bash
+python scripts/rq4.py data/results/qualitative_results.json --output_fig_12 figures/pr_discussions.pdf
+```
+
+The above command produces the figure `figures/pr_discussions.pdf` (Figure 12)
+and prints the following data in the standard output:
+
+```
+Merged PRs requiring no discussion: 21
+Merged PRs requiring discussions involving changes: 6
+Merged PRs requiring discussions without requiring changes: 3
+```

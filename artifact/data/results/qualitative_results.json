@@ -10,8 +10,7 @@
             "Version": "22.10.0",
             "LoC": 2550,
             "Size": 182997,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "EasyPost/easypost-python": {
@@ -25,8 +24,7 @@
             "Version": "4.7.1",
             "LoC": 3072,
             "Size": 260398,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion without changes"
         }
     },
     "electricitymaps/electricitymaps-contrib": {
@@ -40,8 +38,7 @@
             "Version": "5.8.1",
             "LoC": 5878,
             "Size": 544302,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "ewels/MultiQC": {
@@ -55,8 +52,7 @@
             "Version": "3.19.1",
             "LoC": 4500,
             "Size": 515330,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "kivy/kivy-ios": {
@@ -70,8 +66,7 @@
             "Version": "2.31.0",
             "LoC": 5435,
             "Size": 418119,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion with changes"
         }
     },
     "slaclab/pydm": {
@@ -84,13 +79,7 @@
             "Merged At": "2023-08-10T20:21:24Z",
             "Version": "2.31.0",
             "LoC": 27150,
-            "Size": 2281463,
-            "Transitive Dependencies": [
-                "certifi:2024.2.2",
-                "charset-normalizer:3.3.2",
-                "idna:3.6",
-                "urllib3:2.2.0"
-            ]
+            "Size": 2281463
         }
     },
     "instana/python-sensor": {
@@ -104,8 +93,7 @@
             "Version": "2023.5.7",
             "LoC": 124,
             "Size": 292423,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "4dn-dcic/tibanna": {
@@ -119,12 +107,7 @@
             "Version": "2.31.0",
             "LoC": 27150,
             "Size": 2281463,
-            "Transitive Dependencies": [
-                "certifi:2024.2.2",
-                "charset-normalizer:3.3.2",
-                "idna:3.6",
-                "urllib3:2.2.0"
-            ]
+            "Discussion Status": "Discussion with changes"
         }
     },
     "django-helpdesk/django-helpdesk": {
@@ -138,20 +121,21 @@
             "Version": "3.19.1",
             "LoC": 4500,
             "Size": 515330,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion without changes"
         }
     },
     "sethblack/python-seo-analyzer": {
         "requests": {
             "Root Cause": "Built-in or alternate library",
-            "PR Status": "Approved",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/sethblack/python-seo-analyzer/pull/98",
+            "Created At": "2023-08-10T13:51:54Z",
+            "Merged At": "2024-04-21T14:56:00Z",
+            "Duration": 255,
             "Version": "2.31.0",
             "LoC": 5435,
             "Size": 418119,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "pyupio/safety": {
@@ -162,8 +146,7 @@
             "Version": "2.0.3",
             "LoC": 11174,
             "Size": 857028,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "jrkerns/pylinac": {
@@ -177,8 +160,7 @@
             "Version": "1.5.2",
             "LoC": 153,
             "Size": 26493,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "HadrienG/InSilicoSeq": {
@@ -192,8 +174,7 @@
             "Version": "0.18.3",
             "LoC": 42721,
             "Size": 3457976,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "SasView/sasview": {
@@ -207,8 +188,7 @@
             "Version": "3.9.0",
             "LoC": 15162,
             "Size": 10202223,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion with changes"
         }
     },
     "RedHatQE/widgetastic.core": {
@@ -222,8 +202,7 @@
             "Version": "4.7.1",
             "LoC": 3072,
             "Size": 260398,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "ocrmypdf/OCRmyPDF": {
@@ -234,7 +213,6 @@
             "Version": "2.1.0",
             "LoC": 290,
             "Size": 41117,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -249,8 +227,7 @@
             "Version": "0.8.0",
             "LoC": 6773,
             "Size": 8304342,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion without changes"
         }
     },
     "SDXorg/pysd": {
@@ -264,8 +241,7 @@
             "Version": "2.0.1",
             "LoC": 9531,
             "Size": 764082,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion with changes"
         }
     },
     "PSLmodels/Cost-of-Capital-Calculator": {
@@ -279,8 +255,7 @@
             "Version": "5.9.5",
             "LoC": 23044,
             "Size": 2305004,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "PSLmodels/OG-Core": {
@@ -294,8 +269,7 @@
             "Version": "5.9.5",
             "LoC": 23044,
             "Size": 2305004,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "panoptes/pocs": {
@@ -309,8 +283,7 @@
             "Version": "8.1.4",
             "LoC": 10130,
             "Size": 829157,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         },
         "urllib3": {
             "Root Cause": "Security constraint",
@@ -319,20 +292,21 @@
             "Version": "1.26.16",
             "LoC": 11648,
             "Size": 921662,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "popsdroid/opsdroid": {
         "websockets": {
             "Root Cause": "Built-in or alternate library",
-            "PR Status": "Pending",
+            "PR Status": "Merged",
             "PR URL": "https://github.com/opsdroid/opsdroid/pull/2007",
             "Version": "11.0.3",
+            "Created At": "2023-08-27T13:51:54Z",
+            "Merged At": "2024-04-26T14:56:00Z",
+            "Duration": 243,
             "LoC": 11851,
             "Size": 944189,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "googleads/googleads-python-lib": {
@@ -343,8 +317,7 @@
             "Version": "0.13.0",
             "LoC": 544,
             "Size": 51956,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "maurosoria/dirsearch": {
@@ -358,8 +331,7 @@
             "Version": "2.0.3",
             "LoC": 11174,
             "Size": 857028,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         },
         "cryptography": {
             "Root Cause": "Transitive dependency",
@@ -371,8 +343,7 @@
             "Version": "41.0.1",
             "LoC": 17639,
             "Size": 17153696,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         },
         "cffi": {
             "Root Cause": "Transitive dependency",
@@ -384,8 +355,7 @@
             "Version": "1.15.1",
             "LoC": 8157,
             "Size": 1044256,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         },
         "idna": {
             "Root Cause": "Transitive dependency",
@@ -397,8 +367,7 @@
             "Version": "3.4",
             "LoC": 11376,
             "Size": 515670,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         },
         "chardet": {
             "Root Cause": "Transitive dependency",
@@ -410,8 +379,7 @@
             "Version": "5.1.0",
             "LoC": 41282,
             "Size": 2161433,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "opentok/opentok-python-sdk": {
@@ -422,7 +390,6 @@
             "Version": "4.9",
             "LoC": 2805,
             "Size": 205247,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -434,7 +401,6 @@
             "Version": "2.0.3",
             "LoC": 11174,
             "Size": 857028,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -446,7 +412,6 @@
             "Version": "2.0.2",
             "LoC": 3597,
             "Size": 936741,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         },
         "cffi": {
@@ -456,7 +421,6 @@
             "Version": "1.15.1",
             "LoC": 8157,
             "Size": 1044256,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         },
         "pyasn1": {
@@ -466,7 +430,6 @@
             "Version": "0.5.0",
             "LoC": 11497,
             "Size": 844890,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         },
         "pyOpenSSL": {
@@ -476,7 +439,6 @@
             "Version": "23.2.0",
             "LoC": 6490,
             "Size": 529424,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         },
         "ndg-httpsclient": {
@@ -486,7 +448,6 @@
             "Version": "0.5.1",
             "LoC": 1709,
             "Size": 174344,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -498,7 +459,6 @@
             "Version": "2.0.3",
             "LoC": 22932,
             "Size": 2024273,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         },
         "Flask": {
@@ -508,7 +468,6 @@
             "Version": "2.1.3",
             "LoC": 8508,
             "Size": 700622,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -523,7 +482,6 @@
             "Version": "13.4.2",
             "LoC": 26366,
             "Size": 2202444,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -538,8 +496,7 @@
             "Version": "4.1.0",
             "LoC": 5823,
             "Size": 456424,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion with changes"
         }
     },
     "simple-salesforce/simple-salesforce": {
@@ -553,8 +510,7 @@
             "Version": "41.0.1",
             "LoC": 17639,
             "Size": 17153696,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "fizzadar/pyinfra": {
@@ -568,8 +524,7 @@
             "Version": "0.4.6",
             "LoC": 1679,
             "Size": 179715,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "materialsproject/fireworks": {
@@ -582,9 +537,7 @@
             "Merged At": "2023-09-04T09:45:20Z",
             "Version": "1.16.0",
             "LoC": 998,
-            "Size": 84605,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "edx/edx-drf-extensions": {
@@ -597,9 +550,7 @@
             "Merged At": "2023-09-08T13:59:06Z",
             "Version": "1.16.0",
             "LoC": 998,
-            "Size": 84605,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "Discussion with changes"
         },
         "python-dateutil": {
             "Root Cause": "Feature removal",
@@ -610,10 +561,7 @@
             "Merged At": "2023-09-08T13:59:06Z",
             "Version": "2.8.2",
             "LoC": 998,
-            "Size": 84605,
-            "Transitive Dependencies": [
-                "six:1.16.0"
-            ]
+            "Discussion Status": "Discussion with changes"
         }
     },
     "juniper/jsnapy": {
@@ -624,8 +572,7 @@
             "Version": "0.18.3",
             "LoC": 42721,
             "Size": 3457976,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "revoltek/losoto": {
@@ -639,7 +586,6 @@
             "Version": "2.8.4",
             "LoC": 3747,
             "Size": 531067,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -651,7 +597,6 @@
             "Version": "4.9.3",
             "LoC": 7105,
             "Size": 20943696,
-            "Transitive Dependencies": [],
             "Dependency Size": 0
         }
     },
@@ -666,8 +611,7 @@
             "Version": "2.0.1",
             "LoC": 9531,
             "Size": 764082,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     },
     "gridsync/gridsync": {
@@ -681,8 +625,7 @@
             "Version": "21.0.0",
             "LoC": 5155,
             "Size": 445368,
-            "Transitive Dependencies": [],
-            "Dependency Size": 0
+            "Discussion Status": "No Discussion"
         }
     }
 }
