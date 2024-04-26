@@ -16,7 +16,7 @@ specifically the call graphs of projects whose owner name starts with the letter
 The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
 
 ### [results](./results/)
-#### `rq1a.csv`: 
+#### rq1a.csv: 
 - Contains the quantitative analysis results for the first research question (RQ1), focusing especially on the prevalence of bloat at different granularities in the Python projects.
   - Columns:
     - `project`: Github Owner-Repository Name.
@@ -98,8 +98,54 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
 
 These datasets and results are provided as supplementary material to validate and further explore the findings of our research on bloated dependency code within the PyPI ecosystem.
 
-## Data Availability
+# Step-by-Step Instructions
 
-Upon acceptance of the paper,
-we intend to make the data publicly available on Zenodo
-to facilitate future research and replication of our study.
+In the following section, we provide instructions
+for reproducing the results
+presented in the paper using the data coming from the `data/` directory.
+
+## RQ1: Bloat Prevalence (Section 3.1)
+
+In the first research question,
+we compute the prevalence of dependency bloat across different granularities.
+
+To produce the results of Figure 5, simply run:
+
+```bash
+python scripts/rq1.py data/results/rq1a.csv --output figures/bloat_prevalence.pdf
+```
+
+The above command produces the figure `figures/bloat_prevalence.pdf` (Figure 5)
+and prints the following tables in the standard output:
+
+```
+Absolute value bloat metric stats:
+
+           NBD      NBFD        NBMD      NBD-LOC     NBFD-LOC     NBMD-LOC
+count  1302.00   1302.00     1302.00      1302.00      1302.00      1302.00
+mean     10.14    688.73    10618.03     98097.10    243156.10    185052.14
+std      14.43    880.18    13086.86    175217.62    328677.30    245717.72
+min       0.00      0.00        0.00         0.00         0.00         0.00
+25%       2.00     95.00     1550.00      4748.00     32785.25     24963.50
+50%       5.00    339.00     5619.50     24024.00    120311.50     95047.00
+75%      13.00    983.00    14832.50    123269.25    329135.00    248139.00
+max     139.00   8390.00    99702.00   1452702.00   2567201.00   1872912.00
+Sum   13206.00 896731.00 13824676.00 127722424.00 316589243.00 240937888.00
+
+Percentage value bloat metric stats (Fig. 5):
+
+                              Count  Mean   Std  Min   25%   50%   75%    Max
+Granularity Metric                                                           
+File        Bloated LoC     1302.00 78.49 17.92 0.00 70.69 81.52 90.83 100.00
+            Bloated entries 1302.00 87.36 12.97 0.00 83.55 90.08 95.01 100.00
+Method      Bloated LoC     1302.00 93.52  7.83 0.00 91.48 95.07 98.33 100.00
+            Bloated entries 1302.00 95.41  6.07 0.00 94.21 96.80 98.71 100.00
+Package     Bloated LoC     1302.00 34.39 32.28 0.00  5.93 24.78 52.93 100.00
+            Bloated entries 1302.00 51.67 27.70 0.00 33.33 50.00 69.23 100.00
+```
+
+
+**Note**: The first table presents descriptive statistics regarding the absolute values of the bloat metrics.
+The acronym of each metric is described in detail [here](#rq1a.csv).
+Some of those total and average numbers are utilized in Section 3.1 of our paper
+(e.g. {Total, average} number of bloated {dependencies, files, methods}, in the context of entries or LoC).
