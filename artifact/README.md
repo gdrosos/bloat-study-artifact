@@ -76,7 +76,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
 
 #### `rq2b.csv`: 
-- Contains metrics regarding the usage of inactive (used with bloated vulnerable method) and active vulnerable packages witihn each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency,  and more precicely the extent of bloat and usage in both the  files and methods of this dependency.
+- Contains metrics regarding the usage of inactive (used with bloated vulnerable method) and active vulnerable packages within each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency,  and more precisely the extent of bloat and usage in both the files and methods of this dependency.
 
   - Columns:
     - `project`: Github Owner-Repository Name, signifying the particular Python project being analyzed.
@@ -201,4 +201,53 @@ Direct bloated      : 49.55%
 Transitive bloated  : 44.19%
 Direct used         : 4.21%
 Transitive used     : 2.05%
+```
+
+## RQ2: Security Impact (Section 3.2)
+
+In the second research question,
+we explore the relation between bloated dependency code and software
+vulnerabilities.
+To produce Figure 8 of our paper, simply run:
+
+```bash
+python scripts/rq2.py data/results/rq2a.csv --output figures/vulnerable_dep_usage_status.pdf 
+```
+
+
+The above command produces the figure `figures/vulnerable_dep_usage_status.pdf` (Figure 8)
+and prints the following data in the standard output:
+
+```
+Vulnerable Dependency Activation Status:
+
+dependency_type                Direct  Transitive  Total
+activation_status                                       
+Active                             20           6     26
+Inactive (bloated dependency)      41         565    606
+Inactive (bloated method)          84          38    122
+Undefined                          26          36     62
+Total                             171         645    816
+
+Number of projects depending on at least one vulnerable release: 595
+```
+
+Moreover, to compute the distribution of bloat metrics per vulnerability exposure and produce Figure 6 of our paper,
+simply run:
+```bash
+python scripts/rq2_bloat_metrics.py data/results/rq2b.csv --output figures/bloat_metric_per_exposure.pdf 
+```
+
+The above command produces the figure `figures/bloat_metric_per_exposure.pdf` (Figure 6)
+and prints the following data in the standard output:
+
+
+```
+Distribution of bloat metrics per vulnerability exposure:
+                          count  mean   std   min   25%   50%   75%   max
+metric          Status                                                   
+Bloated files   Active    26.00 63.47 16.36 38.89 55.46 64.44 77.25 87.50
+                Inactive 123.00 80.22 12.53 33.33 68.82 82.98 88.89 98.61
+Bloated methods Active    26.00 85.07 12.62 62.66 79.79 90.02 94.61 97.97
+                Inactive 123.00 94.59  6.86 48.15 94.02 96.51 98.59 99.92
 ```
