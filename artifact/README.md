@@ -251,3 +251,30 @@ Bloated files   Active    26.00 63.47 16.36 38.89 55.46 64.44 77.25 87.50
 Bloated methods Active    26.00 85.07 12.62 62.66 79.79 90.02 94.61 97.97
                 Inactive 123.00 94.59  6.86 48.15 94.02 96.51 98.59 99.92
 ```
+
+## RQ3: Root Causes (Section 3.3)
+
+In this research question we manually classify
+the root causes of 50 bloated dependencies
+and report our results,
+as depicted on Figure 9.
+
+To produce Figure 9, simply run:
+
+```bash
+python scripts/rq3.py data/results/qualitative_results.json  --output figures/root_cause_distribution.pdf
+```
+
+The above command produces the figure `figures/root_cause_distribution.pdf` (Figure 9)
+and prints the following data in the standard output:
+
+```
+Root Cause Distribution:
+--------------------------------------------
+Built-in or alternate library: 9/50 (18.00%)
+Unused from the first time: 8/50 (16.00%)
+Feature removal: 10/50 (20.00%)
+Transitive dependency: 15/50 (30.00%)
+Security constraint: 5/50 (10.00%)
+Compatibility constraint: 3/50 (6.00%)
+```
