@@ -156,7 +156,7 @@ Moreover, to produce Figure 7, simply run:
 python scripts/rq1_dep_comp.py data/results/rq1b.csv --output figures/bloat_prevalence_direct_vs_transitive.pdf
 ```
 
-The above command produces the figure `figures/bloat_prevalence_direct_vs_transitive.pdf` (Figure 5)
+The above command produces the figure `figures/bloat_prevalence_direct_vs_transitive.pdf` (Figure 7)
 and prints the following stats in the standard output:
 
 ```
