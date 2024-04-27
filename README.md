@@ -116,7 +116,7 @@ sh scripts/dependency_resolution/run_dep_resolution.sh <your_github_token> data
 ```
 This script performs the following steps:
 
-- Downloads the dataset from Zenodo that includes the Python projects used in our study.
+- Downloads the [dataset](https://zenodo.org/records/5645517) from Zenodo that includes the Python projects used in our study.
 - Clones each project repository into the specified target directory (data/).
 - Resolves dependencies for each project using pip and saves the results in a resolved_dependencies.json file within each project's directory.
 - Aggregates all the individual `resolved_dependencies.json` files from each project into a single file named `project_dependencies.json`. The structure of this file is as follows:
