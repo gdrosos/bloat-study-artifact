@@ -34,7 +34,6 @@ porridge/bambam
 pretenders/pretenders
 seperman/deepdiff
 spyder-ide/qtawesome
-genotrance/px
 svenkreiss/html5validator
 vmware/pyvmomi
 py-bson/bson
@@ -46,5 +45,6 @@ clarkperkins/click-shell
 metaodi/osmapi
 micropyramid/forex-python
 minio/minio-py
-ahmadfaizalbh/chatbot
 cobrateam/splinter
+coin-or/pulp
+grigorig/stcgal
