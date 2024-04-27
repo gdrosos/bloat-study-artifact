@@ -147,10 +147,12 @@ Each key in the JSON object represents a project, and the values are the release
 For a quicker resolution process, we give the option to resolve dependencies for a subset of the dataset.
 This process handles only 50 projects and is significantly faster. To execute this, run:
 ```bash
-sh scripts/dependency_resolution/run_dep_resolution.sh <your_github_token> data subset
+sh scripts/dependency_resolution/run_dep_resolution.sh <your_github_token> data/subset subset
 ```
 This execution will download the source code of 50 projects
-and generate a `project_dependencies_subset.json` file containing the resolved dependencies for the subset of projects.
+and generate a `project_dependencies_subset.json` file in the `data/subset` directory containing the resolved dependencies for the subset of projects.
+
+### Partial Call Graph Construction (Section 2.3.1)
 
 
 
