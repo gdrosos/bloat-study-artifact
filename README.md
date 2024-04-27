@@ -106,6 +106,69 @@ presented in the paper using the data coming from the `data/` directory.
 
 ## Methodology
 
+###  Project Selection and Dependency Resolution (Section 2.2)
+This section outlines the process of resolving project dependencies as detailed in Section 2.2 of our accompanying paper.
+
+#### Dependency Resolution of Full Dataset (Optional)
+To perform the dependency resolution process of the full dataset, simply execute (estimated running time: 1-2 days):
+```bash
+sh scripts/dependency_resolution/run_dep_resolution.sh <your_github_token> data
+```
+This script performs the following steps:
+
+- Downloads the dataset from Zenodo that includes the Python projects used in our study.
+- Clones each project repository into the specified target directory (data/).
+- Resolves dependencies for each project using pip and saves the results in a resolved_dependencies.json file within each project's directory.
+- Aggregates all the individual `resolved_dependencies.json` files from each project into a single file named `project_dependencies.json`. The structure of this file is as follows:
+```json
+[
+    {
+      "rdiff-backup/rdiff-backup": [
+        "PyYAML:6.0"
+      ]
+    },
+    {
+      "jopohl/urh": [
+        "psutil:5.9.5",
+        "numpy:1.25.0",
+        "PyQt5-sip:12.12.1",
+        "PyQt5:5.15.9",
+        "Cython:0.29.36",
+        "PyQt5-Qt5:5.15.2"
+      ]
+    }
+  // More projects...
+]
+```
+Each key in the JSON object represents a project, and the values are the releases of the resolved dependencies.
+
+This script downloads from Zenodo the Python projects of the initial dataset we used,
+then it clones each repo to the specified target directory (data/),
+and then for each project, it resolves its dependencies and saves them in a json file named:
+`resolved_dependencies.json` in the each repo's corresponding directory.
+Finally it produces a file named `resolved_dependencies.json`
+which aggregates all the individual json file of each project.
+It structure is as follows:
+
+
+where each key is a project and values are the releases of the resolved dependencies.
+
+
+
+#### Dependency Resolution of a Subset Dataset
+
+For a quicker resolution process or for testing purposes, we give the option to resolve dependencies for a subset of the dataset.
+This process handles only 50 projects and is significantly faster. To execute this, run:
+```bash
+sh scripts/dependency_resolution/run_dep_resolution.sh <your_github_token> data subset
+```
+This execution will download the source code of 50 projects
+and generate a `project_dependencies_subset.json` file containing the resolved dependencies for the subset of projects.
+
+
+
+
+
 ### Call Graph Stitching
 
 ### Reachability Analysis
