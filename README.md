@@ -142,19 +142,6 @@ This script performs the following steps:
 ```
 Each key in the JSON object represents a project, and the values are the releases of the resolved dependencies.
 
-This script downloads from Zenodo the Python projects of the initial dataset we used,
-then it clones each repo to the specified target directory (data/),
-and then for each project, it resolves its dependencies and saves them in a json file named:
-`resolved_dependencies.json` in the each repo's corresponding directory.
-Finally it produces a file named `resolved_dependencies.json`
-which aggregates all the individual json file of each project.
-It structure is as follows:
-
-
-where each key is a project and values are the releases of the resolved dependencies.
-
-
-
 #### Dependency Resolution of a Subset Dataset
 
 For a quicker resolution process or for testing purposes, we give the option to resolve dependencies for a subset of the dataset.
