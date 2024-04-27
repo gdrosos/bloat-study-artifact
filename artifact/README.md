@@ -141,13 +141,13 @@ Each sub-directory is named using the pattern `repo_name/project_name/` and cont
 ###### Example Directory Structure
 
 For a project named `datadogpy` under the `datadog` repository, the directory structure would be:
-
+```
 datadog/datadogpy/
 ├─ cg.json
 ├─ bloat_metrics.json
 ├─ bloat_metrics_direct_vs_transitive.json
 └─ security_metrics.json (if applicable)
-
+```
 
 
 
