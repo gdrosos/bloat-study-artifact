@@ -136,7 +136,7 @@ Each sub-directory is named using the pattern `repo_name/project_name/` and cont
 
 - **`bloat_metrics_direct_vs_transitive.json`**: Contains individual project-specific code bloat metrics comparing direct vs transitive dependencies from the reachability analysis. Each record from these JSON files has been systematically aggregated into the [rq1b.csv](#rq1bcsv), which is used in subsequent steps to produce Figure 7.
 
-- **`security_metrics.json`**: Available only for projects with reachable vulnerable dependencies. It includes metrics on dependency bloat concerning vulnerable code. The data in this file are systematically aggregated and used to populate both the `[rq2a.csv](#rq2acsv)` and `[rq2b.csv](#rq2bcsv)` files, which facilitate the analysis and presentation of the results for RQ2.
+- **`security_metrics.json`**: Available only for projects with reachable vulnerable dependencies. It includes metrics on dependency bloat concerning vulnerable code. The data in this file are systematically aggregated and used to populate both the [rq2a.csv](#rq2acsv) and [rq2b.csv](#rq2bcsv) files, which facilitate the analysis and presentation of the results for RQ2.
 
 ###### Example Directory Structure
 
