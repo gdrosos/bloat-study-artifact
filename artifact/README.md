@@ -104,6 +104,54 @@ In the following section, we provide instructions
 for reproducing the results
 presented in the paper using the data coming from the `data/` directory.
 
+## Methodology
+
+### Call Graph Stitching
+
+### Reachability Analysis
+
+
+#### Final Dataset Retrieval
+
+**NOTE:** Ensure that you have at least 10GB of available disk space before running this step.
+
+To obtain the stitched call graphs of the 1302 Python Applications, as well as the bloat metrics correspondng to each project,
+you can fetch the data from zenodo. First run:
+
+`wget -O stitched_cg_data.zip "https://zenodo.org/records/11077253/files/stitched_callgraphs.zip?download=1"`
+
+To extract the data, run:
+
+`unzip stitched_cg_data.zip `
+
+this will create the directory `stitched_callgraphs`. This directory is structured into directories for each of the analyzed projects.
+Each sub-directory is named using the pattern `repo_name/project_name/` and contains several JSON files detailing the stitched call graphs and various metrics analyses.
+
+##### File Descriptions
+
+- **`cg.json`**: Contains the stitched call graph for the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
+
+- **`bloat_metrics.json`**: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files has been systematically aggregated into the [rq1a.csv](#rq1acsv), which is used in subsequent steps to produce Figure 5.
+
+
+- **`bloat_metrics_direct_vs_transitive.json`**: Contains individual project-specific code bloat metrics comparing direct vs transitive dependencies from the reachability analysis. Each record from these JSON files has been systematically aggregated into the [rq1b.csv](#rq1bcsv), which is used in subsequent steps to produce Figure 7.
+
+- **`security_metrics.json`**: Available only for projects with reachable vulnerable dependencies. It includes metrics on dependency bloat concerning vulnerable code. The data in this file are systematically aggregated and used to populate both the `[rq2a.csv](#rq2acsv)` and `[rq2b.csv](#rq2bcsv)` files, which facilitate the analysis and presentation of the results for RQ2.
+
+###### Example Directory Structure
+
+For a project named `datadogpy` under the `datadog` repository, the directory structure would be:
+
+datadog/datadogpy/
+├─ cg.json
+├─ bloat_metrics.json
+├─ bloat_metrics_direct_vs_transitive.json
+└─ security_metrics.json (if applicable)
+
+
+
+
+
 ## RQ1: Bloat Prevalence (Section 3.1)
 
 In the first research question,
@@ -146,7 +194,7 @@ Package     Bloated LoC     1302.00 34.39 32.28 0.00  5.93 24.78 52.93 100.00
 
 
 **Note**: The first table presents descriptive statistics regarding the absolute values of the bloat metrics.
-The acronym of each metric is described in detail [here](#rq1a.csv).
+The acronym of each metric is described in detail [here](#rq1acsv).
 Some of those total and average numbers are utilized in Section 3.1 of our paper
 (e.g. {Total, average} number of bloated {dependencies, files, methods}, in the context of entries or LoC).
 
