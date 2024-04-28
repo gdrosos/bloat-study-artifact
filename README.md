@@ -171,14 +171,18 @@ This script will install PyCG and use it to produce the partial call graphs of t
 It will also retrieve the dependnecy set of all projects and build the partial call graph of each dependency.
 The partial call graph for each project is stored in JSON format at the destination:
 `data/callgraphs/apps/{project_ownler}/{project_repo}/cg.json`.
+
 Similarly, the call graph for each PyPI dependency (package:version) is stored in the file:
  `data/callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
+
  Moreover, the source code of each release wil also be stored in the following directory:
-  `data/callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
-  (e.g. `data/callgraphs/a/attrs/23.2.0/cg.json`).
+`data/callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
+
+(e.g. `data/callgraphs/a/attrs/23.2.0/cg.json`).
 
 Moreover, the source code of each release will also be stored in the following directory:
   `data/sources/{first_letter_of_package_name}/{package_name}/{package_version}/`.
+  
  Finally, the script will produce a JSON file named `data/project_dependencies_final.json` which contains the final dataset of projects and dependencies which will be used for the remaining steps of the Data Analysis Phase.(Its descriptives are described on the Data Analysis rows of Table 1).
 
 
