@@ -208,7 +208,7 @@ In our implementation, for efficiency we perform the stitching and the reachabil
 Before beginning this process, ensure that you have access to the `data/project_dependenciesfinal.json` file, which contains the resolved dependencies after the Partial Call Graph Generation phase.
 This file is included in already included in the repository but can also be generated using the process described in the [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section.
 Moreover, in order to replicate the stitching as well as the reachability analysis of the whole dataset used in our study,
-you need to have produced the partial call graphs of each project and each dependency, either through performing the steps described on  [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section or through using the bre-baked dataset obtained through zenodo (see [here](todo)). Moreover,
+you need to have produced the partial call graphs of each project and each dependency, either through performing the steps described on  [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section or through using the bre-baked dataset obtained through zenodo (see [here](todo)).
 
 **Important Note:** This process is expected to take **1-2 weeks** to complete.
 
