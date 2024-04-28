@@ -67,7 +67,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `PBFD-LOC`: Percentage of Bloated Files in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency files that are bloated.
     - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
 
-### `rq1b.csv`: 
+### rq1b.csv: 
 - For each Python project, it includes the different usage statuses of its direct and transitive dependencies, showcasing metrics related to bloat and usage in various granularities (RQ1).
 
   - Columns:
@@ -101,7 +101,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `transitive_dependency_methods_used_count`: Number of used methods in transitive dependencies.
     - `transitive_dependency_methods_used_loc`: Lines of code in the used methods of transitive dependencies.
 
-### `rq2a.csv`: 
+### rq2a.csv: 
 - Contains the quantitative results for the second research question (RQ2), including all Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
   - Columns:
     - `project`: Github Owner-Repository Name, representing the Python project.
@@ -109,7 +109,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `dependency_type`: Distinguishes whether the vulnerable package is a direct or transitive dependency of the project.
     - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
 
-### `rq2b.csv`: 
+### rq2b.csv: 
 - Contains metrics regarding the usage of inactive (used with bloated vulnerable method) and active vulnerable packages within each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency,  and more precisely the extent of bloat and usage in both the files and methods of this dependency.
 
   - Columns:
