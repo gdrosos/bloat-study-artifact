@@ -2,12 +2,16 @@
 This is the artifact for the paper accepted to FSE'24 titled:
 "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis.
 
-## Directory Structure
+# Table of Contents
+- [Artifact for for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis](#artifact-for-for-bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
+- [Table of Contents](#table-of-contents)
 
-### [project-data](./project-data/)
+# Directory Structure
+
+## [project-data](./project-data/)
 - `project_dependencies.json`: Json file mapping each of the 1302 GitHub projects to its set of resolved dependencies, accounting for 3,232 unique PyPI releases.
 
-### [partial_callgraphs](./partial_callgraphs)
+## [partial_callgraphs](./partial_callgraphs)
 - Contains a sample number of JSON files representing the stitched call graphs of Python GitHub projects.
 Due to size restrictions,
 we have included a subset,
@@ -15,8 +19,8 @@ specifically the call graphs of projects whose owner name starts with the letter
 (150 in total).
 The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
 
-### [results](./results/)
-#### rq1a.csv: 
+## [results](./results/)
+### rq1a.csv: 
 - Contains the quantitative analysis results for the first research question (RQ1), focusing especially on the prevalence of bloat at different granularities in the Python projects.
   - Columns:
     - `project`: Github Owner-Repository Name.
@@ -33,13 +37,13 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `PBFD-LOC`: Percentage of Bloated Files in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency files that are bloated.
     - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
 
-#### `rq1b.csv`: 
+### `rq1b.csv`: 
 - For each Python project, it includes the different usage statuses of its direct and transitive dependencies, showcasing metrics related to bloat and usage in various granularities (RQ1).
 
   - Columns:
     - `project`: Github Owner-Repository Name.
     
-    #### Direct Dependencies:
+    ### Direct Dependencies:
     - `direct_dependencies_bloated_count`: Number of bloated direct dependencies.
     - `direct_dependencies_bloated_loc`: Lines of code in bloated direct dependencies.
     - `direct_dependency_files_bloated_count`: Number of bloated files in direct dependencies.
@@ -53,7 +57,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `direct_dependency_methods_used_count`: Number of used methods in direct dependencies.
     - `direct_dependency_methods_used_loc`: Lines of code in the used methods of direct dependencies.
         
-    #### Transitive Dependencies:
+    ### Transitive Dependencies:
     - `transitive_dependencies_bloated_count`: Number of bloated transitive dependencies.
     - `transitive_dependencies_bloated_loc`: Lines of code in bloated transitive dependencies.
     - `transitive_dependency_files_bloated_count`: Number of bloated files in transitive dependencies.
@@ -67,7 +71,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `transitive_dependency_methods_used_count`: Number of used methods in transitive dependencies.
     - `transitive_dependency_methods_used_loc`: Lines of code in the used methods of transitive dependencies.
 
-#### `rq2a.csv`: 
+### `rq2a.csv`: 
 - Contains the quantitative results for the second research question (RQ2), including all Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
   - Columns:
     - `project`: Github Owner-Repository Name, representing the Python project.
@@ -75,7 +79,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `dependency_type`: Distinguishes whether the vulnerable package is a direct or transitive dependency of the project.
     - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
 
-#### `rq2b.csv`: 
+### `rq2b.csv`: 
 - Contains metrics regarding the usage of inactive (used with bloated vulnerable method) and active vulnerable packages within each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency,  and more precisely the extent of bloat and usage in both the files and methods of this dependency.
 
   - Columns:
@@ -90,11 +94,11 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `percentage_bloated_files`: Computes the percentage of bloated files within the files of the vulnerable dependency.
 
 
-#### `rq3.json`: 
+### `rq3.json`: 
 - Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated dependencies.
 
 
-## Usage
+# Usage
 
 These datasets and results are provided as supplementary material to validate and further explore the findings of our research on bloated dependency code within the PyPI ecosystem.
 
