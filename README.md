@@ -119,7 +119,7 @@ This script performs the following steps:
 - Downloads the [dataset](https://zenodo.org/records/5645517) from Zenodo that includes the Python projects used in our study.
 - Clones each project repository into the specified target directory (data/).
 - Resolves dependencies for each project using pip and saves the results in a resolved_dependencies.json file within each project's directory.
-- Aggregates all the individual `resolved_dependencies.json` files from each project into a single file named `project_dependencies.json`. The structure of this file is as follows:
+- Aggregates all the individual `resolved_dependencies.json` files from each project into a single file named `project_dependencies_post_data_collection.json`. The structure of this file is as follows:
 ```json
 [
     {
@@ -140,7 +140,7 @@ This script performs the following steps:
   // More projects...
 ]
 ```
-Each key in the JSON object represents a project, and the values are the releases of the resolved dependencies.
+Each key in the JSON object represents a project, and the values are the releases of the resolved dependencies. This JSON File describes the status of our dataset after the Data Collection phase (its descriptives are described on the third line of Table 1).
 
 #### Dependency Resolution of a Subset Dataset
 
@@ -154,9 +154,46 @@ and generate a `project_dependencies_subset.json` file in the `data/subset` dire
 
 ### Partial Call Graph Construction (Section 2.3.1)
 
+In this step, we use PyCG to build the partial call graph of each project,
+as well as for each of its dependencies.
+
+#### Partial Call Graph Generation of Full Dataset (Optional)
+Optionally, you can reproduce the partial call graph generation process of the full dataset.
+**Important Note:** This process is expected to take **2-3 weeks** to complete.
+Before beginning this process, ensure that you have access to the `data/project_dependencies_post_data_collection.json` file, which contains the resolved dependencies after the Data Collection. This file is included in the repository but can also be generated using the process described in the [dependency resolution process of the full dataset](#dependency-resolution-of-full-dataset-optional) section.
+To initiate this process, you should first obtain the `data/project_dependencies_post_data_collection.json` file, with contains the dataset (projects & dependencies) after the Data Collection phase. Additionally, ensure that the source code for each project is downloaded.
+Additionally, the source code for each project must be available locally. This can be accomplished by either running the previous dependency resolution steps or by downloading a pre-prepared dataset from Zenodo [(see here)](todo).
+To initiate the partial call graph generation, execute the following command:
+```bash
+sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> data data/project_dependencies_post_data_collection.json data/project_dependencies_final.json 
+```
+This script will install PyCG and use it to produce the partial call graphs of the source code of each project.
+It will also retrieve the dependnecy set of all projects and build the partial call graph of each dependency.
+The partial call graph for each project is stored in JSON format at the destination:
+`data/callgraphs/apps/{project_ownler}/{project_repo}/cg.json`.
+Similarly, the call graph for each PyPI dependency (package:version) is stored in the file:
+ `data/callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
+ Moreover, the source code of each release wil also be stored in the following directory:
+  `data/callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
+  (e.g. `data/callgraphs/a/attrs/23.2.0/cg.json`).
+
+Moreover, the source code of each release will also be stored in the following directory:
+  `data/sources/{first_letter_of_package_name}/{package_name}/{package_version}/`.
+ Finally, the script will produce a JSON file named `data/project_dependencies_final.json` which contains the final dataset of projects and dependencies which will be used for the remaining steps of the Data Analysis Phase.(Its descriptives are described on the Data Analysis rows of Table 1).
 
 
+#### Partial Call Graph Generation of Subset Dataset
+For a quicker alternative, you can run the partial call graph generation process for a subset of 50 projects along with their set of dependencies, comprising of 88 unique PyPI releases.
+Ensure you have completed the [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) step before proceeding with this step..
+To initiate this process, execute the following command:
+```bash
+sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> data/subset data/subset/project_dependencies_subset.json data/subset/project_dependencies_final_subset.json 
+```
+This script performs the same operations as outlined in the full dataset section but on a smaller scale. It will:
 
+* Produce the partial call graphs for each project and its dependencies.
+* Store the produced partial call graphs, as well as the source code of each dependency within the `data/subset/` directory, maintaining the same organizational structure.
+* Finally, it will generate a file named `data/subset/project_dependencies_final_subset.json`, containing the final dataset of projects and dependencie after performing this step.
 
 ### Call Graph Stitching
 
