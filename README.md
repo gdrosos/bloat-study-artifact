@@ -222,9 +222,9 @@ This script collects for each project the partial call graphs of its source code
 Moreover, it performs a reachability analysis (Section 2.3.3) on the stitched graph to identify various bloated metrics for the first research question (Section 2.4 first paragraph)
 For each project, it produces 2 json files. Specifically:
 
-- **`data/stitched_callgraphs/{project_ownler}/{project_repo}/cg.json`**: Contains the stitched call graph for the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
+- `data/stitched_callgraphs/{project_ownler}/{project_repo}/cg.json`: Contains the stitched call graph for the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
 
-- **`data/stitched_callgraphs/{project_ownler}/{project_repo}/bloat_metrics.json`**: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files is being used to produce [rq1a.csv](#rq1acsv), and [rq1b.csv](#rq1bcsv) which are used in subsequent steps to produce the Figures of RQ1 results.
+- `data/stitched_callgraphs/{project_ownler}/{project_repo}/bloat_metrics.json`: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files is being used to produce [rq1a.csv](#rq1acsv), and [rq1b.csv](#rq1bcsv) which are used in subsequent steps to produce the Figures of RQ1 results.
 
 #### Stitching & Reachability Analysis of Subset Dataset
 
