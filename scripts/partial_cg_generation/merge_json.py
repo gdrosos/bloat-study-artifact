@@ -43,9 +43,12 @@ def merge_json_dep(directory, output_file, result_dict):
             keys_to_remove.append(key)
     for key in keys_to_remove:
         del result_dict[key]
+    project_list = []
+    for key, value in result_dict.items():
+        project_list.append({key: value})
     # Write all data to a single JSON file
     with open(output_file, 'w') as f:
-        json.dump(result_dict, f, indent=2)
+        json.dump(project_list, f, indent=2)
 
 def main():
     args = parse_args()

@@ -161,7 +161,8 @@ as well as for each of its dependencies.
 Optionally, you can reproduce the partial call graph generation process of the full dataset.
 **Important Note:** This process is expected to take **2-3 weeks** to complete.
 Before beginning this process, ensure that you have access to the `data/project_dependencies_post_data_collection.json` file, which contains the resolved dependencies after the Data Collection. This file is included in the repository but can also be generated using the process described in the [dependency resolution process of the full dataset](#dependency-resolution-of-full-dataset-optional) section.
-To initiate this process, you should first obtain the `data/project_dependencies_post_data_collection.json` file, with contains the dataset (projects & dependencies) after the Data Collection phase. Additionally, ensure that the source code for each project is downloaded.
+To initiate this process, you should first obtain the `data/project_dependencies_post_data_collection.json` file, with contains the dataset (projects & dependencies) after the Data Collection phase. A
+
 Additionally, the source code for each project must be available locally. This can be accomplished by either running the previous dependency resolution steps or by downloading a pre-prepared dataset from Zenodo [(see here)](todo).
 To initiate the partial call graph generation, execute the following command:
 ```bash
@@ -182,12 +183,12 @@ Similarly, the call graph for each PyPI dependency (package:version) is stored i
 
 Moreover, the source code of each release will also be stored in the following directory:
   `data/sources/{first_letter_of_package_name}/{package_name}/{package_version}/`.
-  
+
  Finally, the script will produce a JSON file named `data/project_dependencies_final.json` which contains the final dataset of projects and dependencies which will be used for the remaining steps of the Data Analysis Phase.(Its descriptives are described on the Data Analysis rows of Table 1).
 
 
 #### Partial Call Graph Generation of Subset Dataset
-For a quicker alternative, you can run the partial call graph generation process for a subset of 50 projects along with their set of dependencies, comprising of 88 unique PyPI releases.
+For a quicker alternative, you can run the partial call graph construction process for a subset of 50 projects along with their set of dependencies, comprising of 88 unique PyPI releases.
 Ensure you have completed the [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) step before proceeding with this step..
 To initiate this process, execute the following command:
 ```bash
@@ -199,9 +200,44 @@ This script performs the same operations as outlined in the full dataset section
 * Store the produced partial call graphs, as well as the source code of each dependency within the `data/subset/` directory, maintaining the same organizational structure.
 * Finally, it will generate a file named `data/subset/project_dependencies_final_subset.json`, containing the final dataset of projects and dependencie after performing this step.
 
-### Call Graph Stitching
+### Stitching of Call Graphs & Reachability Analysis (Sections 2.3.2 & 2.3.3)
+In our implementation, for efficiency we perform the stitching and the reachability analysis in one step.
 
-### Reachability Analysis
+#### Stitching & Reachability Analysis of Full Dataset (Optional)
+
+Before beginning this process, ensure that you have access to the `data/project_dependenciesfinal.json` file, which contains the resolved dependencies after the Partial Call Graph Generation phase.
+This file is included in already included in the repository but can also be generated using the process described in the [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section.
+Moreover, in order to replicate the stitching as well as the reachability analysis of the whole dataset used in our study,
+you need to have produced the partial call graphs of each project and each dependency, either through performing the steps described on  [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section or through using the bre-baked dataset obtained through zenodo (see [here](todo)). Moreover,
+
+**Important Note:** This process is expected to take **1-2 weeks** to complete.
+
+To initiate the stitched call graph generation (and reachability analysis), execute the following command:
+
+```bash
+python3 scripts/stitched_cg_generation/stitch.py --source data/full/callgraphs --json data/subset/full/project_dependencies_final_subset.json
+```
+
+This script collects for each project the partial call graphs of its source code as well as its dependencies, and merges them to form the stitched graph.
+Moreover, it performs a reachability analysis (Section 2.3.3) on the stitched graph to identify various bloated metrics for the first research question (Section 2.4 first paragraph)
+For each project, it produces 2 json files. Specifically:
+
+- **`data/stitched_callgraphs/{project_ownler}/{project_repo}/cg.json`**: Contains the stitched call graph for the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
+
+- **`data/stitched_callgraphs/{project_ownler}/{project_repo}/bloat_metrics.json`**: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files is being used to produce [rq1a.csv](#rq1acsv), and [rq1b.csv](#rq1bcsv) which are used in subsequent steps to produce the Figures of RQ1 results.
+
+#### Stitching & Reachability Analysis of Subset Dataset
+
+Alternatively, for convenience, we give the option to perform the stitching as well as the reachability analysis for the 50 sample projects used in dependency resolution and partial call graph generation.
+The only requirement to run this analysis is to have prformed the steps outlined in sections [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset)  and [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset). Having performed those steps, simply run:
+
+
+```bash
+python3 scripts/stitched_cg_generation/stitch.py --source data/subset/callgraphs --json data/subset/project_dependencies_final_subset.json
+```
+
+This script performs the same operations as outlined in the full dataset section but on a smaller scale, and it wil store the resutls in the directory `data/subset/`.
+
 
 
 #### Final Dataset Retrieval
