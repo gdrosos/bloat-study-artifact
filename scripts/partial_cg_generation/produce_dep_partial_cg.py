@@ -17,7 +17,7 @@ FAIL = "Fail"
 def process(package, source):
     package = package.strip()
     product, version = package.split(":")
-    cg_path = source+"/callgraphs/"+package[0]+"/"+product+"/"+version
+    cg_path = source+"/partial_callgraphs/"+package[0]+"/"+product+"/"+version
     if not os.path.exists(cg_path):
         print ("{}: Producing partial call graph of dependency {}".format(
             datetime.datetime.now(),

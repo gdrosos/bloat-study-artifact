@@ -49,7 +49,7 @@ class CallGraphGenerator:
         self.source_path = self.source_dir/("sources/{}/{}/{}".format(
                     self.product[0], self.product, self.version))
         # Where the call graphs will be storedn
-        self.cg_path = self.source_dir/("callgraphs/{}/{}/{}".format(
+        self.cg_path = self.source_dir/("partial_callgraphs/{}/{}/{}".format(
                     self.product[0], self.product, self.version))
         self._create_dir(self.source_dir)
         self._create_dir(self.out_dir)

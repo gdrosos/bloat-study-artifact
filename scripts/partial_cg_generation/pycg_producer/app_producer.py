@@ -45,7 +45,7 @@ class CallGraphGenerator:
         self.source_path = self.source_dir/("sources/apps/{}".format(
                     release))
         # Where the call graphs will be stored
-        self.cg_path = self.source_dir/("callgraphs/apps/{}".format(
+        self.cg_path = self.source_dir/("partial_callgraphs/apps/{}".format(
                     release))
 
     def generate(self):

@@ -7,7 +7,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
 ### [project-data](./project-data/)
 - `project_dependencies.json`: Json file mapping each of the 1302 GitHub projects to its set of resolved dependencies, accounting for 3,232 unique PyPI releases.
 
-### [callgraphs](./callgraphs)
+### [partial_callgraphs](./partial_callgraphs)
 - Contains a sample number of JSON files representing the stitched call graphs of Python GitHub projects.
 Due to size restrictions,
 we have included a subset,
@@ -171,15 +171,15 @@ sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token
 This script will install PyCG and use it to produce the partial call graphs of the source code of each project.
 It will also retrieve the dependnecy set of all projects and build the partial call graph of each dependency.
 The partial call graph for each project is stored in JSON format at the destination:
-`data/callgraphs/apps/{project_ownler}/{project_repo}/cg.json`.
+`data/partial_callgraphs/apps/{project_ownler}/{project_repo}/cg.json`.
 
 Similarly, the call graph for each PyPI dependency (package:version) is stored in the file:
- `data/callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
+ `data/partial_callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
 
  Moreover, the source code of each release wil also be stored in the following directory:
-`data/callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
+`data/partial_callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
 
-(e.g. `data/callgraphs/a/attrs/23.2.0/cg.json`).
+(e.g. `data/partial_callgraphs/a/attrs/23.2.0/cg.json`).
 
 Moreover, the source code of each release will also be stored in the following directory:
   `data/sources/{first_letter_of_package_name}/{package_name}/{package_version}/`.
@@ -215,7 +215,7 @@ you need to have produced the partial call graphs of each project and each depen
 To initiate the stitched call graph generation (and reachability analysis), execute the following command:
 
 ```bash
-python3 scripts/stitched_cg_generation/stitch.py --source data/full/callgraphs --json data/subset/full/project_dependencies_final_subset.json
+python3 scripts/stitched_cg_generation/stitch.py --source data/full/partial_callgraphs --json data/subset/full/project_dependencies_final_subset.json
 ```
 
 This script collects for each project the partial call graphs of its source code as well as its dependencies, and merges them to form the stitched graph.
@@ -233,7 +233,7 @@ The only requirement to run this analysis is to have prformed the steps outlined
 
 
 ```bash
-python3 scripts/stitched_cg_generation/stitch.py --source data/subset/callgraphs --json data/subset/project_dependencies_final_subset.json
+python3 scripts/stitched_cg_generation/stitch.py --source data/subset/partial_callgraphs --json data/subset/project_dependencies_final_subset.json
 ```
 
 This script performs the same operations as outlined in the full dataset section but on a smaller scale, and it wil store the resutls in the directory `data/subset/`.

@@ -15,7 +15,7 @@ def parse_args():
 
 def process(package, source):
     package = package.strip()
-    if not os.path.exists(source+"/callgraphs/apps/"+package):
+    if not os.path.exists(source+"/partial_callgraphs/apps/"+package):
         print ("{}: Producing partial call graph of project {}".format(
         datetime.datetime.now(),
         package
