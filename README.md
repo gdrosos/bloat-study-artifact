@@ -273,6 +273,125 @@ python3 scripts/stitched_cg_generation/stitch.py --source data/subset/partial_ca
 This script performs the same operations as outlined in the full dataset section but on a smaller scale, and it wil store the resutls in the directory `data/subset/`.
 
 
+### Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):
+Here we describe how you can run our methodology for producing  the security metrics used to answer RQ2. The steps are described in the second paragraph of Section 2.4.
+We split this process in 2 steps. The first, is using the Github advisory database to retrieve PyPI vulnerabilities and investigate whether they affect our dataset. This step does not have any prerequisites. To perform this,
+simply run:
+```bash
+ sh scripts/security_analysis/run_security_analysis.sh   <your_github_token>  data/security  /home/gdrosos/bloat-study-artifact/data/project_dependencies.json
+``` 
+The scirpt performs the following steps:
+* It will first download the repository of the advisory databse which contains the known PyPI vulnerabilities (this might take up to 15 minutes depending on your network connection)
+* It will parse the repository to identify vulnerabilties affecting PyPI releases
+* It will then find all the vulnerable releases affecting our dataset, and it will produce a file `data/security/project_vulnerabilities.json` which has the following format:
+
+```json
+{
+  "widdowquinn/pyani": [
+    {
+      "Pillow:10.0.0": [
+        "GHSA-3f63-hfp8-52jq",
+        "GHSA-j7hp-h8jx-5ppr"
+      ]
+    },
+    {
+      "fonttools:4.40.0": [
+        "GHSA-6673-4983-2vx5"
+      ]
+    }
+  ],
+  "pelican-plugins/image-process": [
+    {
+      "Pillow:10.0.0": [
+        "GHSA-3f63-hfp8-52jq",
+        "GHSA-j7hp-h8jx-5ppr"
+      ]
+    },
+    {
+      "jinja2:3.1.2": [
+        "GHSA-h5c8-rqwp-cp95"
+      ]
+    }
+  ],
+// More projects...
+}
+```
+Where each key is a project with at least one vulnerable dependencies and as values  it has a a list of json objects which havbe as key the vulnerable reelase and as value a list with the affected cves.
+
+Then, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to asnwer RQ2. To do this you need the already existing file `data/security/vulnerability2function.json` which contains the (manually created) mapping of each vulnerability encountered in our dataset with the actual vulnerable function. Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the bre-baked dataset existing on Zenodo (for details see[here](todo)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the reachability analysis by running:
+
+
+```bash
+python3 scripts/stitched_cg_generation/security_reachability_analysis.py  --host {Path_to_stitched_callgraph}  --project_vulns  data/security/project_vulnerabilities.json --vuln2func data/security/vulnerability2function.json
+```
+```
+$: python3 scripts/stitched_cg_generation/security_reachability_analysis.py -h
+usage: security_reachability_analysis.py [-h] -host HOST -project_vulns PROJECT_VULNS -vuln2func VULN2FUNC
+
+Extract security bloat metrics for RQ2 through the reachability analysis
+
+options:
+  -h, --help            show this help message and exit
+  -host HOST, --host HOST
+                        Path to the directory hosting the stitched call graphs
+  -project_vulns PROJECT_VULNS, --project_vulns PROJECT_VULNS
+                        Json file hosting project vulnerabilities
+  -vuln2func VULN2FUNC, --vuln2func VULN2FUNC
+                        Json file hosting the manual mapping of vulnerabilities to vulnerable functions
+```
+
+For each project having at least one vulnerable dependency, the script will produce in the same direcotry where the stitched call graph exists a file named:
+`security_metrics.json`
+We adduce an example file for the project  `ccrisan/motioneye`:
+
+```json
+{
+  "product": "ccrisan/motioneye",
+  "own_files_count": 28,
+  "own_files_loc": 9845,
+  "own_functions_count": 386,
+  "own_functions_loc": 8042,
+  "total_dependency_functions_count": 5570,
+  "total_dependency_functions_loc": 65861,
+  "total_dependency_files_count": 238,
+  "total_dependency_files_loc": 94113,
+  "reachable_dependencies": 3,
+  "reachable_dependencies_loc": 90959,
+  "reachable_dependency_files": 74,
+  "reachable_dependency_files_loc": 44650,
+  "reachable_dependency_functions": 315,
+  "reachable_dependency_functions_loc": 6905,
+  "total_dependencies_count": 5,
+  "total_dependencies_loc": 5,
+  "bloated_dependencies_count": 2,
+  "bloated_dependencies_loc": 3154,
+  "bloated_files_count": 164,
+  "bloated_files_loc": 49463,
+  "bloated_functions_count": 5257,
+  "bloated_functions_loc": 58956,
+  "vulnerable_dependencies_reachable": 1,
+  "vulnerable_dependencies_bloated": 0,
+  "vulnerable_dependencies_reachable_through_functions": 0,
+  "vulnerable_dependencies_bloated_through_functions": 1,
+  "vulnerable_dependencies_unresolved_through_functions": 0,
+  "exposure_dict": {
+    "Active": {},
+    "Bloated": {},
+    "Inactive": {
+      "tornado": {
+        "bloated_files": 67,
+        "used_files": 31,
+        "bloated_functions": 3253,
+        "used_functions": 214,
+        "reachable_file": true,
+      }
+    },
+    "Undefined": {}
+  }
+}
+```
+By aggregating the data included in those files, we craft the `data/results/rq2a.cv` and `data/results/rq2b.cv` which are used to asnwer RQ2 and produce the corresponding figures (see [RQ2: Security Impact (Section 3.2)](#rq2--security-impact--section-32-))
+
 
 #### Final Dataset Retrieval
 
