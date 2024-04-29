@@ -40,7 +40,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
   - [RQ1: Bloat Prevalence (Section 3.1)](#rq1-bloat-prevalence-section-31)
   - [RQ2: Security Impact (Section 3.2)](#rq2-security-impact-section-32)
   - [RQ3: Root Causes (Section 3.3)](#rq3-root-causes-section-33)
-  - [RQ3: Developer Perception (Section 3.4)](#rq3-developer-perception-section-34)
+  - [RQ4: Developer Perception (Section 3.4)](#rq4-developer-perception-section-34)
 
 # Directory Structure
 
@@ -754,7 +754,7 @@ Security constraint: 5/50 (10.00%)
 Compatibility constraint: 3/50 (6.00%)
 ```
 
-## RQ3: Developer Perception (Section 3.4)
+## RQ4: Developer Perception (Section 3.4)
 
 In the last research question, we investigate developer's perception on dependency bloat.
 To reproduce table 3, simply run:
