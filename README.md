@@ -1,9 +1,9 @@
-# Artifact for for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"
+# Artifact for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"
 This is the artifact for the paper accepted to FSE'24 titled:
 "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis.
 
 # Table of Contents
-- [Artifact for for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"](#artifact-for-for-bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
+- [Artifact for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"](#artifact-for-bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
 - [Table of Contents](#table-of-contents)
 - [Directory Structure](#directory-structure)
   - [project-data](#project-data)
@@ -18,7 +18,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
   - [Setup](#setup)
     - [Option1: Ubuntu/Debian Installation](#option1-ubuntudebian-installation)
       - [Prerequisites](#prerequisites)
-      - [Option2: Docker Image Installation](#option2-docker-image-installation)
+    - [Option2: Docker Image Installation](#option2-docker-image-installation)
 - [Usage](#usage)
 - [Step-by-Step Instructions](#step-by-step-instructions)
   - [Methodology](#methodology)
@@ -136,7 +136,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
 # Getting Started
 This section includes instructions and documentation for setting up the necessary environment in order run our scripts.
 
-First get the artifact, and enter the root directory of the artifact
+First, obtain the artifact by cloning the repository, then navigate to the root directory of the artifact as follows:
 ```bash
    git clone https://github.com/gdrosos/bloat-study-artifact ~/bloat-study-artifact
    cd ~/bloat-study-artifact
@@ -165,6 +165,7 @@ First, install git, python and pip:
 sudo apt update
 sudo apt install git python3-pip sudo wget unzip python3-venv
 ```
+**Important Note**
 For convenience, throughout the documentation and scripts, we use the standard python command instead of python3. To ensure compatibility, please create a symbolic link to point python to python3 by running the following command:
 ```bash
 ln -s /usr/bin/python3 /usr/bin/python
@@ -178,7 +179,7 @@ source .env/bin/activate
 pip install -r requirements.txt
 ```
 
-#### Option2: Docker Image Installation
+### Option2: Docker Image Installation
 
 Use this option if you prefer a containerized environment or are not using an Ubuntu/Debian operating system.
 We provide a `Dockerfile` to build an image
