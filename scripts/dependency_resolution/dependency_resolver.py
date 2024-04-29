@@ -117,7 +117,7 @@ def save_output(coord_list, resolved_deps_file):
 def main():
     args = parse_args()
     data = load_csv(args.file)
-    pool = Pool(cpu_count()-3)
+    pool = Pool(cpu_count()-2)
     pool.starmap(process, [(app, args.directory) for app in data])
 
 
