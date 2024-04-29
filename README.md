@@ -14,7 +14,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [rq2a.csv:](#rq2acsv)
     - [rq2b.csv:](#rq2bcsv)
     - [`rq3.json`:](#rq3json)
-- [Usage](#usage)
+- [Getting Started](#getting-started)
 - [Step-by-Step Instructions](#step-by-step-instructions)
   - [Methodology](#methodology)
     - [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution-section-22)
@@ -128,9 +128,10 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
 ### `rq3.json`: 
 - Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated dependencies.
 
-# Usage
+# Getting Started
 
-These datasets and results are provided as supplementary material to validate and further explore the findings of our research on bloated dependency code within the PyPI ecosystem.
+Before getting started, ensure that your machine meets the specifications outlined in the [Requirements](REQUIREMENTS.md) file.
+Additionally, please refer to the [Installation Guide](INSTALL.md) for detailed instructions on setting up the necessary environment to run our experiments.
 
 # Step-by-Step Instructions
 
