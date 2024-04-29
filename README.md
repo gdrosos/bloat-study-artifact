@@ -200,7 +200,8 @@ To initiate this process, you should first obtain the `data/project_dependencies
 Additionally, the source code for each project must be available locally. This can be accomplished by either running the previous dependency resolution steps or by downloading a pre-prepared dataset from Zenodo [(see here)](todo).
 To initiate the partial call graph generation, execute the following command:
 ```bash
-sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> data data/project_dependencies_post_data_collection.json data/project_dependencies_final.json 
+sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> \
+ data data/project_dependencies_post_data_collection.json data/project_dependencies_final.json 
 ```
 This script will install PyCG and use it to produce the partial call graphs of the source code of each project.
 It will also retrieve the dependnecy set of all projects and build the partial call graph of each dependency.
@@ -226,7 +227,9 @@ For a quicker alternative, you can run the partial call graph construction proce
 Ensure you have completed the [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) step before proceeding with this step..
 To initiate this process, execute the following command:
 ```bash
-sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> data/subset data/subset/project_dependencies_subset.json data/subset/project_dependencies_final_subset.json 
+sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> \
+data/subset data/subset/project_dependencies_subset.json \
+data/subset/project_dependencies_final_subset.json 
 ```
 This script performs the same operations as outlined in the full dataset section but on a smaller scale. It will:
 
@@ -249,7 +252,8 @@ you need to have produced the partial call graphs of each project and each depen
 To initiate the stitched call graph generation (and reachability analysis), execute the following command:
 
 ```bash
-python3 scripts/stitched_cg_generation/stitch.py --source data/full/partial_callgraphs --json data/subset/full/project_dependencies_final_subset.json
+python3 scripts/stitched_cg_generation/stitch.py \
+  --source data/full/partial_callgraphs --json data/subset/full/project_dependencies_final_subset.json
 ```
 
 This script collects for each project the partial call graphs of its source code as well as its dependencies, and merges them to form the stitched graph.
@@ -267,7 +271,8 @@ The only requirement to run this analysis is to have prformed the steps outlined
 
 
 ```bash
-python3 scripts/stitched_cg_generation/stitch.py --source data/subset/partial_callgraphs --json data/subset/project_dependencies_final_subset.json
+python3 scripts/stitched_cg_generation/stitch.py --source data/subset/partial_callgraphs \ 
+  --json data/subset/project_dependencies_final_subset.json
 ```
 
 This script performs the same operations as outlined in the full dataset section but on a smaller scale, and it wil store the resutls in the directory `data/subset/`.
@@ -278,7 +283,8 @@ Here we describe how you can run our methodology for producing  the security met
 We split this process in 2 steps. The first, is using the Github advisory database to retrieve PyPI vulnerabilities and investigate whether they affect our dataset. This step does not have any prerequisites. To perform this,
 simply run:
 ```bash
- sh scripts/security_analysis/run_security_analysis.sh   <your_github_token>  data/security data/project_dependencies_final.json
+ sh scripts/security_analysis/run_security_analysis.sh   <your_github_token>  \ 
+  data/security data/project_dependencies_final.json
 ``` 
 The scirpt performs the following steps:
 * It will first download the repository of the advisory databse which contains the known PyPI vulnerabilities (this might take up to 15 minutes depending on your network connection)
@@ -322,7 +328,10 @@ Then, you can also run the reachability analysis on the stitched call graphs to 
 
 
 ```bash
-python3 scripts/stitched_cg_generation/security_reachability_analysis.py  --host {Path_to_stitched_callgraph}  --project_vulns  data/security/project_vulnerabilities.json --vuln2func data/security/vulnerability2function.json
+python3 scripts/stitched_cg_generation/security_reachability_analysis.py \
+  --host {Path_to_stitched_callgraph} \
+  --project_vulns  data/security/project_vulnerabilities.json \
+  --vuln2func data/security/vulnerability2function.json
 ```
 ```
 $: python3 scripts/stitched_cg_generation/security_reachability_analysis.py -h
@@ -436,7 +445,9 @@ datadog/datadogpy/
 To produce the descriptive statistics regarding our dataset after the Data Collection and After the Data Analysis steps (as described on Table 1), simply run:
 
 ```bash
-python3 scripts/descriptives/dataset_analysis.py  -json_pre data/project_dependencies_post_data_collection.json  -json_post data/project_dependencies_final.json 
+python3 scripts/descriptives/dataset_analysis.py  \
+  -json_pre data/project_dependencies_post_data_collection.json \
+  -json_post data/project_dependencies_final.json 
 ```
 The following script will print the following table (Part of Table 1):
 ```
@@ -511,7 +522,8 @@ Some of those total and average numbers are utilized in Section 3.1 of our paper
 Moreover, to produce Figure 7, simply run:
 
 ```bash
-python scripts/rq1_dep_comp.py data/results/rq1b.csv --output figures/bloat_prevalence_direct_vs_transitive.pdf
+python scripts/rq1_dep_comp.py data/results/rq1b.csv \
+  --output figures/bloat_prevalence_direct_vs_transitive.pdf
 ```
 
 The above command produces the figure `figures/bloat_prevalence_direct_vs_transitive.pdf` (Figure 7)
@@ -593,7 +605,8 @@ Number of projects depending on at least one vulnerable release: 595
 Moreover, to compute the distribution of bloat metrics per vulnerability exposure and produce Figure 6 of our paper,
 simply run:
 ```bash
-python scripts/rq2_bloat_metrics.py data/results/rq2b.csv --output figures/bloat_metric_per_exposure.pdf 
+python scripts/rq2_bloat_metrics.py data/results/rq2b.csv \
+--output figures/bloat_metric_per_exposure.pdf 
 ```
 
 The above command produces the figure `figures/bloat_metric_per_exposure.pdf` (Figure 6)
@@ -620,7 +633,8 @@ as depicted on Figure 9.
 To produce Figure 9, simply run:
 
 ```bash
-python scripts/rq3.py data/results/qualitative_results.json  --output figures/root_cause_distribution.pdf
+python scripts/rq3.py data/results/qualitative_results.json \
+ --output figures/root_cause_distribution.pdf
 ```
 
 The above command produces the figure `figures/root_cause_distribution.pdf` (Figure 9)
@@ -674,7 +688,8 @@ Moreover, to reproduce Figure 10, run:
 
 
 ```bash
-python scripts/rq4.py data/results/qualitative_results.json --output_fig_10 figures/pr_per_root_cause.pdf
+python scripts/rq4.py data/results/qualitative_results.json \
+ --output_fig_10 figures/pr_per_root_cause.pdf
 ```
 
 The above command produces the figure `figures/pr_per_root_cause.pdf` (Figure 10)
@@ -722,7 +737,8 @@ In the same manner, to reproduce Figure 11, run:
 
 
 ```bash
-python scripts/rq4.py data/results/qualitative_results.json --output_fig_11 figures/pr_durations.pdf
+python scripts/rq4.py data/results/qualitative_results.json \
+--output_fig_11 figures/pr_durations.pdf
 ```
 
 The above command produces the figure `figures/pr_durations.pdf` (Figure 11)
@@ -738,7 +754,8 @@ Pull Requests Merged more than Month: 10
 Finally, to reproduce Figure 12, run:
 
 ```bash
-python scripts/rq4.py data/results/qualitative_results.json --output_fig_12 figures/pr_discussions.pdf
+python scripts/rq4.py data/results/qualitative_results.json \
+ --output_fig_12 figures/pr_discussions.pdf
 ```
 
 The above command produces the figure `figures/pr_discussions.pdf` (Figure 12)
