@@ -13,7 +13,6 @@ This document outlines the badges we are applying for in relation to our artifac
   - The artifact includes comprehensive documentation, guiding users through the setup and execution of the provided scripts.
   - The results and data included are consistent with those presented in the paper.
   - The artifact package is complete with all necessary components readily available or can be generated using the provided scripts.
-  - Validation evidence is included, showcasing the artifact's capability to reproduce the results presented.
 
 - **Evaluated - Reusable**: 
   - We have adhered to community norms and standards in documenting and structuring our artifact, ensuring that other researchers can easily understand and reuse it.
