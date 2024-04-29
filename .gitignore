@@ -2,3 +2,7 @@
 */subset/*
 */virtual_environments/*
 *.pyc
+*MACOSX
+*dataset-package
+*figures*
+dataset.zip

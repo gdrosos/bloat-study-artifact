@@ -5,15 +5,11 @@ shivam5992/textstat
 globocom/m3u8
 keleshev/schema
 oca/connector
-spdx/tools-python
 neovim/pynvim
-onelogin/python-saml
 python-visualization/branca
 manolomartinez/greg
-porridge/bambam
 seperman/deepdiff
 spyder-ide/qtawesome
-svenkreiss/html5validator
 geopy/geopy
 cherrypy/cheroot
 clarkperkins/click-shell
@@ -23,7 +19,6 @@ cobrateam/splinter
 coin-or/pulp
 grigorig/stcgal
 jrxfive/python-nomad
-nicolaslm/sauna
 python273/vk_api
 uqfoundation/pathos
 jupyter/terminado
@@ -33,7 +28,6 @@ kjellmf/dot2tex
 pypa/auditwheel
 redcap-tools/pycap
 gmplot/gmplot
-uberi/speech_recognition
 modlinltd/django-advanced-filters
 fabiocaccamo/django-maintenance-mode
 aio-libs/aiomonitor
@@ -48,3 +42,9 @@ jeltef/pylatex
 languitar/autosuspend
 pv8/noipy
 kovacsbalu/wazeroutecalculator
+razorpay/razorpay-python
+irods/python-irodsclient
+devexp-db/distgen
+matrix-org/matrix-python-sdk
+dropbox/stone
+cloudant/python-cloudant

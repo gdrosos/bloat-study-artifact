@@ -3,38 +3,44 @@ This is the artifact for the paper accepted to FSE'24 titled:
 "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis.
 
 # Table of Contents
-- [Artifact for for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"](#artifact-for-for--bloat-beneath-python-s-scales--a-fine-grained-inter-project-dependency-analysis-)
+- [Artifact for for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"](#artifact-for-for-bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
 - [Table of Contents](#table-of-contents)
 - [Directory Structure](#directory-structure)
-  * [[project-data](./project-data/)](#-project-data---project-data--)
-  * [[partial_callgraphs](./partial_callgraphs)](#-partial-callgraphs---partial-callgraphs-)
-  * [[results](./results/)](#-results---results--)
-    + [rq1a.csv:](#rq1acsv-)
-    + [`rq1b.csv`:](#-rq1bcsv--)
-    + [Direct Dependencies:](#direct-dependencies-)
-    + [Transitive Dependencies:](#transitive-dependencies-)
-    + [`rq2a.csv`:](#-rq2acsv--)
-    + [`rq2b.csv`:](#-rq2bcsv--)
-    + [`rq3.json`:](#-rq3json--)
+  - [project-data](#project-data)
+  - [partial\_callgraphs](#partial_callgraphs)
+  - [results](#results)
+    - [rq1a.csv:](#rq1acsv)
+    - [rq1b.csv:](#rq1bcsv)
+    - [rq2a.csv:](#rq2acsv)
+    - [rq2b.csv:](#rq2bcsv)
+    - [`rq3.json`:](#rq3json)
+- [Getting Started](#getting-started)
+  - [Setup](#setup)
+    - [Option1: Ubuntu/Debian Installation](#option1-ubuntudebian-installation)
+      - [Prerequisites](#prerequisites)
+      - [Option2: Docker Image Installation](#option2-docker-image-installation)
 - [Usage](#usage)
 - [Step-by-Step Instructions](#step-by-step-instructions)
-  * [Methodology](#methodology)
-    + [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution--section-22-)
-      - [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset--optional-)
+  - [Methodology](#methodology)
+    - [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution-section-22)
+      - [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)
       - [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset)
-    + [Partial Call Graph Construction (Section 2.3.1)](#partial-call-graph-construction--section-231-)
-      - [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset--optional-)
+    - [Partial Call Graph Construction (Section 2.3.1)](#partial-call-graph-construction-section-231)
+      - [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional)
       - [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset)
-    + [Stitching of Call Graphs & Reachability Analysis (Sections 2.3.2 & 2.3.3)](#stitching-of-call-graphs---reachability-analysis--sections-232---233-)
-      - [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching---reachability-analysis-of-full-dataset--optional-)
-      - [Stitching & Reachability Analysis of Subset Dataset](#stitching---reachability-analysis-of-subset-dataset)
+    - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
+      - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
+      - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
+    - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
       - [Final Dataset Retrieval](#final-dataset-retrieval)
-        * [File Descriptions](#file-descriptions)
-          + [Example Directory Structure](#example-directory-structure)
-  * [RQ1: Bloat Prevalence (Section 3.1)](#rq1--bloat-prevalence--section-31-)
-  * [RQ2: Security Impact (Section 3.2)](#rq2--security-impact--section-32-)
-  * [RQ3: Root Causes (Section 3.3)](#rq3--root-causes--section-33-)
-  * [RQ3: Developer Perception (Section 3.4)](#rq3--developer-perception--section-34-)
+        - [File Descriptions](#file-descriptions)
+          - [Example Directory Structure](#example-directory-structure)
+  - [Descriptive Tables (Sections 2.2 \& 2.3)](#descriptive-tables-sections-22--23)
+- [Results](#results-1)
+  - [RQ1: Bloat Prevalence (Section 3.1)](#rq1-bloat-prevalence-section-31)
+  - [RQ2: Security Impact (Section 3.2)](#rq2-security-impact-section-32)
+  - [RQ3: Root Causes (Section 3.3)](#rq3-root-causes-section-33)
+  - [RQ3: Developer Perception (Section 3.4)](#rq3-developer-perception-section-34)
 
 # Directory Structure
 
@@ -151,19 +157,23 @@ To replicate the environment needed to run the analyses and scripts, you can cho
 Section [Option2: Docker Image Installation](#option2-docker-image-installation).
 
 
-You need to install `git` through  `apt` as well as some Python packages to run the
+You need to install `git` through `apt` as well as some Python packages to run the
 experiments of this artifact.
 First, install git, python and pip:
 
 ```bash
 sudo apt update
-sudo apt install git python3 python3-pip
+sudo apt install git python3-pip sudo wget unzip python3-venv
+```
+For convenience, throughout the documentation and scripts, we use the standard python command instead of python3. To ensure compatibility, please create a symbolic link to point python to python3 by running the following command:
+```bash
+ln -s /usr/bin/python3 /usr/bin/python
 ```
 
 You also need to install some Python packages.
 In a Python virtualenv run the following:
 ```bash
-python3 -m venv .env
+python -m venv .env
 source .env/bin/activate
 pip install -r requirements.txt
 ```
@@ -174,20 +184,20 @@ Use this option if you prefer a containerized environment or are not using an Ub
 We provide a `Dockerfile` to build an image
 that contains:
 
-* The necessary `apt` packages (e.g., `git`, `python3`, `pip`) for running the
+* The necessary `apt` packages (e.g., `git`, `python3`, `pip`, `sudo`) for running the
   scripts.
 * The necessary Python packages (declared in the `requirements.txt` file).
 * A user named `user` with `sudo` privileges.
 
 To build the Docker image named `bloat-study-artifact` from source,
-run the following command (estimated running time: ~x min)
+run the following command (estimated running time: ~5 minutes)
 Build the Docker Image:
 
 
 ```bash
 docker build -t bloat-study-artifact .
 ```
-Run the docker ocntianer:
+Run the docker container:
 
 ```bash
 docker run -it --rm \
@@ -216,19 +226,35 @@ for reproducing the results
 presented in the paper using the data coming from the `data/` directory.
 
 ## Methodology
+ Before proceeding with the methodology, it's important to note that for each step of our process
+ (dependency resolution, partial call graph generation, and stitching), we offer two options.
+ The first option involves running the steps on the full dataset, which replicates the exact operations performed in the paper.
+ However, this comprehensive process may take up to 5 weeks to complete.
+ For convenience, we provide the option to execute the methodology steps for a subset of 50 projects, which should take less than 30 minutes to finish.
+
+In order to run some parts of our methodology, you will need a Github access token
+a Github access token (see [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)).
+Once you obtain it,
+please assign it to a shell variable named `GH_TOKEN`.
+
+```bash
+export GH_TOKEN=<your Github access token>
+```
+
+**Note**: Some numbers generated from the methodology section may differ slightly from those reported in the paper or our datasets. This variance is due to changes in source code or dependency relations of certain projects or dependencies since our analysis was conducted.
 
 ###  Project Selection and Dependency Resolution (Section 2.2)
 This section outlines the process of resolving project dependencies as detailed in Section 2.2 of our accompanying paper.
 
 #### Dependency Resolution of Full Dataset (Optional)
-To perform the dependency resolution process of the full dataset, simply execute (estimated running time: 1-2 days):
+To perform the dependency resolution process of the full dataset, simply execute (estimated running time: 2-3 days):
 ```bash
-sh scripts/dependency_resolution/run_dep_resolution.sh <your_github_token> data
+sh scripts/dependency_resolution/run_dep_resolution.sh $GH_TOKEN data
 ```
 This script performs the following steps:
 
 - Downloads the [dataset](https://zenodo.org/records/5645517) from Zenodo that includes the Python projects used in our study.
-- Clones each project repository into the specified target directory (data/).
+- Clones each project repository into the specified target directory (`data/`).
 - Resolves dependencies for each project using pip and saves the results in a resolved_dependencies.json file within each project's directory.
 - Aggregates all the individual `resolved_dependencies.json` files from each project into a single file named `project_dependencies_post_data_collection.json`. The structure of this file is as follows:
 ```json
@@ -258,7 +284,7 @@ Each key in the JSON object represents a project, and the values are the release
 For a quicker resolution process, we give the option to resolve dependencies for a subset of the dataset.
 This process handles only 50 projects and is significantly faster. To execute this, run:
 ```bash
-sh scripts/dependency_resolution/run_dep_resolution.sh <your_github_token> data/subset subset
+sh scripts/dependency_resolution/run_dep_resolution.sh $GH_TOKEN data/subset subset
 ```
 This execution will download the source code of 50 projects
 and generate a `project_dependencies_subset.json` file in the `data/subset` directory containing the resolved dependencies for the subset of projects.
@@ -277,7 +303,7 @@ To initiate this process, you should first obtain the `data/project_dependencies
 Additionally, the source code for each project must be available locally. This can be accomplished by either running the previous dependency resolution steps or by downloading a pre-prepared dataset from Zenodo [(see here)](todo).
 To initiate the partial call graph generation, execute the following command:
 ```bash
-sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> \
+sh scripts/partial_cg_generation/run_partial_cg_generation.sh $GH_TOKEN \
  data data/project_dependencies_post_data_collection.json data/project_dependencies_final.json 
 ```
 This script will install PyCG and use it to produce the partial call graphs of the source code of each project.
@@ -301,10 +327,10 @@ Moreover, the source code of each release will also be stored in the following d
 
 #### Partial Call Graph Generation of Subset Dataset
 For a quicker alternative, you can run the partial call graph construction process for a subset of 50 projects along with their set of dependencies, comprising of 88 unique PyPI releases.
-Ensure you have completed the [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) step before proceeding with this step..
-To initiate this process, execute the following command:
+Ensure you have completed the [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) step before proceeding with this step.
+To initiate this process, execute the following command  (estimated running time: ~10 minutes):
 ```bash
-sh scripts/partial_cg_generation/run_partial_cg_generation.sh <your_github_token> \
+sh scripts/partial_cg_generation/run_partial_cg_generation.sh $GH_TOKEN \
 data/subset data/subset/project_dependencies_subset.json \
 data/subset/project_dependencies_final_subset.json 
 ```
@@ -329,8 +355,8 @@ you need to have produced the partial call graphs of each project and each depen
 To initiate the stitched call graph generation (and reachability analysis), execute the following command:
 
 ```bash
-python3 scripts/stitched_cg_generation/stitch.py \
-  --source data/full/partial_callgraphs --json data/subset/full/project_dependencies_final_subset.json
+python scripts/stitched_cg_generation/stitch.py \
+  --source data/full/partial_callgraphs --json data/project_dependencies_final.json
 ```
 
 This script collects for each project the partial call graphs of its source code as well as its dependencies, and merges them to form the stitched graph.
@@ -348,7 +374,7 @@ The only requirement to run this analysis is to have prformed the steps outlined
 
 
 ```bash
-python3 scripts/stitched_cg_generation/stitch.py --source data/subset/partial_callgraphs \ 
+python scripts/stitched_cg_generation/stitch.py --source data/subset/partial_callgraphs \
   --json data/subset/project_dependencies_final_subset.json
 ```
 
@@ -356,15 +382,15 @@ This script performs the same operations as outlined in the full dataset section
 
 
 ### Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):
-Here we describe how you can run our methodology for producing  the security metrics used to answer RQ2. The steps are described in the second paragraph of Section 2.4.
+Here we describe how you can run our methodology for producing the security metrics used to answer RQ2. The steps are described in the second paragraph of Section 2.4.
 We split this process in 2 steps. The first, is using the Github advisory database to retrieve PyPI vulnerabilities and investigate whether they affect our dataset. This step does not have any prerequisites. To perform this,
 simply run:
 ```bash
- sh scripts/security_analysis/run_security_analysis.sh   <your_github_token>  \ 
+ sh scripts/security_analysis/run_security_analysis.sh  $GH_TOKEN  \
   data/security data/project_dependencies_final.json
 ``` 
 The scirpt performs the following steps:
-* It will first download the repository of the advisory databse which contains the known PyPI vulnerabilities (this might take up to 15 minutes depending on your network connection)
+* It will first download the repository of the advisory database which contains the known PyPI vulnerabilities (this might take up to 30 minutes depending on your network connection)
 * It will parse the repository to identify vulnerabilties affecting PyPI releases
 * It will then find all the vulnerable releases affecting our dataset, and it will produce a file `data/security/project_vulnerabilities.json` which has the following format:
 
@@ -399,19 +425,19 @@ The scirpt performs the following steps:
 // More projects...
 }
 ```
-Where each key is a project with at least one vulnerable dependencies and as values  it has a a list of json objects which havbe as key the vulnerable reelase and as value a list with the affected cves.
+Where each key is a project with at least one vulnerable dependencies and as values it has a a list of json objects which havbe as key the vulnerable reelase and as value a list with the affected cves.
 
 Then, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to asnwer RQ2. To do this you need the already existing file `data/security/vulnerability2function.json` which contains the (manually created) mapping of each vulnerability encountered in our dataset with the actual vulnerable function. Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the bre-baked dataset existing on Zenodo (for details see[here](todo)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the reachability analysis by running:
 
 
 ```bash
-python3 scripts/stitched_cg_generation/security_reachability_analysis.py \
+python scripts/stitched_cg_generation/security_reachability_analysis.py \
   --host {Path_to_stitched_callgraph} \
   --project_vulns  data/security/project_vulnerabilities.json \
   --vuln2func data/security/vulnerability2function.json
 ```
 ```
-$: python3 scripts/stitched_cg_generation/security_reachability_analysis.py -h
+$: python scripts/stitched_cg_generation/security_reachability_analysis.py -h
 usage: security_reachability_analysis.py [-h] -host HOST -project_vulns PROJECT_VULNS -vuln2func VULN2FUNC
 
 Extract security bloat metrics for RQ2 through the reachability analysis
@@ -519,10 +545,10 @@ datadog/datadogpy/
 
 ## Descriptive Tables (Sections 2.2 & 2.3)
 
-To produce the descriptive statistics regarding our dataset after the Data Collection and After the Data Analysis steps (as described on Table 1), simply run:
+To produce the descriptive statistics regarding our dataset after the Data Collection as well as after the Data Analysis steps (as described on Table 1), simply run:
 
 ```bash
-python3 scripts/descriptives/dataset_analysis.py  \
+python scripts/descriptives/dataset_analysis.py  \
   -json_pre data/project_dependencies_post_data_collection.json \
   -json_post data/project_dependencies_final.json 
 ```
@@ -537,7 +563,7 @@ Data Analysis   | Partial Call Graph Generation | 1302                  | 21785 
 Moreover, to produce Table 2  describing the statistics on the resolved and unresolved external calls during our stitching process, simply run:
 
 ```bash
-python3 evaluation.py  -csv ../../data/results/rq1a.csv 
+python scripts/descriptives/evaluation.py  -csv data/results/rq1a.csv 
 ```
 This script will produce the following table:
 

@@ -102,8 +102,7 @@ class CallGraphGenerator:
                 lename = i.name
                 if lename.endswith(".py"):
                     return i
-            # self._format_error(err_phase, 'Expecting a single downloaded item {}'.format(str(items)))
-            # raise CallGraphGeneratorError()
+            return self.downloads_dir
         return items[0]
 
     def _copy_source(self, pkg):
@@ -158,12 +157,8 @@ class CallGraphGenerator:
             '--timestamp', '0',
             '--output', self.out_file.as_posix()
         ] + files_list
-        timing = [
-            "/usr/bin/time",
-            "-f", "secs=%e\nmem=%M"
-        ]
         try:
-            out, err = self._execute(timing + cmd, None)
+            out, err = self._execute(cmd, None)
         except Exception as e:
             self._format_error('generation', str(e))
             raise CallGraphGeneratorError()

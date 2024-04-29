@@ -97,7 +97,6 @@ def process(app, app_path):
                 save_output({app_name: dependencies}, resolved_deps_file)
                 return
 
-
         requirements_file = app_path+"/requirements.txt"
         if os.path.exists(requirements_file):
             status, res = entrypoint.run_pip(requirements_file, True)

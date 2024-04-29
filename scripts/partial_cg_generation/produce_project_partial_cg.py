@@ -23,7 +23,6 @@ def process(package, source):
 
         generator = CallGraphGenerator(source, package)
         output = generator.generate()
-
         return output
 
 def main():
@@ -35,7 +34,6 @@ def main():
         project_list.append(list(project.keys())[0])
     pool = Pool(cpu_count()-2)
     output = pool.starmap(process, [(app, args.source) for app in project_list])
-
 
 if __name__ == "__main__":
     main()

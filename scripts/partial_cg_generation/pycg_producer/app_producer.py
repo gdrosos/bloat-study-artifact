@@ -68,8 +68,6 @@ class CallGraphGenerator:
         # call pycg using `package`
 
         files_list = self._get_python_files(package_path)
-
-
         # x = []
         # for i in files_list:
         #     if "/docs/" not in i:
@@ -81,7 +79,6 @@ class CallGraphGenerator:
         # if the package path contains an init file
         # then the package is its parent
 
-
         cmd = [
             'pycg',
             '--fasten',
@@ -92,13 +89,9 @@ class CallGraphGenerator:
             '--timestamp', '0',
             '--output', self.out_file.as_posix()
         ] + files_list
-        timing = [
-            "/usr/bin/time",
-            "-f", "secs=%e\nmem=%M"
-        ]
 
         try:
-            process1 = sp.Popen(timing + cmd, stdout=sp.PIPE, stderr=sp.PIPE)
+            process1 = sp.Popen(cmd, stdout=sp.PIPE, stderr=sp.PIPE)
             pid = process1.pid 
             out, err = process1.communicate(None)
         except Exception as e:

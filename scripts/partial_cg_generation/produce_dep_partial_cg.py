@@ -25,7 +25,6 @@ def process(package, source):
         ))
         generator = CallGraphGenerator(source, package)
         output = generator.generate()
-
         path =  source+"/sources/"+ package[0]+"/"+package.replace(":", "/")+"/top_level.txt"
         if not os.path.exists(os.getcwd()+path):
             generator.copy_top_level_txt()
