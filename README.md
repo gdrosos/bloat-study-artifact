@@ -14,11 +14,6 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [rq2a.csv:](#rq2acsv)
     - [rq2b.csv:](#rq2bcsv)
     - [`rq3.json`:](#rq3json)
-- [Getting Started](#getting-started)
-  - [Setup](#setup)
-    - [Option1: Ubuntu/Debian Installation](#option1-ubuntudebian-installation)
-      - [Prerequisites](#prerequisites)
-    - [Option2: Docker Image Installation](#option2-docker-image-installation)
 - [Usage](#usage)
 - [Step-by-Step Instructions](#step-by-step-instructions)
   - [Methodology](#methodology)
@@ -133,89 +128,6 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
 ### `rq3.json`: 
 - Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated dependencies.
 
-# Getting Started
-This section includes instructions and documentation for setting up the necessary environment in order run our scripts.
-
-First, obtain the artifact by cloning the repository, then navigate to the root directory of the artifact as follows:
-```bash
-   git clone https://github.com/gdrosos/bloat-study-artifact ~/bloat-study-artifact
-   cd ~/bloat-study-artifact
-```
-## Setup
-To replicate the environment needed to run the analyses and scripts, you can choose between setting up a virtual environment directly on Ubuntu/Debian or using Docker.
-
-
-
-### Option1: Ubuntu/Debian Installation
-#### Prerequisites
-- Ubuntu/Debian operating system.
-- Git and Python 3.8+ installed.
-
-
-
-**NOTE**: If you are not running an Ubuntu/Debian OS, please jump to the
-Section [Option2: Docker Image Installation](#option2-docker-image-installation).
-
-
-You need to install `git` through `apt` as well as some Python packages to run the
-experiments of this artifact.
-First, install git, python and pip:
-
-```bash
-sudo apt update
-sudo apt install git python3-pip sudo wget unzip python3-venv
-```
-**Important Note**
-For convenience, throughout the documentation and scripts, we use the standard python command instead of python3. To ensure compatibility, please create a symbolic link to point python to python3 by running the following command:
-```bash
-ln -s /usr/bin/python3 /usr/bin/python
-```
-
-You also need to install some Python packages.
-In a Python virtualenv run the following:
-```bash
-python -m venv .env
-source .env/bin/activate
-pip install -r requirements.txt
-```
-
-### Option2: Docker Image Installation
-
-Use this option if you prefer a containerized environment or are not using an Ubuntu/Debian operating system.
-We provide a `Dockerfile` to build an image
-that contains:
-
-* The necessary `apt` packages (e.g., `git`, `python3`, `pip`, `sudo`) for running the
-  scripts.
-* The necessary Python packages (declared in the `requirements.txt` file).
-* A user named `user` with `sudo` privileges.
-
-To build the Docker image named `bloat-study-artifact` from source,
-run the following command (estimated running time: ~5 minutes)
-Build the Docker Image:
-
-
-```bash
-docker build -t bloat-study-artifact .
-```
-Run the docker container:
-
-```bash
-docker run -it --rm \
-    -v $(pwd)/scripts:/home/user/scripts \
-    -v $(pwd)/data:/home/user/data \
-    -v $(pwd)/figures:/home/user/figures \
-    bloat-study-artifact /bin/bash
-```
-After executing the command, you will be able to enter the home directory
-(i.e., `/home/user`). This directory contains
-(1) the scripts for reproducing the results of the paper (see `scripts/`),
-(2) the data of our bug study (see `data/`),
-(3) a dedicated directory for storing the generated figures (see `figures/`),
-
-
-This setup uses volume mounting (-v) to ensure that scripts, data, and figures directories are persisted outside of the container for ease of access and modification on your local machine.
-
 # Usage
 
 These datasets and results are provided as supplementary material to validate and further explore the findings of our research on bloated dependency code within the PyPI ecosystem.
@@ -232,15 +144,6 @@ presented in the paper using the data coming from the `data/` directory.
  The first option involves running the steps on the full dataset, which replicates the exact operations performed in the paper.
  However, this comprehensive process may take up to 5 weeks to complete.
  For convenience, we provide the option to execute the methodology steps for a subset of 50 projects, which should take less than 30 minutes to finish.
-
-In order to run some parts of our methodology, you will need a Github access token
-a Github access token (see [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)).
-Once you obtain it,
-please assign it to a shell variable named `GH_TOKEN`.
-
-```bash
-export GH_TOKEN=<your Github access token>
-```
 
 **Note**: Some numbers generated from the methodology section may differ slightly from those reported in the paper or our datasets. This variance is due to changes in source code or dependency relations of certain projects or dependencies since our analysis was conducted.
 

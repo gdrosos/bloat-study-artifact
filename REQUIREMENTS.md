@@ -1,4 +1,3 @@
-
 # Requirements
 
 To install and utilize the artifact, the following requirements must be met:
