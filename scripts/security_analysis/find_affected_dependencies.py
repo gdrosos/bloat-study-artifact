@@ -1,7 +1,6 @@
 import csv
 from packaging.requirements import Requirement
 from packaging.version import parse
-import pprint
 import json
 import argparse
 

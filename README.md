@@ -39,7 +39,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
 # Directory Structure
 
 ## [project-data](./project-data/)
-- `project_dependencies.json`: Json file mapping each of the 1302 GitHub projects to its set of resolved dependencies, accounting for 3,232 unique PyPI releases.
+- `project_dependencies_final.json`: Json file mapping each of the 1302 GitHub projects to its set of resolved dependencies, accounting for 3,232 unique PyPI releases.
 
 ## [partial_callgraphs](./partial_callgraphs)
 - Contains a sample number of JSON files representing the stitched call graphs of Python GitHub projects.
@@ -278,7 +278,7 @@ Here we describe how you can run our methodology for producing  the security met
 We split this process in 2 steps. The first, is using the Github advisory database to retrieve PyPI vulnerabilities and investigate whether they affect our dataset. This step does not have any prerequisites. To perform this,
 simply run:
 ```bash
- sh scripts/security_analysis/run_security_analysis.sh   <your_github_token>  data/security  /home/gdrosos/bloat-study-artifact/data/project_dependencies.json
+ sh scripts/security_analysis/run_security_analysis.sh   <your_github_token>  data/security data/project_dependencies_final.json
 ``` 
 The scirpt performs the following steps:
 * It will first download the repository of the advisory databse which contains the known PyPI vulnerabilities (this might take up to 15 minutes depending on your network connection)
@@ -431,7 +431,20 @@ datadog/datadogpy/
 └─ security_metrics.json (if applicable)
 ```
 
+## Descriptive Tables (Sections 2.2 & 2.3)
 
+To produce the descriptive statistics regarding our dataset after the Data Collection and After the Data Analysis steps (as described on Table 1), simply run:
+
+```bash
+python3 scripts/descriptives/dataset_analysis.py  -json_pre data/project_dependencies_post_data_collection.json  -json_post data/project_dependencies_final.json 
+```
+The following script will print the following table (Part of Table 1):
+```
+Step            | Operation                     | Total GitHub Projects | Resolved Dependencies | PyPI Releases | Average Dependencies (Per Project)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Data Collection | Dependency Resolution         | 1644                  | 34864                 | 5617          | 21.21                             
+Data Analysis   | Partial Call Graph Generation | 1302                  | 21785                 | 3232          | 16.73   
+```
 
 
 ## RQ1: Bloat Prevalence (Section 3.1)
