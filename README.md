@@ -446,6 +446,21 @@ Data Collection | Dependency Resolution         | 1644                  | 34864 
 Data Analysis   | Partial Call Graph Generation | 1302                  | 21785                 | 3232          | 16.73   
 ```
 
+Moreover, to produce Table 2  describing the statistics on the resolved and unresolved external calls during our stitching process, simply run:
+
+```bash
+python3 evaluation.py  -csv ../../data/results/rq1a.csv 
+```
+This script will produce the following table:
+
+```
+External Calls  Aggregate count Proportion of total (%)   Average (per project) Median (per project)
+Resolved        7799929         96.8                      5990.7               144.5               
+Unresolved      260249          3.2                       199.9                11.5      
+```
+
+
+# Results
 
 ## RQ1: Bloat Prevalence (Section 3.1)
 
