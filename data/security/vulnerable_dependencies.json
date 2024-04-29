@@ -1,384 +1,4 @@
 {
-    "PyYAML:5.3.1": [
-        "GHSA-8q59-q68h-6hv4"
-    ],
-    "Pillow:10.0.0": [
-        "GHSA-3f63-hfp8-52jq",
-        "GHSA-j7hp-h8jx-5ppr"
-    ],
-    "Pillow:9.4.0": [
-        "GHSA-3f63-hfp8-52jq",
-        "GHSA-j7hp-h8jx-5ppr"
-    ],
-    "Pillow:9.5.0": [
-        "GHSA-3f63-hfp8-52jq",
-        "GHSA-j7hp-h8jx-5ppr"
-    ],
-    "Pillow:7.2.0": [
-        "GHSA-9j59-75qj-795w",
-        "GHSA-4fx9-vc88-q2xc",
-        "GHSA-pw3c-h7wp-cvhx",
-        "GHSA-8vj2-vxx3-667w",
-        "GHSA-3f63-hfp8-52jq",
-        "GHSA-j7hp-h8jx-5ppr",
-        "GHSA-8xjq-8fcg-g5hw",
-        "GHSA-mvg9-xffr-p774",
-        "GHSA-f5g8-5qq7-938w",
-        "GHSA-9hx2-hgq2-2g4f",
-        "GHSA-p43w-g3c5-g5mq",
-        "GHSA-f4w8-cv6p-x6r5",
-        "GHSA-g6rj-rv7j-xwp4",
-        "GHSA-rwv7-3v45-hg29",
-        "GHSA-77gc-v2xv-rvvh",
-        "GHSA-hjfx-8p6c-g7gx"
-    ],
-    "Pillow:9.2.0": [
-        "GHSA-3f63-hfp8-52jq",
-        "GHSA-j7hp-h8jx-5ppr"
-    ],
-    "Pillow:9.3.0": [
-        "GHSA-3f63-hfp8-52jq",
-        "GHSA-j7hp-h8jx-5ppr"
-    ],
-    "fonttools:4.40.0": [
-        "GHSA-6673-4983-2vx5"
-    ],
-    "lxml:4.7.1": [
-        "GHSA-wrxv-2j5q-m38w"
-    ],
-    "lxml:4.6.5": [
-        "GHSA-wrxv-2j5q-m38w"
-    ],
-    "jinja2:3.1.2": [
-        "GHSA-h5c8-rqwp-cp95"
-    ],
-    "markdown-it-py:1.1.0": [
-        "GHSA-jrwr-5x3p-hvc3",
-        "GHSA-vrjv-mxr7-vjf8"
-    ],
-    "Django:4.2.3": [
-        "GHSA-qmf9-6jqf-j8fq"
-    ],
-    "Django:3.2.19": [
-        "GHSA-qmf9-6jqf-j8fq",
-        "GHSA-jh3w-4vvf-mjgr"
-    ],
-    "Django:4.1.10": [
-        "GHSA-qmf9-6jqf-j8fq"
-    ],
-    "Django:3.2.20": [
-        "GHSA-qmf9-6jqf-j8fq"
-    ],
-    "Django:2.2.20": [
-        "GHSA-w24h-v9qh-8gxj",
-        "GHSA-2gwj-7jmv-h26r",
-        "GHSA-95rw-fx8r-36v6",
-        "GHSA-6cw3-g6wv-c2xv",
-        "GHSA-53qw-q765-4fww",
-        "GHSA-8c5j-9r9f-c6w8",
-        "GHSA-jrh2-hc4r-7jwx",
-        "GHSA-qm57-vhq3-3fwf",
-        "GHSA-rxjp-mfm9-w4wr",
-        "GHSA-v6rh-hp5x-86rv"
-    ],
-    "sqlparse:0.4.4": [
-        "GHSA-2m57-hf25-phgg"
-    ],
-    "sqlparse:0.2.3": [
-        "GHSA-2m57-hf25-phgg",
-        "GHSA-rrm6-wvj7-cwh2"
-    ],
-    "certifi:2023.5.7": [
-        "GHSA-xqr8-7jwr-rhp7"
-    ],
-    "certifi:2022.12.7": [
-        "GHSA-xqr8-7jwr-rhp7"
-    ],
-    "certifi:2019.11.28": [
-        "GHSA-43fp-rhv2-5gv8",
-        "GHSA-xqr8-7jwr-rhp7"
-    ],
-    "ujson:2.0.0": [
-        "GHSA-wpqr-jcpx-745r",
-        "GHSA-fm67-cv37-96ff",
-        "GHSA-fh56-85cw-5pq6"
-    ],
-    "wheel:0.35.1": [
-        "GHSA-qwmp-2cf2-g9g6"
-    ],
-    "wheel:0.33.4": [
-        "GHSA-qwmp-2cf2-g9g6"
-    ],
-    "Jinja2:2.7.2": [
-        "GHSA-462w-v97r-4m45",
-        "GHSA-hj2j-77xm-mc5v",
-        "GHSA-g3rq-g295-4j3m"
-    ],
-    "tornado:6.3.2": [
-        "GHSA-qppv-j76h-2rpx"
-    ],
-    "tornado:5.1.1": [
-        "GHSA-hj3f-6gcp-jg8j",
-        "GHSA-qppv-j76h-2rpx"
-    ],
-    "requests:2.25.1": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "requests:2.27.1": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "requests:2.28.2": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "requests:2.22.0": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "requests:2.26.0": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "requests:2.25.0": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "requests:1.2.3": [
-        "GHSA-cfj3-7x9c-4p3h",
-        "GHSA-652x-xj99-gmcc",
-        "GHSA-x84v-xcm2-53pg"
-    ],
-    "requests:2.28.1": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "requests:2.23.0": [
-        "GHSA-j8r2-6x86-q33q"
-    ],
-    "urllib3:2.0.3": [
-        "GHSA-g4mx-q9vg-27p4",
-        "GHSA-v845-jxx5-vc9f"
-    ],
-    "urllib3:1.26.16": [
-        "GHSA-g4mx-q9vg-27p4",
-        "GHSA-v845-jxx5-vc9f"
-    ],
-    "urllib3:2.0.2": [
-        "GHSA-g4mx-q9vg-27p4",
-        "GHSA-v845-jxx5-vc9f"
-    ],
-    "urllib3:1.25.11": [
-        "GHSA-g4mx-q9vg-27p4",
-        "GHSA-v845-jxx5-vc9f",
-        "GHSA-q2q7-5pp4-w6pg"
-    ],
-    "urllib3:1.26.14": [
-        "GHSA-g4mx-q9vg-27p4",
-        "GHSA-v845-jxx5-vc9f"
-    ],
-    "urllib3:1.26.11": [
-        "GHSA-g4mx-q9vg-27p4",
-        "GHSA-v845-jxx5-vc9f"
-    ],
-    "urllib3:1.26.5": [
-        "GHSA-g4mx-q9vg-27p4",
-        "GHSA-v845-jxx5-vc9f"
-    ],
-    "astropy:5.3.1": [
-        "GHSA-h2x6-5jx5-46hf"
-    ],
-    "scikit-learn:0.24.2": [
-        "GHSA-jxfp-4rvq-9h9m"
-    ],
-    "idna:3.4": [
-        "GHSA-jjg7-2v4v-x38h"
-    ],
-    "idna:2.10": [
-        "GHSA-jjg7-2v4v-x38h"
-    ],
-    "idna:2.8": [
-        "GHSA-jjg7-2v4v-x38h"
-    ],
-    "idna:2.6": [
-        "GHSA-jjg7-2v4v-x38h"
-    ],
-    "joblib:1.0.1": [
-        "GHSA-6hrg-qmvc-2xh8"
-    ],
-    "setuptools:41.6.0": [
-        "GHSA-r9hx-vwmv-q579"
-    ],
-    "aiohttp:3.8.4": [
-        "GHSA-7gpw-8wmc-pm8g",
-        "GHSA-5h86-8mv2-jq9f",
-        "GHSA-8qpw-xqxj-h4r2",
-        "GHSA-pjjw-qhg8-p2p9",
-        "GHSA-gfw2-4jvh-wgfg",
-        "GHSA-qvrw-v9rv-5rjx",
-        "GHSA-q3qx-c6g2-7pw2",
-        "GHSA-45c4-8wx5-qw6w"
-    ],
-    "aiohttp:3.7.4.post0": [
-        "GHSA-7gpw-8wmc-pm8g",
-        "GHSA-5h86-8mv2-jq9f",
-        "GHSA-8qpw-xqxj-h4r2",
-        "GHSA-pjjw-qhg8-p2p9",
-        "GHSA-gfw2-4jvh-wgfg",
-        "GHSA-qvrw-v9rv-5rjx",
-        "GHSA-q3qx-c6g2-7pw2",
-        "GHSA-xx9p-xxvh-7g8j",
-        "GHSA-45c4-8wx5-qw6w"
-    ],
-    "pymongo:3.13.0": [
-        "GHSA-cr6f-gf5w-vhrc"
-    ],
-    "pymongo:4.4.0": [
-        "GHSA-cr6f-gf5w-vhrc"
-    ],
-    "pymongo:3.3.0": [
-        "GHSA-cr6f-gf5w-vhrc"
-    ],
-    "pymongo:3.12.0": [
-        "GHSA-cr6f-gf5w-vhrc"
-    ],
-    "pymongo:3.5.1": [
-        "GHSA-cr6f-gf5w-vhrc"
-    ],
-    "pip:23.1.2": [
-        "GHSA-mq26-g339-26xf"
-    ],
-    "cryptography:41.0.1": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-6vqw-3v5j-54x4",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-cf7p-gm2m-833m",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8"
-    ],
-    "cryptography:40.0.2": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-6vqw-3v5j-54x4",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-cf7p-gm2m-833m",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v"
-    ],
-    "cryptography:39.0.2": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-6vqw-3v5j-54x4",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v"
-    ],
-    "cryptography:2.3": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-w7pp-m8wf-vj6r",
-        "GHSA-x4qr-2fvf-3mr5",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v",
-        "GHSA-hggm-jpg3-v476"
-    ],
-    "cryptography:3.3.2": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-w7pp-m8wf-vj6r",
-        "GHSA-x4qr-2fvf-3mr5",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v"
-    ],
-    "cryptography:38.0.4": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-6vqw-3v5j-54x4",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-w7pp-m8wf-vj6r",
-        "GHSA-x4qr-2fvf-3mr5",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v"
-    ],
-    "cryptography:39.0.1": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-6vqw-3v5j-54x4",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v"
-    ],
-    "cryptography:3.2": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-w7pp-m8wf-vj6r",
-        "GHSA-x4qr-2fvf-3mr5",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v",
-        "GHSA-rhm9-p9w5-fwm7"
-    ],
-    "cryptography:3.4.8": [
-        "GHSA-3ww4-gg4f-jr7f",
-        "GHSA-9v9h-cgj8-h64p",
-        "GHSA-w7pp-m8wf-vj6r",
-        "GHSA-x4qr-2fvf-3mr5",
-        "GHSA-jfhm-5ghh-2f97",
-        "GHSA-v8gr-m533-ghj9",
-        "GHSA-jm77-qphf-c4w8",
-        "GHSA-5cpq-8wj7-hf2v"
-    ],
-    "bleach:3.2.1": [
-        "GHSA-vv2x-vrpj-qqpq"
-    ],
-    "Werkzeug:1.0.1": [
-        "GHSA-px8h-6qxv-m22q",
-        "GHSA-xg9f-g7g7-2323"
-    ],
-    "Werkzeug:2.0.3": [
-        "GHSA-px8h-6qxv-m22q",
-        "GHSA-xg9f-g7g7-2323"
-    ],
-    "Werkzeug:0.16.1": [
-        "GHSA-px8h-6qxv-m22q",
-        "GHSA-xg9f-g7g7-2323"
-    ],
-    "Werkzeug:0.9.4": [
-        "GHSA-h2fp-xgx6-xh6f",
-        "GHSA-px8h-6qxv-m22q",
-        "GHSA-xg9f-g7g7-2323"
-    ],
-    "dnspython:2.3.0": [
-        "GHSA-3rq5-2g8h-59hc"
-    ],
-    "gunicorn:20.1.0": [
-        "GHSA-w3h3-4rj7-4ph4"
-    ],
-    "gunicorn:20.0.4": [
-        "GHSA-w3h3-4rj7-4ph4"
-    ],
-    "gunicorn:19.0.0": [
-        "GHSA-w3h3-4rj7-4ph4",
-        "GHSA-32pc-xphx-q4f6"
-    ],
-    "Pygments:2.12.0": [
-        "GHSA-mrwq-x4v8-fh7p"
-    ],
-    "Pygments:2.7.4": [
-        "GHSA-mrwq-x4v8-fh7p"
-    ],
-    "Pygments:2.10.0": [
-        "GHSA-mrwq-x4v8-fh7p"
-    ],
-    "Pygments:2.14.0": [
-        "GHSA-mrwq-x4v8-fh7p"
-    ],
-    "redis:4.5.2": [
-        "GHSA-8fww-64cx-x8p5",
-        "GHSA-24wv-mv5m-xv4h"
-    ],
     "grpcio:1.50.0": [
         "GHSA-6628-q6j9-w8vg",
         "GHSA-cfgp-2977-2fmm",
@@ -395,116 +15,69 @@
     "sentry-sdk:0.14.2": [
         "GHSA-29pr-6jr8-q5jm"
     ],
-    "rsa:4.0": [
-        "GHSA-537h-rv9q-vvph",
-        "GHSA-xrx6-fmxq-rjj2"
+    "Pygments:2.7.4": [
+        "GHSA-mrwq-x4v8-fh7p"
     ],
-    "paramiko:3.2.0": [
-        "GHSA-45x7-px36-x8w8"
+    "Pygments:2.14.0": [
+        "GHSA-mrwq-x4v8-fh7p"
     ],
-    "paramiko:2.12.0": [
-        "GHSA-45x7-px36-x8w8"
+    "Pygments:2.10.0": [
+        "GHSA-mrwq-x4v8-fh7p"
     ],
-    "paramiko:2.11.0": [
-        "GHSA-45x7-px36-x8w8"
+    "Pygments:2.12.0": [
+        "GHSA-mrwq-x4v8-fh7p"
     ],
-    "paramiko:2.7.1": [
-        "GHSA-45x7-px36-x8w8"
+    "Werkzeug:1.0.1": [
+        "GHSA-xg9f-g7g7-2323",
+        "GHSA-px8h-6qxv-m22q"
     ],
-    "nbconvert:6.4.5": [
-        "GHSA-9jmq-rx5f-8jwq"
+    "Werkzeug:0.9.4": [
+        "GHSA-h2fp-xgx6-xh6f",
+        "GHSA-xg9f-g7g7-2323",
+        "GHSA-px8h-6qxv-m22q"
     ],
-    "pycryptodome:3.18.0": [
-        "GHSA-j225-cvw7-qrx7"
+    "Werkzeug:0.16.1": [
+        "GHSA-xg9f-g7g7-2323",
+        "GHSA-px8h-6qxv-m22q"
     ],
-    "GitPython:3.1.31": [
-        "GHSA-2mqj-m65w-jghx",
-        "GHSA-cwvm-v4w8-q58c",
-        "GHSA-pr76-5cm5-w9cj"
+    "Werkzeug:2.0.3": [
+        "GHSA-xg9f-g7g7-2323",
+        "GHSA-px8h-6qxv-m22q"
     ],
-    "GitPython:3.1.7": [
-        "GHSA-hcpj-qp55-gfph",
-        "GHSA-2mqj-m65w-jghx",
-        "GHSA-cwvm-v4w8-q58c",
-        "GHSA-pr76-5cm5-w9cj"
-    ],
-    "GitPython:3.1.3": [
-        "GHSA-hcpj-qp55-gfph",
-        "GHSA-2mqj-m65w-jghx",
-        "GHSA-cwvm-v4w8-q58c",
-        "GHSA-pr76-5cm5-w9cj"
-    ],
-    "GitPython:3.1.18": [
-        "GHSA-hcpj-qp55-gfph",
-        "GHSA-2mqj-m65w-jghx",
-        "GHSA-cwvm-v4w8-q58c",
-        "GHSA-pr76-5cm5-w9cj"
-    ],
-    "gevent:22.10.2": [
-        "GHSA-x7m3-jprg-wc5g"
-    ],
-    "jwcrypto:1.5.0": [
-        "GHSA-j857-7rvv-vj97",
-        "GHSA-cw2r-4p82-qv79"
-    ],
-    "pydantic:2.0.2": [
-        "GHSA-mr82-8j83-vxmv"
-    ],
-    "pydantic:1.9.0": [
-        "GHSA-mr82-8j83-vxmv"
+    "PyYAML:5.3.1": [
+        "GHSA-8q59-q68h-6hv4"
     ],
     "pydantic:0.32.2": [
-        "GHSA-mr82-8j83-vxmv",
         "GHSA-5jqp-qgf6-3pvh"
     ],
-    "pydantic:1.10.11": [
-        "GHSA-mr82-8j83-vxmv"
+    "Django:3.2.19": [
+        "GHSA-jh3w-4vvf-mjgr"
     ],
-    "pydantic:1.10.8": [
-        "GHSA-mr82-8j83-vxmv"
+    "Django:2.2.20": [
+        "GHSA-jrh2-hc4r-7jwx",
+        "GHSA-8c5j-9r9f-c6w8",
+        "GHSA-53qw-q765-4fww",
+        "GHSA-2gwj-7jmv-h26r",
+        "GHSA-w24h-v9qh-8gxj",
+        "GHSA-v6rh-hp5x-86rv",
+        "GHSA-rxjp-mfm9-w4wr",
+        "GHSA-qm57-vhq3-3fwf"
     ],
-    "black:23.3.0": [
-        "GHSA-fj7x-q9j7-g6q6"
+    "django-debug-toolbar:1.8": [
+        "GHSA-pghf-347x-c2gj"
     ],
-    "black:22.1.0": [
-        "GHSA-fj7x-q9j7-g6q6"
+    "lxml:4.7.1": [
+        "GHSA-wrxv-2j5q-m38w"
     ],
-    "black:23.1.0": [
-        "GHSA-fj7x-q9j7-g6q6"
+    "lxml:4.6.5": [
+        "GHSA-wrxv-2j5q-m38w"
     ],
-    "black:22.12.0": [
-        "GHSA-fj7x-q9j7-g6q6"
+    "tornado:5.1.1": [
+        "GHSA-hj3f-6gcp-jg8j"
     ],
-    "social-auth-app-django:5.2.0": [
-        "GHSA-2gr8-3wc7-xhj3"
-    ],
-    "pycryptodomex:3.18.0": [
-        "GHSA-j225-cvw7-qrx7"
-    ],
-    "ecdsa:0.18.0": [
-        "GHSA-wj6h-64fc-37mp"
-    ],
-    "Flask-Cors:3.0.8": [
-        "GHSA-xc3p-ff3m-f46v"
-    ],
-    "py:1.11.0": [
-        "GHSA-w596-4wvx-j9j6"
-    ],
-    "fastapi:0.99.1": [
-        "GHSA-2jv5-9r88-3w3p"
-    ],
-    "starlette:0.13.6": [
-        "GHSA-2jv5-9r88-3w3p",
-        "GHSA-3qj8-93xh-pwh2",
-        "GHSA-v5gw-mw7f-84px",
-        "GHSA-74m5-2c7w-9w3x"
-    ],
-    "starlette:0.27.0": [
-        "GHSA-2jv5-9r88-3w3p"
-    ],
-    "pillow:10.0.0": [
-        "GHSA-44wm-f244-xhp3",
-        "GHSA-56pw-mpj4-fxww"
+    "pycrypto:2.6.1": [
+        "GHSA-cq27-v7xp-c356",
+        "GHSA-6528-wvf6-f6qg"
     ],
     "configobj:5.0.8": [
         "GHSA-c33w-24p9-8m24"
@@ -512,34 +85,198 @@
     "configobj:5.0.6": [
         "GHSA-c33w-24p9-8m24"
     ],
-    "wagtail:5.0.2": [
-        "GHSA-fc75-58r8-rm3h"
+    "urllib3:1.25.11": [
+        "GHSA-q2q7-5pp4-w6pg"
     ],
-    "wagtail:4.1.4": [
-        "GHSA-fc75-58r8-rm3h"
+    "wheel:0.35.1": [
+        "GHSA-qwmp-2cf2-g9g6"
     ],
-    "wagtail:2.10.2": [
-        "GHSA-33pv-vcgh-jfg9",
-        "GHSA-5286-f2rf-35c2",
-        "GHSA-fc75-58r8-rm3h",
-        "GHSA-wq5h-f9p5-q7fx",
-        "GHSA-xfrw-hxr5-ghqf"
+    "wheel:0.33.4": [
+        "GHSA-qwmp-2cf2-g9g6"
     ],
-    "reportlab:3.6.11": [
-        "GHSA-9q9m-c65c-37pq"
+    "joblib:1.0.1": [
+        "GHSA-6hrg-qmvc-2xh8"
     ],
     "autobahn:19.11.2": [
         "GHSA-gwp7-vqr5-h33h"
     ],
-    "ckan:2.10.1": [
-        "GHSA-8g38-3m6v-232j",
-        "GHSA-7fgc-89cx-w8j5"
+    "redis:4.5.2": [
+        "GHSA-24wv-mv5m-xv4h",
+        "GHSA-8fww-64cx-x8p5"
     ],
-    "pyarrow:12.0.1": [
-        "GHSA-5wvp-7f3h-6wmm"
+    "Pillow:7.2.0": [
+        "GHSA-pw3c-h7wp-cvhx",
+        "GHSA-8vj2-vxx3-667w",
+        "GHSA-xrcv-f9gm-v42c",
+        "GHSA-4fx9-vc88-q2xc",
+        "GHSA-9j59-75qj-795w",
+        "GHSA-77gc-v2xv-rvvh",
+        "GHSA-q5hq-fp76-qmrc",
+        "GHSA-rwv7-3v45-hg29",
+        "GHSA-g6rj-rv7j-xwp4",
+        "GHSA-hjfx-8p6c-g7gx",
+        "GHSA-7r7m-5h27-29hp",
+        "GHSA-f4w8-cv6p-x6r5",
+        "GHSA-vqcj-wrf2-7v73",
+        "GHSA-f5g8-5qq7-938w",
+        "GHSA-3wvg-mj6g-m9cv",
+        "GHSA-p43w-g3c5-g5mq",
+        "GHSA-95q3-8gr9-gm8w",
+        "GHSA-hf64-x4gq-p99h",
+        "GHSA-9hx2-hgq2-2g4f",
+        "GHSA-mvg9-xffr-p774",
+        "GHSA-8xjq-8fcg-g5hw"
     ],
-    "pyarrow:6.0.1": [
-        "GHSA-5wvp-7f3h-6wmm"
+    "cryptography:39.0.2": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "cryptography:3.4.8": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-w7pp-m8wf-vj6r",
+        "GHSA-x4qr-2fvf-3mr5",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "cryptography:3.2": [
+        "GHSA-rhm9-p9w5-fwm7",
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-w7pp-m8wf-vj6r",
+        "GHSA-x4qr-2fvf-3mr5",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "cryptography:41.0.1": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "cryptography:2.3": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-w7pp-m8wf-vj6r",
+        "GHSA-x4qr-2fvf-3mr5",
+        "GHSA-cf7p-gm2m-833m",
+        "GHSA-hggm-jpg3-v476"
+    ],
+    "cryptography:38.0.4": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-w7pp-m8wf-vj6r",
+        "GHSA-x4qr-2fvf-3mr5",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "cryptography:39.0.1": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "cryptography:3.3.2": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-w7pp-m8wf-vj6r",
+        "GHSA-x4qr-2fvf-3mr5",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "cryptography:40.0.2": [
+        "GHSA-jm77-qphf-c4w8",
+        "GHSA-5cpq-8wj7-hf2v",
+        "GHSA-cf7p-gm2m-833m"
+    ],
+    "aiohttp:3.8.4": [
+        "GHSA-45c4-8wx5-qw6w"
+    ],
+    "aiohttp:3.7.4.post0": [
+        "GHSA-45c4-8wx5-qw6w"
+    ],
+    "bleach:3.2.1": [
+        "GHSA-vv2x-vrpj-qqpq"
+    ],
+    "certifi:2019.11.28": [
+        "GHSA-43fp-rhv2-5gv8",
+        "GHSA-xqr8-7jwr-rhp7"
+    ],
+    "certifi:2022.12.7": [
+        "GHSA-xqr8-7jwr-rhp7"
+    ],
+    "certifi:2023.5.7": [
+        "GHSA-xqr8-7jwr-rhp7"
+    ],
+    "requests:1.2.3": [
+        "GHSA-652x-xj99-gmcc",
+        "GHSA-cfj3-7x9c-4p3h",
+        "GHSA-x84v-xcm2-53pg"
+    ],
+    "requests:2.26.0": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "requests:2.27.1": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "requests:2.22.0": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "requests:2.23.0": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "requests:2.28.2": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "requests:2.25.1": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "requests:2.28.1": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "requests:2.25.0": [
+        "GHSA-j8r2-6x86-q33q"
+    ],
+    "markdown-it-py:1.1.0": [
+        "GHSA-vrjv-mxr7-vjf8",
+        "GHSA-jrwr-5x3p-hvc3"
+    ],
+    "ujson:2.0.0": [
+        "GHSA-fh56-85cw-5pq6",
+        "GHSA-fm67-cv37-96ff",
+        "GHSA-wpqr-jcpx-745r"
+    ],
+    "cleo:0.6.8": [
+        "GHSA-2p9h-ccw7-33gf"
+    ],
+    "setuptools:41.6.0": [
+        "GHSA-r9hx-vwmv-q579"
+    ],
+    "wagtail:2.10.2": [
+        "GHSA-xfrw-hxr5-ghqf",
+        "GHSA-wq5h-f9p5-q7fx",
+        "GHSA-5286-f2rf-35c2",
+        "GHSA-33pv-vcgh-jfg9"
+    ],
+    "gunicorn:19.0.0": [
+        "GHSA-32pc-xphx-q4f6"
+    ],
+    "starlette:0.13.6": [
+        "GHSA-v5gw-mw7f-84px",
+        "GHSA-3qj8-93xh-pwh2",
+        "GHSA-74m5-2c7w-9w3x"
+    ],
+    "Jinja2:2.7.2": [
+        "GHSA-g3rq-g295-4j3m",
+        "GHSA-462w-v97r-4m45",
+        "GHSA-hj2j-77xm-mc5v"
+    ],
+    "GitPython:3.1.3": [
+        "GHSA-hcpj-qp55-gfph"
+    ],
+    "GitPython:3.1.7": [
+        "GHSA-hcpj-qp55-gfph"
+    ],
+    "GitPython:3.1.18": [
+        "GHSA-hcpj-qp55-gfph"
+    ],
+    "rsa:4.0": [
+        "GHSA-xrx6-fmxq-rjj2",
+        "GHSA-537h-rv9q-vvph"
     ],
     "OWSLib:0.20.0": [
         "GHSA-8h9c-r582-mggc"
@@ -547,80 +284,28 @@
     "waitress:2.0.0": [
         "GHSA-4f7p-27jc-3c36"
     ],
-    "PyPDF2:3.0.1": [
-        "GHSA-4vvm-4w3v-6mr8"
-    ],
-    "orjson:3.9.1": [
-        "GHSA-pwr2-4v36-6qpr"
-    ],
-    "orjson:3.8.12": [
-        "GHSA-pwr2-4v36-6qpr"
-    ],
-    "jupyterhub:4.0.1": [
-        "GHSA-7r3h-4ph8-w38g"
-    ],
-    "pycrypto:2.6.1": [
-        "GHSA-6528-wvf6-f6qg",
-        "GHSA-cq27-v7xp-c356"
-    ],
-    "python-jose:3.3.0": [
-        "GHSA-6c5p-j8vq-pqhj",
-        "GHSA-cjwg-qfpm-7377"
-    ],
-    "django:4.2.3": [
-        "GHSA-vm8q-m57g-pff3",
-        "GHSA-xxj9-f6rv-m3x4",
-        "GHSA-7h4p-27mh-hmrw",
-        "GHSA-h8gc-pgj2-vjm3"
-    ],
-    "Lektor:3.3.10": [
-        "GHSA-wv28-7fpw-fj49"
-    ],
-    "rpyc:5.3.1": [
-        "GHSA-h5cg-53g7-gqjw"
-    ],
-    "pyramid:2.0.1": [
-        "GHSA-j8g2-6fc7-q8f8"
-    ],
-    "uWSGI:2.0.21": [
-        "GHSA-vcph-37mh-fqrh"
-    ],
-    "kinto-attachment:6.3.1": [
-        "GHSA-hvp4-vrv2-8wrq"
-    ],
-    "pyinstaller:5.13.0": [
-        "GHSA-9w2p-rh8c-v9g5"
-    ],
-    "djangorestframework-simplejwt:5.2.2": [
-        "GHSA-5vcc-86wm-547q"
-    ],
-    "Flask-Security:3.0.0": [
-        "GHSA-cg8c-gc2j-2wf7"
-    ],
-    "cleo:0.6.8": [
-        "GHSA-2p9h-ccw7-33gf"
-    ],
-    "django-debug-toolbar:1.8": [
-        "GHSA-pghf-347x-c2gj"
+    "Flask-Cors:3.0.8": [
+        "GHSA-xc3p-ff3m-f46v"
     ],
     "pyRdfa3:3.5.3": [
         "GHSA-894q-wpg5-mf2h"
     ],
+    "sqlparse:0.2.3": [
+        "GHSA-rrm6-wvj7-cwh2"
+    ],
+    "Flask-Security:3.0.0": [
+        "GHSA-cg8c-gc2j-2wf7"
+    ],
+    "py:1.11.0": [
+        "GHSA-w596-4wvx-j9j6"
+    ],
     "scrapy:2.9.0": [
-        "GHSA-h7wm-ph43-c39p",
-        "GHSA-cc65-xxvf-f7r9",
-        "GHSA-cw9j-q3vf-hrrv",
-        "GHSA-7j7m-v7m3-jqm7"
+        "GHSA-h7wm-ph43-c39p"
     ],
-    "httpie:3.2.2": [
-        "GHSA-8r96-8889-qg2x"
+    "nbconvert:6.4.5": [
+        "GHSA-9jmq-rx5f-8jwq"
     ],
-    "jupyterlab:3.6.5": [
-        "GHSA-44cc-43rp-5947"
-    ],
-    "jupyter-server:1.24.0": [
-        "GHSA-r726-vmfq-j9j3",
-        "GHSA-64x5-55rw-9974",
-        "GHSA-h56g-gq9v-vc8r"
+    "PyPDF2:3.0.1": [
+        "GHSA-4vvm-4w3v-6mr8"
     ]
 }
