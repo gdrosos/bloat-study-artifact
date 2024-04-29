@@ -127,6 +127,83 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
 ### `rq3.json`: 
 - Contains the results of the qualitative analysis (RQ3) identifying  the root causes for the 50 selected bloated dependencies.
 
+# Getting Started
+This section includes instructions and documentation for setting up the necessary environment in order run our scripts.
+
+First get the artifact, and enter the root directory of the artifact
+```bash
+   git clone https://github.com/gdrosos/bloat-study-artifact ~/bloat-study-artifact
+   cd ~/bloat-study-artifact
+```
+## Setup
+To replicate the environment needed to run the analyses and scripts, you can choose between setting up a virtual environment directly on Ubuntu/Debian or using Docker.
+
+
+
+### Option1: Ubuntu/Debian Installation
+#### Prerequisites
+- Ubuntu/Debian operating system.
+- Git and Python 3.8+ installed.
+
+
+
+**NOTE**: If you are not running an Ubuntu/Debian OS, please jump to the
+Section [Option2: Docker Image Installation](#option2-docker-image-installation).
+
+
+You need to install `git` through  `apt` as well as some Python packages to run the
+experiments of this artifact.
+First, install git, python and pip:
+
+```bash
+sudo apt update
+sudo apt install git python3 python3-pip
+```
+
+You also need to install some Python packages.
+In a Python virtualenv run the following:
+```bash
+python3 -m venv .env
+source .env/bin/activate
+pip install -r requirements.txt
+```
+
+#### Option2: Docker Image Installation
+
+Use this option if you prefer a containerized environment or are not using an Ubuntu/Debian operating system.
+We provide a `Dockerfile` to build an image
+that contains:
+
+* The necessary `apt` packages (e.g., `git`, `python3`, `pip`) for running the
+  scripts.
+* The necessary Python packages (declared in the `requirements.txt` file).
+* A user named `user` with `sudo` privileges.
+
+To build the Docker image named `bloat-study-artifact` from source,
+run the following command (estimated running time: ~x min)
+Build the Docker Image:
+
+
+```bash
+docker build -t bloat-study-artifact .
+```
+Run the docker ocntianer:
+
+```bash
+docker run -it --rm \
+    -v $(pwd)/scripts:/home/user/scripts \
+    -v $(pwd)/data:/home/user/data \
+    -v $(pwd)/figures:/home/user/figures \
+    bloat-study-artifact /bin/bash
+```
+After executing the command, you will be able to enter the home directory
+(i.e., `/home/user`). This directory contains
+(1) the scripts for reproducing the results of the paper (see `scripts/`),
+(2) the data of our bug study (see `data/`),
+(3) a dedicated directory for storing the generated figures (see `figures/`),
+
+
+This setup uses volume mounting (-v) to ensure that scripts, data, and figures directories are persisted outside of the container for ease of access and modification on your local machine.
 
 # Usage
 

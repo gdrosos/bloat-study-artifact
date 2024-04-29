@@ -3,8 +3,6 @@ import os
 from stitcher.stitcher import Stitcher
 from stitcher.reachability import ReachabilityDetector
 import multiprocessing as mp
-import requests as re
-import time
 import argparse
 import os
 

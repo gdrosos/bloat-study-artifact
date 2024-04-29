@@ -1,6 +1,4 @@
 import json
-import csv
-import pprint
 import argparse
 
 def parse_args():

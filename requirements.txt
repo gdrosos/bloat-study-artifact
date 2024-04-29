@@ -1,0 +1,10 @@
+pandas
+tabulate
+matplotlib
+seaborn
+argparse
+pkginfo
+flask
+regex
+toml
+packaging
