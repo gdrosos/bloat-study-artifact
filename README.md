@@ -797,9 +797,11 @@ steps for a subset of 50 projects,
 which should take less than 30 minutes to finish.
 
 
-**NOTE #1** Ensure that you have at least 150GB of available disk space if you decide to run the methodology steps of the full dataset.
+**NOTE #1:**
+If you decide to run the methodology steps of the **full** dataset,
+ensure that you have at least 150GB of available disk space.
 
-**NOTE #2:**: Some numbers generated from the methodology section may differ slightly from those reported in the paper or our datasets. This variance is due to changes in the source code or dependency relations of certain projects or dependencies since our analysis was conducted.
+**NOTE #2:**: Some numbers generated from the methodology section may differ slightly from those reported in the paper or our datasets. This variance is due to changes in the source code or dependency relations of certain projects or dependencies since our original analysis was conducted.
 
 
 ###  Project Selection and Dependency Resolution (Section 2.2)
