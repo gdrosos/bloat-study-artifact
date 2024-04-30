@@ -27,7 +27,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
       - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
       - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
-  - [Reachability Analysis: RQ2:Relation between software bloat and software vulnerabilities (Section 2.4):](#reachability-analysis-rq2relation-between-software-bloat-and-software-vulnerabilities-section-24)
+  - [Reachability Analysis: RQ2: Relation between software bloat and software vulnerabilities (Section 2.4):](#reachability-analysis-rq2-relation-between-software-bloat-and-software-vulnerabilities-section-24)
 
 # Getting Started
 
@@ -943,7 +943,7 @@ Finally, you can observe the generated  stitched call graph of each project:
 find data/subset/stitched_callgraphs/   -type f -name 'cg.json' 
 ```
 
-## Reachability Analysis: RQ2:Relation between software bloat and software vulnerabilities (Section 2.4):
+## Reachability Analysis: RQ2: Relation between software bloat and software vulnerabilities (Section 2.4):
 
 **NOTE:** Ensure that you have at least 3GB of available disk space before running this step.
 
