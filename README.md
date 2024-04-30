@@ -157,7 +157,9 @@ Step            | Operation                     | Total GitHub Projects | Resolv
 Data Collection | Dependency Resolution         | 1644                  | 34864                 | 5617          | 21.21                             
 Data Analysis   | Partial Call Graph Generation | 1302                  | 21785                 | 3232          | 16.73   
 ```
-**Note**: Due to a recent bug fix in our methodology scripts, some numbers in the above table differ very slightly from those reported in the major revision version of our paper. We will update these numbers in the camera-ready version.
+**Note**: Due to a minor transcription error in the descriptive statistics previously reported in the major revision version of our paper, there are very small discrepancies in some numbers.
+The numbers shown above are correct, and we will incorporate these slight adjustments in the camera-ready version of the paper.
+
 
 Moreover, to produce Table 2 describing the statistics on the resolved and unresolved external calls during our stitching process, simply run:
 
