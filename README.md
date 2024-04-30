@@ -431,9 +431,23 @@ for reproducing the descriptive tables and figures
 presented in the paper using the "pre-baked" data coming from the `data/` directory.
 Then we provide detailed instructions to re-run our methodology for producing those results.
 
+**Note** The commands presented in this section are being executed inside the produced docker container e.g. we have executed:
+```bash
+docker run -it --rm \
+    -v $(pwd)/scripts:/home/user/scripts \
+    -v $(pwd)/data:/home/user/data \
+    -v $(pwd)/figures:/home/user/figures \
+    bloat-study-artifact /bin/bash
+```
+and:
+
+```bash
+export GH_TOKEN=<your Github access token>
+```
+
 ## Descriptive Tables (Sections 2.2 & 2.3)
 
-To produce the descriptive statistics regarding our dataset after the Data Collection as well as after the Data Analysis steps (as described on Table 1), simply run:
+To produce the descriptive statistics regarding our dataset after the Data Collection as well as after the Data Analysis steps (as described on Table 1), run:
 
 ```bash
 python scripts/descriptives/dataset_analysis.py  \
@@ -451,7 +465,7 @@ Data Analysis   | Partial Call Graph Generation | 1302                  | 21785 
 The numbers shown above are correct, and we will incorporate these slight adjustments in the camera-ready version of the paper.
 
 
-Moreover, to produce Table 2 describing the statistics on the resolved and unresolved external calls during our stitching process, simply run:
+Moreover, to produce Table 2 describing the statistics on the resolved and unresolved external calls during our stitching process, run:
 
 ```bash
 python scripts/descriptives/evaluation.py  -csv data/results/rq1a.csv 
@@ -472,7 +486,7 @@ Unresolved      260249          3.2                       199.9                1
 In the first research question,
 we compute the prevalence of dependency bloat across different granularities.
 
-To produce the results of Figure 5, simply run:
+To produce the results of Figure 5, run:
 
 ```bash
 python scripts/rq1.py data/results/rq1a.csv --output figures/bloat_prevalence.pdf
@@ -513,7 +527,7 @@ The acronym of each metric is described in detail in Section: [Dataset Descripti
 Some of those total and average numbers are utilized in Section 3.1 of our paper
 (e.g. {Total, average} number of bloated {dependencies, files, methods}, in the context of entries or LoC).
 
-Moreover, to produce Figure 7, simply run:
+Moreover, to produce Figure 7, run:
 
 ```bash
 python scripts/rq1_dep_comp.py data/results/rq1b.csv \
@@ -572,7 +586,7 @@ Transitive used     : 2.05%
 In the second research question,
 we explore the relation between bloated dependency code and software
 vulnerabilities.
-To produce Figure 8 of our paper, simply run:
+To produce Figure 8 of our paper, run:
 
 ```bash
 python scripts/rq2.py data/results/rq2a.csv --output figures/vulnerable_dep_usage_status.pdf 
@@ -597,7 +611,7 @@ Number of projects depending on at least one vulnerable release: 595
 ```
 
 Moreover, to compute the distribution of bloat metrics per vulnerability exposure and produce Figure 6 of our paper,
-simply run:
+run:
 ```bash
 python scripts/rq2_bloat_metrics.py data/results/rq2b.csv \
 --output figures/bloat_metric_per_exposure.pdf 
@@ -624,7 +638,7 @@ the root causes of 50 bloated dependencies
 and report our results,
 as depicted in Figure 9.
 
-To produce Figure 9, simply run:
+To produce Figure 9, run:
 
 ```bash
 python scripts/rq3.py data/results/qualitative_results.json \
@@ -648,7 +662,7 @@ Compatibility constraint: 3/50 (6.00%)
 ### RQ4: Developer Perception (Section 3.4)
 
 In the last research question, we investigate developer's perception of dependency bloat.
-To reproduce Table 3, simply run:
+To reproduce Table 3, run:
 
 ```bash
 python scripts/rq4.py data/results/qualitative_results.json --table3
@@ -875,7 +889,7 @@ For each project, it produces two JSON files. Specifically:
 #### Stitching & Reachability Analysis of Subset Dataset
 
 Again, for convenience, we give the option to perform the stitching as well as the reachability analysis for the 50 sample projects used in the dependency resolution and partial call graph generation.
-The only requirement to run this analysis is to have performed the steps outlined in sections [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) and [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset). Having performed those steps, simply run:
+The only requirement to run this analysis is to have performed the steps outlined in sections [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) and [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset). Having performed those steps, run:
 
 
 ```bash
@@ -898,7 +912,7 @@ find data/subset/stitched_callgraphs/   -type f -name 'cg.json'
 
 In this sub-section, we describe how you can run our methodology from scratch for producing the security metrics used to answer RQ2. The steps are described in the second paragraph of Section 2.4.
 We split this process in 2 steps. The first includes using the GitHub advisory database to retrieve PyPI vulnerabilities and investigate whether they affect our dataset. This step does not have any prerequisites.
-To perform this operation, simply run (the advisory database download might take up to 1 hour depending on your network connection):
+To perform this operation, run (the advisory database download might take up to 1 hour depending on your network connection):
 ```bash
  sh scripts/security_analysis/run_security_analysis.sh  $GH_TOKEN  \
   data/security data/project_dependencies_final.json
