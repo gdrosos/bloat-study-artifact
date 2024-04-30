@@ -233,7 +233,7 @@ Additionally, please refer to the [Installation Guide](INSTALL.md) for detailed 
 
 **NOTE:** Ensure that you have at least 15GB of available disk space before running this step.
 
-If you want to obtain the partial and stitched call graphs of the 1302 Python Applications along with their dependencies, as well as the bloat metrics corresponding to each project,
+If you want to obtain the partial and stitched call graphs of the Python projects used in this study along with their dependencies, as well as the bloat metrics corresponding to each project,
 you can fetch the data from Zenodo. First run:
 
 `wget -O callgraph_data.zip "https://zenodo.org/records/11088204/files/callgraph_data.zip?download=1"`
