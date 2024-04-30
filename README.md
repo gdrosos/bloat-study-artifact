@@ -17,17 +17,17 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [RQ2: Security Impact (Section 3.2)](#rq2-security-impact-section-32)
     - [RQ3: Root Causes (Section 3.3)](#rq3-root-causes-section-33)
     - [RQ4: Developer Perception (Section 3.4)](#rq4-developer-perception-section-34)
-  - [Methodology](#methodology)
-    - [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution-section-22)
-      - [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)
-      - [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset)
-    - [Partial Call Graph Construction (Section 2.3.1)](#partial-call-graph-construction-section-231)
-      - [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional)
-      - [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset)
-    - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
-      - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
-      - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
-    - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
+- [Re-building Project Dependency Graphs](#re-building-project-dependency-graphs)
+  - [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution-section-22)
+    - [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)
+    - [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset)
+  - [Partial Call Graph Construction (Section 2.3.1)](#partial-call-graph-construction-section-231)
+    - [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional)
+    - [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset)
+  - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
+    - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
+    - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
+  - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
 
 # Getting Started
 
@@ -775,12 +775,26 @@ Merged PRs requiring discussions involving changes: 6
 Merged PRs requiring discussions without requiring changes: 3
 ```
 
-## Methodology
- Before proceeding with the methodology, it's important to note that for each step of our process
- (dependency resolution, partial call graph generation, and stitching), we offer two options:
- The first option involves running the steps on the full dataset, which replicates the exact operations performed in the paper.
- However, this comprehensive process may take up to 5 weeks to complete.
- For convenience, we provide the option to perform the methodology steps for a subset of 50 projects, which should take less than 30 minutes to finish.
+# Re-building Project Dependency Graphs
+
+In the previous section,
+we reproduced the results of the paper using pre-baked data.
+In this section,
+we show how to re-run the steps described in the "Methodology"
+section of our paper (Section 2).
+Before proceeding with this,
+it's important to note that for each step of our process
+(i.e., dependency resolution,
+partial call graph generation, and stitching),
+we offer two options:
+The first option involves running the steps on the full dataset,
+which replicates the exact operations performed in the paper.
+However,
+this process can take up to five weeks to complete.
+For convenience,
+we provide the option to perform the methodology
+steps for a subset of 50 projects,
+which should take less than 30 minutes to finish.
 
 
 **NOTE #1** Ensure that you have at least 150GB of available disk space if you decide to run the methodology steps of the full dataset.
