@@ -27,7 +27,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
       - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
       - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
-  - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
+  - [Reachability Analysis: RQ2:Relation between software bloat and software vulnerabilities (Section 2.4):](#reachability-analysis-rq2relation-between-software-bloat-and-software-vulnerabilities-section-24)
 
 # Getting Started
 
@@ -884,7 +884,7 @@ Moreover, the source code of each release will also be stored in the following d
 
 #### Partial Call Graph Generation of Subset Dataset
 For a quicker alternative, you can run the partial call graph construction process for a subset of 50 projects along with their set of dependencies, comprising of 88 unique PyPI releases.
-Ensure you have completed the [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) step before proceeding with this step.
+Ensure you have completed the [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset) step before proceeding with this step.
 To initiate this process, execute the following command  (estimated running time: ~10 minutes):
 ```bash
 sh scripts/partial_cg_generation/run_partial_cg_generation.sh $GH_TOKEN \
@@ -927,7 +927,7 @@ For each project, it produces two JSON files. Specifically:
 #### Stitching & Reachability Analysis of Subset Dataset
 
 Again, for convenience, we give the option to perform the stitching as well as the reachability analysis for the 50 sample projects used in the dependency resolution and partial call graph generation.
-The only requirement to run this analysis is to have performed the steps outlined in sections [dependency resolution process of the subset dataset](#dependency-resolution-of-a-subset-dataset) and [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset). Having performed those steps, run:
+The only requirement to run this analysis is to have performed the steps outlined in sections [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset) and [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset). Having performed those steps, run:
 
 
 ```bash
@@ -943,7 +943,7 @@ Finally, you can observe the generated  stitched call graph of each project:
 find data/subset/stitched_callgraphs/   -type f -name 'cg.json' 
 ```
 
-## Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):
+## Reachability Analysis: RQ2:Relation between software bloat and software vulnerabilities (Section 2.4):
 
 **NOTE:** Ensure that you have at least 3GB of available disk space before running this step.
 
@@ -993,7 +993,8 @@ The script performs the following steps:
 ```
 The JSON file depicted above serves as a mapping of software projects to their vulnerable dependencies. Each key represents a unique project, identified by its name. Associated with each project key is a list of objects, where each object corresponds to a particular dependency identified by its package name and version (e.g., Pillow:10.0.0). The values are arrays listing the Common Vulnerabilities and Exposures (CVEs) IDs that impact that specific version of the dependency. This structure enables quick identification of vulnerabilities associated with dependencies in our project dataset.
 
-Then, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to answer RQ2. To do this you need the already existing file `data/security/vulnerability2function.json` which contains the manually created mapping of each vulnerability encountered in our dataset with the actual vulnerable function (See second paragraph of Section 2.4 of our paper). Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the "pre-baked" stitched call graph dataset existing on Zenodo (for details see [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the security reachability analysis by running:
+Optionally, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to answer RQ2. This step includes retrieving the stitched call graph of each project and checking whether each vulnerability affecting our dataset resides in bloated code sections.
+ To do this you need the already existing file `data/security/vulnerability2function.json` which contains the manually created mapping of each vulnerability encountered in our dataset with the actual vulnerable function (See second paragraph of Section 2.4 of our paper). Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the "pre-baked" stitched call graph dataset existing on Zenodo (for details see [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the security reachability analysis by running:
 
 
 ```bash
@@ -1002,21 +1003,5 @@ python scripts/stitched_cg_generation/security_reachability_analysis.py \
   --project_vulns  data/security/project_vulnerabilities.json \
   --vuln2func data/security/vulnerability2function.json
 ```
-```
-$: python scripts/stitched_cg_generation/security_reachability_analysis.py -h
-usage: security_reachability_analysis.py [-h] -host HOST -project_vulns PROJECT_VULNS -vuln2func VULN2FUNC
-
-Extract security bloat metrics for RQ2 through the reachability analysis
-
-options:
-  -h, --help            show this help message and exit
-  -host HOST, --host HOST
-                        Path to the directory hosting the stitched call graphs
-  -project_vulns PROJECT_VULNS, --project_vulns PROJECT_VULNS
-                        Json file hosting project vulnerabilities
-  -vuln2func VULN2FUNC, --vuln2func VULN2FUNC
-                        Json file hosting the manual mapping of vulnerabilities to vulnerable functions
-```
-
 For each project of our dataset having at least one vulnerable dependency, the script will produce in the same directory where the stitched call graph exists (e.g. `data/stitched_callgraphs`) a file named:
-`security_metrics.json` (see [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional) for file description)
+`security_metrics.json` (see [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional) for file description).
