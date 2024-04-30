@@ -17,7 +17,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [RQ2: Security Impact (Section 3.2)](#rq2-security-impact-section-32)
     - [RQ3: Root Causes (Section 3.3)](#rq3-root-causes-section-33)
     - [RQ4: Developer Perception (Section 3.4)](#rq4-developer-perception-section-34)
-- [Re-building Project Dependency Graphs](#re-building-project-dependency-graphs)
+- [Re-building Fine-Grained Project Dependency Graphs](#re-building-fine-grained-project-dependency-graphs)
     - [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution-section-22)
       - [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)
       - [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset)
@@ -27,7 +27,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
       - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
       - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
-    - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
+  - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
 
 # Getting Started
 
@@ -775,14 +775,31 @@ Merged PRs requiring discussions involving changes: 6
 Merged PRs requiring discussions without requiring changes: 3
 ```
 
-# Re-building Project Dependency Graphs
+# Re-building Fine-Grained Project Dependency Graphs
 
 In the previous section,
 we reproduced the results of the paper using pre-baked data.
 In this section,
 we show how to re-run the steps described in the "Methodology"
 section of our paper (Section 2).
-Before proceeding with this,
+The methodology includes three main steps:
+* **Project Selection and Dependency Resolution**:
+  Utilizing an existing dataset of Python projects,
+  we download their source code and use pip
+  to resolve their direct and transitive dependencies (PyPI releases).
+* **Partial Call Graph Construction**:
+  Then, we download the source code of each dependency
+  and we use PyCG to build the individual partial call graph
+  of the source code of each project as well as for each of its resolved dependencies.
+* **Stitching of Call Graphs and Reachability Analysis**:
+  Finally, for each project, we merge its partial call graph
+  with the ones of its resolved dependencies
+  in order to produce the Fine-Grained Project Dependency Graph.
+  This graph represents all the caller-callee relationships in the project.
+  We then perform a reachability analysis on the graph to measure relevant bloat metrics.
+
+
+Before proceeding,
 it's important to note that for each step of our process
 (i.e., dependency resolution,
 partial call graph generation, and stitching),
@@ -926,7 +943,7 @@ Finally, you can observe the generated  stitched call graph of each project:
 find data/subset/stitched_callgraphs/   -type f -name 'cg.json' 
 ```
 
-### Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):
+## Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):
 
 **NOTE:** Ensure that you have at least 3GB of available disk space before running this step.
 
