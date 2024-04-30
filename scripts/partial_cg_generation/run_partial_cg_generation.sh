@@ -4,7 +4,13 @@ TOKEN=$1
 DEST_DIR=$2
 DEP_FILE_PRE=$3
 DEP_FILE_POST=$4
-
+case "$TOKEN" in
+    data*)
+        echo "Error: It appears that the GitHub Token has not been properly set as an environment variable."
+        echo "Please ensure that you have properly set up your Github Access Token"
+        exit 1
+        ;;
+esac
 CURRENT_DIR=$(pwd)
 echo Cloning PyCG repository...
 git clone https://{$TOKEN}@github.com/gdrosos/PyCG.git

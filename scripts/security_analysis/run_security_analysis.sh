@@ -3,7 +3,13 @@
 TOKEN=$1
 SEC_PATH=$2
 JSON=$3
-
+case "$TOKEN" in
+    data*)
+        echo "Error: It appears that the GitHub Token has not been properly set as an environment variable."
+        echo "Please ensure that you have properly set up your Github Access Token"
+        exit 1
+        ;;
+esac
 if [ ! -d "$SEC_PATH/advisory-database" ]; then
     git clone https://{$TOKEN}@github.com/github/advisory-database.git $SEC_PATH/advisory-database
 else
