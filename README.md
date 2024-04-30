@@ -1,9 +1,9 @@
-# Artifact for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"
+# Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis
 This is the artifact for the paper accepted to FSE'24 titled:
 "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis".
 
 # Table of Contents
-- [Artifact for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"](#artifact-for-bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
+- [Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis](#bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
 - [Table of Contents](#table-of-contents)
 - [Directory Structure](#directory-structure)
   - [project-data](#project-data)
@@ -157,8 +157,9 @@ Step            | Operation                     | Total GitHub Projects | Resolv
 Data Collection | Dependency Resolution         | 1644                  | 34864                 | 5617          | 21.21                             
 Data Analysis   | Partial Call Graph Generation | 1302                  | 21785                 | 3232          | 16.73   
 ```
+**Note**: Due to a recent bug fix in our methodology scripts, some numbers in the above table differ very slightly from those reported in the major revision version of our paper. We will update these numbers in the camera-ready version.
 
-Moreover, to produce Table 2  describing the statistics on the resolved and unresolved external calls during our stitching process, simply run:
+Moreover, to produce Table 2 describing the statistics on the resolved and unresolved external calls during our stitching process, simply run:
 
 ```bash
 python scripts/descriptives/evaluation.py  -csv data/results/rq1a.csv 
