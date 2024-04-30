@@ -18,16 +18,16 @@ This is the artifact for the paper accepted to FSE'24 titled:
     - [RQ3: Root Causes (Section 3.3)](#rq3-root-causes-section-33)
     - [RQ4: Developer Perception (Section 3.4)](#rq4-developer-perception-section-34)
 - [Re-building Project Dependency Graphs](#re-building-project-dependency-graphs)
-  - [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution-section-22)
-    - [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)
-    - [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset)
-  - [Partial Call Graph Construction (Section 2.3.1)](#partial-call-graph-construction-section-231)
-    - [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional)
-    - [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset)
-  - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
-    - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
-    - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
-  - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
+    - [Project Selection and Dependency Resolution (Section 2.2)](#project-selection-and-dependency-resolution-section-22)
+      - [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)
+      - [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset)
+    - [Partial Call Graph Construction (Section 2.3.1)](#partial-call-graph-construction-section-231)
+      - [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional)
+      - [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset)
+    - [Stitching of Call Graphs \& Reachability Analysis (Sections 2.3.2 \& 2.3.3)](#stitching-of-call-graphs--reachability-analysis-sections-232--233)
+      - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
+      - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
+    - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
 
 # Getting Started
 
@@ -803,6 +803,11 @@ ensure that you have at least 150GB of available disk space.
 
 **NOTE #2:**: Some numbers generated from the methodology section may differ slightly from those reported in the paper or our datasets. This variance is due to changes in the source code or dependency relations of certain projects or dependencies since our original analysis was conducted.
 
+**NOTE #3:**: Ensure you have properly set up your Github Access Token:
+```bash
+export GH_TOKEN=<your Github access token>
+```
+
 
 ###  Project Selection and Dependency Resolution (Section 2.2)
 This section outlines the process of resolving project dependencies as detailed in Section 2.2 of our accompanying paper.
@@ -824,7 +829,7 @@ This script performs the following steps:
 #### Dependency Resolution of a Subset Dataset
 
 For a quicker resolution process, we give the option to resolve dependencies for a subset of the dataset.
-This process handles only 50 projects and is significantly faster. To execute this, run:
+This process handles only 50 projects and is significantly faster (less than 10 minutes). To execute this, run:
 ```bash
 sh scripts/dependency_resolution/run_dep_resolution.sh $GH_TOKEN data/subset subset
 ```
