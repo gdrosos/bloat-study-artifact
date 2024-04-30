@@ -8,6 +8,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
 - [Directory Structure](#directory-structure)
   - [Dataset Description](#dataset-description)
 - [Getting Started](#getting-started)
+- [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional)
 - [Step-by-Step Instructions](#step-by-step-instructions)
   - [Descriptive Tables (Sections 2.2 \& 2.3)](#descriptive-tables-sections-22--23)
   - [Results](#results)
@@ -26,9 +27,6 @@ This is the artifact for the paper accepted to FSE'24 titled:
       - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
       - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
     - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
-      - [Final Dataset Retrieval](#final-dataset-retrieval)
-        - [File Descriptions](#file-descriptions)
-          - [Example Directory Structure](#example-directory-structure)
 
 # Directory Structure
 
@@ -232,13 +230,205 @@ Below is an example of a project entity in the JSON structure:
 Before getting started, ensure that your machine meets the specifications outlined in the [Requirements](REQUIREMENTS.md) file.
 Additionally, please refer to the [Installation Guide](INSTALL.md) for detailed instructions on setting up the necessary environment to run our experiments.
 
+
+# Full Call Graph Dataset Retrieval (Optional)
+
+**NOTE:** Ensure that you have at least 15GB of available disk space before running this step.
+
+If you want to obtain the partial and stitched call graphs of the 1302 Python Applications along with their dependencies, as well as the bloat metrics corresponding to each project,
+you can fetch the data from Zenodo. First run:
+
+`wget -O callgraph_data.zip "https://zenodo.org/records/11088204/files/callgraph_data.zip?download=1"`
+
+To extract the data, run:
+
+`unzip callgraph_data.zip -d data/`
+
+The above command will create inside the `data/` directory the `partial_callgraphs` and `stitched_callgraphs` directory. The directories will have the following structure:
+```
+├── partial_callgraphs
+│   ├── apps
+│   │   ├── aio-libs
+│   │   │   ├── aiomonitor
+│   │   │   │   └── cg.json
+│   │   │   └── janus
+│   │   │       └── cg.json
+│   │   ├── cherrypy
+│   │   │   └── cheroot
+│   │   │       └── cg.json
+│   │   ├── ...
+│   ├── a
+│   │   ├── aioconsole
+│   │   │   └── 0.7.0
+│   │   │       └── cg.json
+│   │   │   └── 0.7.1
+│   │   │       └── cg.json
+│   │   ├── aiohttp
+│   │   │   └── 3.9.5
+│   │   │       └── cg.json
+│   ├── r
+│   │   ├── razorpay
+│   │   │   └── 1.4.2
+│   │   │       └── cg.json
+│   │   ├── ...
+├── stitched_callgraphs
+    ├── 4catalyzer
+    │   └── flask-resty
+    │       ├── bloat_metrics.json
+    │       └── cg.json
+    ├── aamalev
+    |   └── aiohttp_apiset
+    │       ├── bloat_metrics.json
+    │       └── cg.json
+    │       ├── security_metrics.json
+    └── ...
+```
+Specifically, the first directory, namely `partial call graphs`, stores in JSON representation the partial call graph of each Github project, as well as the partial call graph of each PyPI release which acts as a dependency in a project.
+The project partial call graphs are stored in the following path:
+`partial_callgraphs/apps/{project_owner}/{project_repo}/cg.json`.
+
+Similarly, the partial call graph for each unique PyPI dependency (package_name:version) is stored in the following path:
+ `partial_callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
+
+An example Partial Call Graph JSON representation is the following:
+```json
+{
+    "product":"yarl",
+    "forge":"PyPI",
+    "generator":"PyCG",
+    "depset":[
+       
+    ],
+    "version":"1.9.4",
+    "timestamp":"0",
+    "modules":{
+       "internal":{
+          "/yarl._url/":{
+             "sourceFile":"yarl/_url.py",
+             "namespaces":{
+                "0":{
+                   "namespace":"/yarl._url/",
+                   "metadata":{
+                      "first":1,
+                      "last":1200
+                   }
+                },
+                "1":{
+                   "namespace":"/yarl._url/rewrite_module()",
+                   "metadata":{
+                      "first":19,
+                      "last":21
+                   }
+                },
+                //More internal methods
+            }
+          }
+       },
+       "external":{
+          "urllib":{
+             "sourceFile":"",
+             "namespaces":{
+                "125":{
+                   "namespace":"//urllib//urllib.parse.urlsplit",
+                   "metadata":{
+                      
+                   }
+                },
+                "126":{
+                   "namespace":"//urllib//urllib.parse.SplitResult",
+                   "metadata":{
+                      
+                   }
+                }
+             }
+            }
+          }
+       }
+    },
+    "graph":{
+       "internalCalls":[
+          [
+             "0",
+             "1",
+             {
+                
+             }
+          ],
+          [
+             "7",
+             "2",
+             {
+                
+             }
+          ],
+        // More edges
+       ],
+    },
+    "nodes":179,
+    "metadata":{
+       "loc":1181,
+       "time_elapsed":-1,
+       "max_rss":-1,
+       "num_files":4
+    },
+    "sourcePath":"data/sources/y/yarl/1.9.4"
+ }
+```
+The second directory, namely `stitched_callgraphs`, is structured into directories for each of the analyzed projects.
+Each sub-directory is named using the pattern `repo_name/project_name/` and contains (at most) three JSON files, specifically:
+
+- **`cg.json`**: Contains the stitched call graph for the project, integrating the partial call graphs of the project with the ones of its direct and transitive dependencies.
+
+- **`bloat_metrics.json`**: Contains individual project-specific bloat metrics from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. The data from this file are aggregated and used to generate `rq1a.csv` and `rq1b.csv` (see [Dataset Description](#dataset-description) for detailed description). These CSV files subsequently provide the numerical data for figures and tables in the results of RQ1 (see [RQ1: Bloat Prevalence (Section 3.1)](#rq1-bloat-prevalence-section-31)).
+
+
+- **`security_metrics.json`**: Available only for projects with reachable vulnerable dependencies. It includes metrics on dependency bloat concerning vulnerable code. By aggregating the data included in those files, we craft the `data/results/rq2a.cv` and `data/results/rq2b.cv` (see [Dataset Description](#dataset-description) for detailed description) which are used to answer RQ2 and produce the corresponding figures (see [RQ2: Security Impact (Section 3.2)](#rq2--security-impact--section-32-))
+  
+An example stitched call graph JSON representation is the following:
+
+```json
+{
+  "nodes": {
+    "0": {
+      "URI": "//click/click.exceptions/ClickException.format_message()",
+      "metadata": {
+        "LoC": 2
+      }
+    },
+    "1": {
+      "URI": "/click/click.parser/Option.__init__()",
+      "metadata": {
+        "LoC": 32
+      }
+    },
+    "2": {
+      "URI": "//SQLAlchemy/sqlalchemy.sql.schema/MetaData.reflect()",
+      "metadata": {
+        "LoC": 177
+      }
+    },
+    // More nodes...
+  },
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+  // More edges...
+  ]
+}
+```
+
 # Step-by-Step Instructions
 
 In the following sections, we provide instructions
 for reproducing the descriptive tables and figures
 presented in the paper using the "pre-baked" data coming from the `data/` directory.
 Then we provide detailed instructions to re-run our methodology for producing those results
-
 
 ## Descriptive Tables (Sections 2.2 & 2.3)
 
@@ -784,92 +974,4 @@ options:
 ```
 
 For each project of our dataset having at least one vulnerable dependency, the script will produce in the same directory where the stitched call graph exists (e.g. `data/stitched_callgraphs`) a file named:
-`security_metrics.json`
-We adduce an example output file, specifically for the project `ccrisan/motioneye`:
-
-```json
-{
-  "product": "ccrisan/motioneye",
-  "own_files_count": 28,
-  "own_files_loc": 9845,
-  "own_functions_count": 386,
-  "own_functions_loc": 8042,
-  "total_dependency_functions_count": 5570,
-  "total_dependency_functions_loc": 65861,
-  "total_dependency_files_count": 238,
-  "total_dependency_files_loc": 94113,
-  "reachable_dependencies": 3,
-  "reachable_dependencies_loc": 90959,
-  "reachable_dependency_files": 74,
-  "reachable_dependency_files_loc": 44650,
-  "reachable_dependency_functions": 315,
-  "reachable_dependency_functions_loc": 6905,
-  "total_dependencies_count": 5,
-  "total_dependencies_loc": 5,
-  "bloated_dependencies_count": 2,
-  "bloated_dependencies_loc": 3154,
-  "bloated_files_count": 164,
-  "bloated_files_loc": 49463,
-  "bloated_functions_count": 5257,
-  "bloated_functions_loc": 58956,
-  "vulnerable_dependencies_reachable": 1,
-  "vulnerable_dependencies_bloated": 0,
-  "vulnerable_dependencies_reachable_through_functions": 0,
-  "vulnerable_dependencies_bloated_through_functions": 1,
-  "vulnerable_dependencies_unresolved_through_functions": 0,
-  "exposure_dict": {
-    "Active": {},
-    "Bloated": {},
-    "Inactive": {
-      "tornado": {
-        "bloated_files": 67,
-        "used_files": 31,
-        "bloated_functions": 3253,
-        "used_functions": 214,
-        "reachable_file": true,
-      }
-    },
-    "Undefined": {}
-  }
-}
-```
-By aggregating the data included in those files, we craft the `data/results/rq2a.cv` and `data/results/rq2b.cv` which are used to answer RQ2 and produce the corresponding figures (see [RQ2: Security Impact (Section 3.2)](#rq2--security-impact--section-32-))
-
-
-#### Final Dataset Retrieval
-
-**NOTE:** Ensure that you have at least 10GB of available disk space before running this step.
-
-To obtain the stitched call graphs of the 1302 Python Applications, as well as the bloat metrics corresponding to each project,
-you can fetch the data from Zenodo. First run:
-
-`wget -O stitched_cg_data.zip "https://zenodo.org/records/11077253/files/stitched_callgraphs.zip?download=1"`
-
-To extract the data, run:
-
-`unzip stitched_cg_data.zip `
-
-this will create the directory `stitched_callgraphs`. This directory is structured into directories for each of the analyzed projects.
-Each sub-directory is named using the pattern `repo_name/project_name/` and contains several JSON files detailing the stitched call graphs and various metrics analyses.
-
-##### File Descriptions
-
-- **`cg.json`**: Contains the stitched call graph for the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
-
-- **`bloat_metrics.json`**: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files has been systematically aggregated into the [rq1a.csv](#rq1acsv), which is used in subsequent steps to produce Figure 5.
-
-
-- **`bloat_metrics_direct_vs_transitive.json`**: Contains individual project-specific code bloat metrics comparing direct vs transitive dependencies from the reachability analysis. Each record from these JSON files has been systematically aggregated into the [rq1b.csv](#rq1bcsv), which is used in subsequent steps to produce Figure 7.
-
-- **`security_metrics.json`**: Available only for projects with reachable vulnerable dependencies. It includes metrics on dependency bloat concerning vulnerable code. The data in this file are systematically aggregated and used to populate both the [rq2a.csv](#rq2acsv) and [rq2b.csv](#rq2bcsv) files, which facilitate the analysis and presentation of the results for RQ2.
-
-###### Example Directory Structure
-
-For a project named `datadogpy` under the `datadog` repository, the directory structure would be:
-```
-datadog/datadogpy/
-├─ cg.json
-├─ bloat_metrics.json
-├─ bloat_metrics_direct_vs_transitive.json
-└─ security_metrics.json (if applicable)
-```
+`security_metrics.json` (see [Full Call Graph Dataset Retrieval](#full-call-graph-dataset-retrieval) for file description)
