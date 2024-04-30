@@ -140,7 +140,7 @@ Bellow, we describe the contents of each file:
   - `Size`: Specifies the size of the dependency in bytes
   - `Discussion Status`: Indicates the status of any discussions or conversations related to the dependency.
 
-Below is an example of a project entity in the JSON structure:
+Bellow is an example of a project entity in the JSON structure:
 
 ```json
   "ewels/MultiQC": {
@@ -447,7 +447,7 @@ export GH_TOKEN=<your Github access token>
 
 ## Descriptive Tables (Sections 2.2 & 2.3)
 
-To produce the descriptive statistics regarding our dataset after the Data Collection as well as after the Data Analysis steps (as described on Table 1), run:
+To produce the descriptive statistics regarding our dataset after the Data Collection as well as after the Data Analysis steps (as described in Table 1), run:
 
 ```bash
 python scripts/descriptives/dataset_analysis.py  \
@@ -661,7 +661,7 @@ Compatibility constraint: 3/50 (6.00%)
 
 ### RQ4: Developer Perception (Section 3.4)
 
-In the last research question, we investigate developer's perception of dependency bloat.
+In the last research question, we investigate the developer's perception of dependency bloat.
 To reproduce Table 3, run:
 
 ```bash
