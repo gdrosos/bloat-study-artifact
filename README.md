@@ -5,8 +5,7 @@ This is the artifact for the paper accepted to FSE'24 titled:
 # Table of Contents
 - [Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis](#bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
 - [Table of Contents](#table-of-contents)
-- [Directory Structure](#directory-structure)
-  - [Dataset Description](#dataset-description)
+- [Dataset Description](#dataset-description)
 - [Getting Started](#getting-started)
 - [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional)
 - [Step-by-Step Instructions](#step-by-step-instructions)
@@ -28,9 +27,8 @@ This is the artifact for the paper accepted to FSE'24 titled:
       - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
     - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
 
-# Directory Structure
 
-## Dataset Description
+# Dataset Description
 The dataset of the artifact exists in the `data/` directory and has the following structure:
 ```
 ├── data
