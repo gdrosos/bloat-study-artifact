@@ -370,7 +370,7 @@ An example Partial Call Graph JSON representation is the following:
        "num_files":4
     },
     "sourcePath":"data/sources/y/yarl/1.9.4"
- }
+}
 ```
 The second directory, namely `stitched_callgraphs`, is structured into directories for each of the analyzed projects.
 Each sub-directory is named using the pattern `repo_name/project_name/` and contains (at most) three JSON files, specifically:
