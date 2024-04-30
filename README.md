@@ -6,18 +6,11 @@ This is the artifact for the paper accepted to FSE'24 titled:
 - [Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis](#bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
 - [Table of Contents](#table-of-contents)
 - [Directory Structure](#directory-structure)
-  - [project-data](#project-data)
-  - [partial\_callgraphs](#partial_callgraphs)
-  - [results](#results)
-    - [rq1a.csv:](#rq1acsv)
-    - [rq1b.csv:](#rq1bcsv)
-    - [rq2a.csv:](#rq2acsv)
-    - [rq2b.csv:](#rq2bcsv)
-    - [`rq3.json`:](#rq3json)
+  - [Dataset Description](#dataset-description)
 - [Getting Started](#getting-started)
 - [Step-by-Step Instructions](#step-by-step-instructions)
   - [Descriptive Tables (Sections 2.2 \& 2.3)](#descriptive-tables-sections-22--23)
-  - [Results](#results-1)
+  - [Results](#results)
     - [RQ1: Bloat Prevalence (Section 3.1)](#rq1-bloat-prevalence-section-31)
     - [RQ2: Security Impact (Section 3.2)](#rq2-security-impact-section-32)
     - [RQ3: Root Causes (Section 3.3)](#rq3-root-causes-section-33)
@@ -39,42 +32,48 @@ This is the artifact for the paper accepted to FSE'24 titled:
 
 # Directory Structure
 
-## [project-data](./project-data/)
-- `project_dependencies_final.json`: Json file mapping each of the 1302 GitHub projects to its set of resolved dependencies, accounting for 3,232 unique PyPI releases.
+## Dataset Description
+The dataset of the artifact exists in the `data` directory, which has the following structure:
+```
+├── data
+│   ├── results
+│   │   ├── rq1a.csv
+│   │   ├── rq1b.csv
+│   │   ├── rq2a.csv
+│   │   └── rq2b.csv
+│   │   ├── qualitative_results.json
+│   ├── project_dependencies_post_data_collection.json
+│   ├── project_dependencies_final.json
+│   ├── security
+│   │   ├── project_vulnerabilities.json
+│   │   ├── pypi_vulnerabilities.csv
+│   │   ├── vulnerability2function.json
+│   │   └── vulnerable_dependencies.json
+│   └── subset
+│       ├── sample_projects.csv
+```
+In the remaining part of this section, we describe the contents of each file:
 
-## [partial_callgraphs](./partial_callgraphs)
-- Contains a sample number of JSON files representing the stitched call graphs of Python GitHub projects.
-Due to size restrictions,
-we have included a subset,
-specifically the call graphs of projects whose owner name starts with the letter 'p'
-(150 in total).
-The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
+- `results/`: This directory stores the bre-baked dataset of the automated and manual analysis performed in order to produce the results (numbers, figures, tables) reproted on the results section of our paper (Sections 3.1-3.4)
+  - `rq1a.csv`: Contains the quantitative analysis results for the first research question (RQ1), focusing especially on the prevalence of bloat at different granularities in the Python projects.
+    - Columns:
+      - `project`: GitHub Owner-Repository Name.
+      - `NBD`: Number of Bloated Dependencies – Represents the number of bloated dependencies identified in the project.
+      - `NBFD`: Number of Bloated Files in Dependencies – Measures the count of bloated files identified within the dependencies of the project.
+      - `NBMD`: Number of Bloated Methods in Dependencies – Indicates the count of bloated methods found within the dependencies of the project.
+      - `NBD-LOC`: Number of Bloated Dependencies in LOC - Denotes the lines of code (LOC) in the bloated dependencies.
+      - `NBFD-LOC`: Number of Bloated Files in Dependencies in LOC - Represents the lines of code (LOC) in the bloated files of the dependencies.
+      - `NBMD-LOC`: Number of Bloated Methods in Dependencies in LOC - Represents the number of lines of code (LOC) in the bloated methods of the dependencies.
+      - `PBD`: Percentage of Bloated Dependencies – Represents the proportion of dependencies that are identified as bloated in the project.
+      - `PBFD`: Percentage of Bloated Files in Dependencies – Represents the proportion of files within the dependencies that are identified as bloated.
+      - `PBMD`: Percentage of Bloated Methods in Dependencies – Represents the proportion of methods within the dependencies of the project that are identified as bloated.
+      - `PBD-LOC`: Percentage of Bloated Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependencies that are bloated
+      - `PBFD-LOC`: Percentage of Bloated Files in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency files that are bloated.
+      - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
 
-## [results](./results/)
-### rq1a.csv: 
-- Contains the quantitative analysis results for the first research question (RQ1), focusing especially on the prevalence of bloat at different granularities in the Python projects.
+- `rq1b.csv`: For each Python project, this file includes the different usage statuses of its direct and transitive dependencies, showcasing metrics related to bloat and usage in various granularities (RQ1).
   - Columns:
-    - `project`: Github Owner-Repository Name.
-    - `NBD`: Number of Bloated Dependencies – Represents the number of bloated dependencies identified in the project.
-    - `NBFD`: Number of Bloated Files in Dependencies – Signifies the count of bloated files identified within the dependencies of the project.
-    - `NBMD`: Number of Bloated Methods in Dependencies – Indicates the count of bloated methods found within the dependencies of the project.
-    - `NBD-LOC`: Number of Bloated Dependencies in LOC - Denotes the lines of code (LOC) in the bloated dependencies.
-    - `NBFD-LOC`: Number of Bloated Files in Dependencies in LOC - Represents the lines of code (LOC) in the bloated files of the dependencies.
-    - `NBMD-LOC`: Number of Bloated Methods in Dependencies in LOC - Represents the number of lines of code (LOC) in the bloated methods of the dependencies.
-    - `PBD`: Percentage of Bloated Dependencies – Represents the proportion of dependencies that are identified as bloated in the project.
-    - `PBFD`: Percentage of Bloated Files in Dependencies – Represents the proportion of files within the dependencies that are identified as bloated.
-    - `PBMD`: Percentage of Bloated Methods in Dependencies – Represents the proportion of methods within the dependencies of the project that are identified as bloated.
-    - `PBD-LOC`: Percentage of Bloated Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependencies that are bloated
-    - `PBFD-LOC`: Percentage of Bloated Files in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency files that are bloated.
-    - `PBMD-LOC`: Percentage of Bloated Methods in Dependencies in LOC - Represents the percentage of lines of code (LOC) in dependency methods that are bloated.
-
-### rq1b.csv: 
-- For each Python project, it includes the different usage statuses of its direct and transitive dependencies, showcasing metrics related to bloat and usage in various granularities (RQ1).
-
-  - Columns:
-    - `project`: Github Owner-Repository Name.
-    
-    ### Direct Dependencies:
+    - `project`: GitHub Owner-Repository Name.
     - `direct_dependencies_bloated_count`: Number of bloated direct dependencies.
     - `direct_dependencies_bloated_loc`: Lines of code in bloated direct dependencies.
     - `direct_dependency_files_bloated_count`: Number of bloated files in direct dependencies.
@@ -87,8 +86,6 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `direct_dependency_files_used_loc`: Lines of code in the used files of direct dependencies.
     - `direct_dependency_methods_used_count`: Number of used methods in direct dependencies.
     - `direct_dependency_methods_used_loc`: Lines of code in the used methods of direct dependencies.
-        
-    ### Transitive Dependencies:
     - `transitive_dependencies_bloated_count`: Number of bloated transitive dependencies.
     - `transitive_dependencies_bloated_loc`: Lines of code in bloated transitive dependencies.
     - `transitive_dependency_files_bloated_count`: Number of bloated files in transitive dependencies.
@@ -101,18 +98,15 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `transitive_dependency_files_used_loc`: Lines of code in the used files of transitive dependencies.
     - `transitive_dependency_methods_used_count`: Number of used methods in transitive dependencies.
     - `transitive_dependency_methods_used_loc`: Lines of code in the used methods of transitive dependencies.
-
-### rq2a.csv: 
-- Contains the quantitative results for the second research question (RQ2), including all Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
+    - 
+- `rq2a.csv`: Contains the quantitative results for the second research question (RQ2), including all Python projects having vulnerable dependencies. Each row specifies a dependency from a project to a vulnerable dependency.
   - Columns:
     - `project`: GitHub Owner-Repository Name, representing the Python project.
     - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
     - `dependency_type`: Distinguishes whether the vulnerable package is a direct or transitive dependency of the project.
     - `activation_status`: Indicates the invocation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
 
-### rq2b.csv: 
-- Contains metrics regarding the usage of inactive (used while the vulnerable method is bloated) and active vulnerable packages within each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency and more precisely the extent of bloat and usage in both the files and methods of this dependency.
-
+- `rq2b.csv`: Contains metrics regarding the usage of inactive (used while the vulnerable method is bloated) and active vulnerable packages within each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency and more precisely the extent of bloat and usage in both the files and methods of this dependency.
   - Columns:
     - `project`: GitHub Owner-Repository Name, signifying the particular Python project being analyzed.
     - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
@@ -124,9 +118,109 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `percentage_bloated_methods`: Calculates the percentage of bloated methods within the methods of the vulnerable dependency.
     - `percentage_bloated_files`: Computes the percentage of bloated files within the files of the vulnerable dependency.
 
+- `qualitative_results.json`: This file contains the results of qualitative analysis conducted for research questions 3 and 4 (RQ3-RQ4) for the 50 selected bloated dependencies. Each record in the file represents a specific project with one or more dependencies that were analyzed. The key of each record is the project name, and its value is a set of JSON objects, where each object represents a dependency in the project. Each dependency object contains the following metadata:
+  - `Root Cause`: Describes the root cause of the bloated dependency, as devised from our Root Cause Analysis (RQ3)
+  - `PR Status`: Indicates the status of the associated pull request (PR), whether it's merged, open or closed. (Applicable only for dependencies for which we opened PRs)
+  - `PR URL`: Provides the URL of the pull request related to the dependency.
+  - `Duration`: Represents the duration of the pull request in days.
+  - `Created At`: Specifies the date and time when the pull request related to the dependency was opened.
+  - `Merged At`: (Optional) Specifies the date and time when the pull request related to the dependency was merged.
+  - `Version`: Represents the version of the dependency being removed.
+  - `LoC`: Stands for Lines of Code, indicating the number of lines of code of the dependency.
+  - `Size`: Specifies the size of the dependency in bytes
+  - `Discussion Status`: Indicates the status of any discussions or conversations related to the dependency.
 
-### `rq3.json`: 
-- Contains the results of the qualitative analysis (RQ3) identifying the root causes for the 50 selected bloated dependencies.
+Below is an example of a project entity in the JSON structure:
+
+```json
+  "ewels/MultiQC": {
+      "simplejson": {
+          "Root Cause": "Built-in or alternate library",
+          "PR Status": "Merged",
+          "PR URL": "https://github.com/ewels/MultiQC/pull/1973",
+          "Duration": 4,
+          "Created At": "2023-08-11T00:27:57Z",
+          "Merged At": "2023-08-15T21:15:16Z",
+          "Version": "3.19.1",
+          "LoC": 4500,
+          "Size": 515330,
+          "Discussion Status": "No Discussion"
+      }
+  }
+```
+- `project_dependencies_post_data_collection.json`: This JSON file describes the status of our dataset after the Data Collection phase. Each key represents a GitHub project, and the values represent a list with the PyPI releases of the resolved dependencies. (Its descriptive statistics are described on the third line of Table 1).
+```json
+[
+    {
+      "rdiff-backup/rdiff-backup": [
+        "PyYAML:6.0"
+      ]
+    },
+    {
+      "jopohl/urh": [
+        "psutil:5.9.5",
+        "numpy:1.25.0",
+        "PyQt5-sip:12.12.1",
+        "PyQt5:5.15.9",
+        "Cython:0.29.36",
+        "PyQt5-Qt5:5.15.2"
+      ]
+    }
+  // More projects...
+]
+```
+- `project_dependencies_final.json`: This JSON file describes the status of our dataset after the Data Analysis phase. It is a subset of the `project_dependencies_post_data_collection.json` file and its descriptive statistics are described on the third line of Table 1 of the paper.
+- `security/`: This directory stores the data generated when running our methodology for answering RQ2 (detailed in the second paragraph of Section 2.4 of our paper)
+  - `pypi_vulnerabilities.csv`:  This file contains the set of PyPI vulnerabilities extracted from the GitHub Advisory Database.
+  - Columns:
+    - `Identifier`: GitHub Owner-Repository Name, signifying the particular Python project being analyzed.
+    - `Package`: Specifies the name of the affected PyPI package
+    - `VersionConstraint`: Describes the package versions affected by this vulnerability, in the format of comma-separated version constraints (e.g. ">= 4.0,< 4.0.7")
+  - `vulnerable_dependencies.json`: This JSON file serves as a record of vulnerable releases acting as dependencies in our dataset. Each record consists of a key representing a PyPI release and a list of affected Common Vulnerabilities and Exposures (CVEs). For example:
+    ```json
+        {
+        "grpcio:1.50.0": [
+            "GHSA-6628-q6j9-w8vg",
+            "GHSA-cfgp-2977-2fmm",
+            "GHSA-9hxf-ppjv-w6rq"
+        ],
+        // Other records...
+      }
+    ```
+  - `project_vulnerabilities.json`:  This JSON file serves as a mapping of software projects to their vulnerable dependencies. Each key represents a unique project, identified by its name. Each project key represents a unique project identified by its name. Associated with each project key is a list of objects, where each object corresponds to a vulnerable dependency identified by its package name and version. The values are arrays listing the CVEs that impact that specific version of the dependency. An example JSON record is the following:
+    ```json
+    {
+      "widdowquinn/pyani": [
+        {
+          "Pillow:10.0.0": [
+            "GHSA-3f63-hfp8-52jq",
+            "GHSA-j7hp-h8jx-5ppr"
+          ]
+        },
+        {
+          "fonttools:4.40.0": [
+            "GHSA-6673-4983-2vx5"
+          ]
+        }
+      ],
+    // More projects...
+    }
+    ```
+  - `vulnerability2function.json`: This JSON file contains a manual mapping of each vulnerability encountered in the dataset with the corresponding vulnerable functions. The keys represent the CVE identifiers, and the values are arrays containing the paths to the vulnerable functions within the codebase. For example:
+    ```json
+      {
+          "GHSA-jh3w-4vvf-mjgr": [
+              "//Django/django.core.validators/EmailValidator.__init__()",
+              "//Django/django.core.validators/EmailValidator",
+              "//Django/django.core.validators/URLValidator.__init__()",
+              "//Django/django.core.validators/URLValidator"
+          ],
+          // Other mappings...
+      }
+    ```
+- `subset/`: This directory stores the data generated when running our methodology for a subset of our dataset
+  - `sample_projects.csv`: A simple CSV file listing the project names included in the subset of our dataset
+  
 
 # Getting Started
 
@@ -546,7 +640,7 @@ sh scripts/partial_cg_generation/run_partial_cg_generation.sh $GH_TOKEN \
 This script will install PyCG and use it to produce the partial call graphs of the source code of each project.
 It will also retrieve the dependency set of all projects and build the partial call graph of each dependency.
 The partial call graph for each project is stored in JSON format at the destination:
-`data/partial_callgraphs/apps/{project_ownler}/{project_repo}/cg.json`.
+`data/partial_callgraphs/apps/{project_owner}/{project_repo}/cg.json`.
 
 Similarly, the call graph for each unique PyPI dependency (package_name:version) is stored in the file:
  `data/partial_callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
@@ -595,9 +689,9 @@ This script collects for each project the partial call graphs of its source code
 Moreover, it performs a reachability analysis (Section 2.3.3) on the stitched graph to compute the bloat metrics necessary to answer the first research question (described in the first paragraph of Section 2.4 of our paper)
 For each project, it produces two JSON files. Specifically:
 
-- `data/stitched_callgraphs/{project_ownler}/{project_repo}/cg.json`: Contains the stitched call graph of the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
+- `data/stitched_callgraphs/{project_owner}/{project_repo}/cg.json`: Contains the stitched call graph of the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
 
-- `data/stitched_callgraphs/{project_ownler}/{project_repo}/bloat_metrics.json`: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files is used to produce [rq1a.csv](#rq1acsv), and [rq1b.csv](#rq1bcsv) which are used in the result section to produce the tables and figures of RQ1.
+- `data/stitched_callgraphs/{project_owner}/{project_repo}/bloat_metrics.json`: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files is used to produce [rq1a.csv](#rq1acsv), and [rq1b.csv](#rq1bcsv) which are used in the result section to produce the tables and figures of RQ1.
 
 #### Stitching & Reachability Analysis of Subset Dataset
 
@@ -659,7 +753,7 @@ The scirpt performs the following steps:
 ```
 The JSON file depicted above serves as a mapping of software projects to their vulnerable dependencies. Each key represents a unique project, identified by its name. Associated with each project key is a list of objects, where each object corresponds to a particular dependency identified by its package name and version (e.g., Pillow:10.0.0). The values are arrays listing the Common Vulnerabilities and Exposures (CVEs) IDs that impact that specific version of the dependency. This structure enables quick identification of vulnerabilities associated with dependencies in our project dataset.
 
-Then, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to answer RQ2. To do this you need the already existing file `data/security/vulnerability2function.json` which contains the manually created mapping of each vulnerability encountered in our dataset with the actual vulnerable function (See second paragraph of section 2.4 of our paper). Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the "pre-baked" dataset existing on Zenodo (for details see [here](todo)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the security reachability analysis by running:
+Then, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to answer RQ2. To do this you need the already existing file `data/security/vulnerability2function.json` which contains the manually created mapping of each vulnerability encountered in our dataset with the actual vulnerable function (See second paragraph of Section 2.4 of our paper). Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the "pre-baked" dataset existing on Zenodo (for details see [here](todo)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the security reachability analysis by running:
 
 
 ```bash
