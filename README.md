@@ -858,7 +858,7 @@ To initiate the stitched call graph generation (and reachability analysis), exec
 
 ```bash
 python scripts/stitched_cg_generation/stitch.py \
-  --source data/full/partial_callgraphs --json data/project_dependencies_final.json
+  --source data/partial_callgraphs --json data/project_dependencies_final.json
 ```
 
 This script collects for each project the partial call graph of its source code as well as its dependencies and incrementally merges them to form the stitched graph.
