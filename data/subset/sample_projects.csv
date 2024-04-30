@@ -17,7 +17,6 @@ metaodi/osmapi
 micropyramid/forex-python
 cobrateam/splinter
 coin-or/pulp
-grigorig/stcgal
 jrxfive/python-nomad
 python273/vk_api
 uqfoundation/pathos
@@ -48,3 +47,4 @@ devexp-db/distgen
 matrix-org/matrix-python-sdk
 dropbox/stone
 cloudant/python-cloudant
+grokzen/pykwalify

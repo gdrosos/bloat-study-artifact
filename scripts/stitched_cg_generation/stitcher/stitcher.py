@@ -158,12 +158,9 @@ class Stitcher:
     def _parse_cgs(self, paths):
         for p in paths:
             if not p:
-                print("Error",  self.root)
                 continue
             if self.cgs.get(p["product"], None):
-                print("Error on parsing call graph", p)
                 continue
-            
             cg =CallGraph(p)
             self.cgs[p["product"]] = cg
             if p["product"]!= self.root:

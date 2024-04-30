@@ -5,8 +5,10 @@ This is the artifact for the paper accepted to FSE'24 titled:
 # Table of Contents
 - [Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis](#bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
 - [Table of Contents](#table-of-contents)
-- [Dataset Description](#dataset-description)
 - [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Setup](#setup)
+- [Dataset Description](#dataset-description)
 - [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional)
 - [Step-by-Step Instructions](#step-by-step-instructions)
   - [Descriptive Tables (Sections 2.2 \& 2.3)](#descriptive-tables-sections-22--23)
@@ -26,6 +28,13 @@ This is the artifact for the paper accepted to FSE'24 titled:
       - [Stitching \& Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional)
       - [Stitching \& Reachability Analysis of Subset Dataset](#stitching--reachability-analysis-of-subset-dataset)
     - [Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):](#analyzing-reachability-results-rq2relation-between-software-bloat-and-software-vulnerabilities-2nd-paragraph-of-section-24)
+
+# Getting Started
+
+## Requirements
+Before getting started, ensure that your machine meets the specifications outlined in the [Requirements](REQUIREMENTS.md) file.
+## Setup
+Additionally, please refer to the [Installation Guide](INSTALL.md) for detailed instructions on setting up the necessary environment to run our experiments.
 
 
 # Dataset Description
@@ -48,7 +57,7 @@ The dataset of the artifact exists in the `data/` directory and has the followin
 │   └── subset
 │       ├── sample_projects.csv
 ```
-In the remaining part of this section, we describe the contents of each file:
+Bellow, we describe the contents of each file:
 
 - `results/`: This directory stores the bre-baked dataset of the automated and manual analysis performed in order to produce the results (numbers, figures, tables) reported on the results section of our paper (Sections 3.1-3.4)
   - `rq1a.csv`: Contains the quantitative analysis results for the first research question (RQ1), focusing especially on the prevalence of bloat at different granularities in the Python projects.
@@ -223,12 +232,6 @@ Below is an example of a project entity in the JSON structure:
   - `sample_projects.csv`: A simple CSV file listing the project names included in the subset of our dataset
   
 
-# Getting Started
-
-Before getting started, ensure that your machine meets the specifications outlined in the [Requirements](REQUIREMENTS.md) file.
-Additionally, please refer to the [Installation Guide](INSTALL.md) for detailed instructions on setting up the necessary environment to run our experiments.
-
-
 # Full Call Graph Dataset Retrieval (Optional)
 
 **NOTE:** Ensure that you have at least 15GB of available disk space before running this step.
@@ -242,7 +245,7 @@ To extract the data, run:
 
 `unzip callgraph_data.zip -d data/`
 
-The above command will create inside the `data/` directory the `partial_callgraphs` and `stitched_callgraphs` directory. The directories will have the following structure:
+The above command will create inside the `data/` directory the `partial_callgraphs` and `stitched_callgraphs` directories. The directories will have the following structure:
 ```
 ├── partial_callgraphs
 │   ├── apps
@@ -426,7 +429,7 @@ An example stitched call graph JSON representation is the following:
 In the following sections, we provide instructions
 for reproducing the descriptive tables and figures
 presented in the paper using the "pre-baked" data coming from the `data/` directory.
-Then we provide detailed instructions to re-run our methodology for producing those results
+Then we provide detailed instructions to re-run our methodology for producing those results.
 
 ## Descriptive Tables (Sections 2.2 & 2.3)
 
@@ -506,7 +509,7 @@ Package     Bloated LoC     1302.00 34.39 32.28 0.00  5.93 24.78 52.93 100.00
 
 
 **Note**: The first table presents descriptive statistics regarding the absolute values of the bloat metrics.
-The acronym of each metric is described in detail [here](#rq1acsv).
+The acronym of each metric is described in detail in Section: [Dataset Description](#dataset-description).
 Some of those total and average numbers are utilized in Section 3.1 of our paper
 (e.g. {Total, average} number of bloated {dependencies, files, methods}, in the context of entries or LoC).
 
@@ -768,7 +771,7 @@ Merged PRs requiring discussions without requiring changes: 3
 
 **NOTE #1** Ensure that you have at least 150GB of available disk space if you decide to run the methodology steps of the full dataset.
 
-**NOTE #2:**: Some numbers generated from the methodology section may differ slightly from those reported in the paper or our datasets. This variance is due to changes in source code or dependency relations of certain projects or dependencies since our analysis was conducted.
+**NOTE #2:**: Some numbers generated from the methodology section may differ slightly from those reported in the paper or our datasets. This variance is due to changes in the source code or dependency relations of certain projects or dependencies since our analysis was conducted.
 
 
 ###  Project Selection and Dependency Resolution (Section 2.2)
@@ -783,7 +786,7 @@ This script performs the following steps:
 
 - Downloads the initial [dataset](https://zenodo.org/records/5645517) from Zenodo that includes the set of Python projects used in our study.
 - Clones each project repository into the specified target directory (in directory `sources/apps` inside the specified `data/` directory).
-- Resolves dependencies for each project using pip and saves the results in a resolved_dependencies.json file within each project's directory.
+- Resolves dependencies for each project using pip and saves the results in a `resolved_dependencies.json` file within each project's directory.
 - Aggregates all the individual `resolved_dependencies.json` files from each project into a single file named `project_dependencies_post_data_collection.json`. The structure of this file is detailed in Section [Dataset Description](#dataset-description).
 
 
@@ -807,7 +810,7 @@ as well as for each of its dependencies.
 Optionally, you can reproduce the partial call graph generation process of the full dataset.
 **Important Note:** This process is expected to take **3-4 weeks** to complete.
 Before beginning this process, ensure that you have access to the `data/project_dependencies_post_data_collection.json` file, which contains the resolved dependencies after the Data Collection. This file is included in the repository but can also be generated using the process described in the [dependency resolution process of the full dataset](#dependency-resolution-of-full-dataset-optional) section.
-Additionally, the source code for each project must be available locally. This can be accomplished by running the previous dependency resolution steps (see Section [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)).
+Additionally, the source code for each project must be available locally. This can be accomplished by running the previous dependency resolution steps (see Section: [Dependency Resolution of Full Dataset (Optional)](#dependency-resolution-of-full-dataset-optional)).
 To initiate the partial call graph generation, execute the following command:
 ```bash
 sh scripts/partial_cg_generation/run_partial_cg_generation.sh $GH_TOKEN \
@@ -824,7 +827,7 @@ Similarly, the call graph for each unique PyPI dependency (package_name:version)
 Moreover, the source code of each release will also be stored in the following directory:
   `data/sources/{first_letter_of_package_name}/{package_name}/{package_version}/`.
 
- Finally, the script will produce a JSON file named `data/project_dependencies_final.json` which contains the final dataset of projects and dependencies. This file is the final dataset used in the Data Analysis Phase.(Its descriptives are described in the Data Analysis rows of Table 1). The structure of this file is detailed in Section [Dataset Description](#dataset-description).
+ Finally, the script will produce a JSON file named `data/project_dependencies_final.json` which contains the final dataset of projects and dependencies. This file is the final dataset used in the Data Analysis Phase.(Its descriptives are described in the Data Analysis rows of Table 1). The structure of this file is detailed in Section: [Dataset Description](#dataset-description).
 
 
 #### Partial Call Graph Generation of Subset Dataset
@@ -850,7 +853,7 @@ In our implementation, for efficiency, we perform the stitching and the reachabi
 Before beginning this process, ensure that you have access to the `data/project_dependencies_final.json` file, which contains the resolved dependencies after the Partial Call Graph Generation phase.
 This file is already included in the repository but can also be generated using the process described in the [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section.
 Moreover, in order to replicate the stitching as well as the reachability analysis of the whole dataset used in our study,
-you need to have produced the partial call graphs of each project and each dependency, either through performing the steps described on  [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section or through using the "pre-baked" stitched callgraph dataset obtained through Zenodo (see Section [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional)).
+you need to have produced the partial call graphs of each project and each dependency, either through performing the steps described on  [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section or through using the "pre-baked" stitched callgraph dataset obtained through Zenodo (see Section: [Full Call Graph Dataset Retrieval (Optional)](#full-call-graph-dataset-retrieval-optional)).
 
 **Important Note:** This process is expected to take **1-2 weeks** to complete.
 
@@ -882,20 +885,26 @@ python scripts/stitched_cg_generation/stitch.py --source data/subset/partial_cal
 
 This script performs the same operations as outlined in the full dataset section but on a smaller scale, and it will store the results in the directory `data/subset/`, maintaining the same directory structure.
 
+Finally, you can observe the generated  stitched call graph of each project:
+
+```bash
+find data/subset/stitched_callgraphs/   -type f -name 'cg.json' 
+```
 
 ### Analyzing Reachability Results: RQ2:Relation between software bloat and software vulnerabilities (2nd paragraph of Section 2.4):
 
 **NOTE:** Ensure that you have at least 3GB of available disk space before running this step.
 
+
 In this sub-section, we describe how you can run our methodology from scratch for producing the security metrics used to answer RQ2. The steps are described in the second paragraph of Section 2.4.
 We split this process in 2 steps. The first includes using the GitHub advisory database to retrieve PyPI vulnerabilities and investigate whether they affect our dataset. This step does not have any prerequisites.
-To perform this operation, simply run:
+To perform this operation, simply run (the advisory database download might take up to 1 hour depending on your network connection):
 ```bash
  sh scripts/security_analysis/run_security_analysis.sh  $GH_TOKEN  \
   data/security data/project_dependencies_final.json
 ``` 
 The script performs the following steps:
-* It will first download the repository of the advisory database which contains the known PyPI vulnerabilities (this might take up to 30 minutes depending on your network connection)
+* It will first download the repository of the advisory database which contains the known PyPI vulnerabilities
 * It will parse the repository to identify vulnerabilities affecting PyPI releases
 * It will then find all the vulnerable releases affecting our dataset, and it will produce a file `data/security/project_vulnerabilities.json` which has the following format:
 

@@ -38,7 +38,7 @@ source .env/bin/activate
 pip3 install -r requirements.txt
 ```
 
-### Option2: Docker Image Installation (Recommended)
+## Option2: Docker Image Installation (Recommended)
 
 Use this option if you prefer a containerized environment or are not using an Ubuntu/Debian operating system.
 We provide a `Dockerfile` to build an image that contains:
