@@ -1,6 +1,6 @@
 # Artifact for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"
 This is the artifact for the paper accepted to FSE'24 titled:
-"Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis.
+"Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis".
 
 # Table of Contents
 - [Artifact for "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis"](#artifact-for-bloat-beneath-pythons-scales-a-fine-grained-inter-project-dependency-analysis)
@@ -108,7 +108,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
     - `project`: Github Owner-Repository Name, representing the Python project.
     - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
     - `dependency_type`: Distinguishes whether the vulnerable package is a direct or transitive dependency of the project.
-    - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
+    - `activation_status`: Indicates the invocation status of the dependency, specifying whether it is a bloated dependency, active, inactive, or undefined.
 
 ### rq2b.csv: 
 - Contains metrics regarding the usage of inactive (used with bloated vulnerable method) and active vulnerable packages within each Python project (RQ2). Each row describes a project’s interaction with a vulnerable dependency,  and more precisely the extent of bloat and usage in both the files and methods of this dependency.
@@ -116,7 +116,7 @@ The call graphs are structured as `{github_owner}/{repository_name}/cg.json`.
   - Columns:
     - `project`: Github Owner-Repository Name, signifying the particular Python project being analyzed.
     - `package_name`: Specifies the name of the PyPI package identified as a vulnerable dependency.
-    - `activation_status`: Indicates the invokation status of the dependency, specifying whether it is active or inactive.
+    - `activation_status`: Indicates the invocation status of the dependency, specifying whether it is active or inactive.
     - `bloated_files`: Quantifies the number of bloated files present in the vulnerable dependency.
     - `used_files`: Enumerates the number of files from the vulnerable dependency that are actually utilized in the project.
     - `bloated_methods`: Enumerates the number of bloated methods present in the vulnerable dependency.
@@ -212,17 +212,12 @@ sh scripts/partial_cg_generation/run_partial_cg_generation.sh $GH_TOKEN \
  data data/project_dependencies_post_data_collection.json data/project_dependencies_final.json 
 ```
 This script will install PyCG and use it to produce the partial call graphs of the source code of each project.
-It will also retrieve the dependnecy set of all projects and build the partial call graph of each dependency.
+It will also retrieve the dependency set of all projects and build the partial call graph of each dependency.
 The partial call graph for each project is stored in JSON format at the destination:
 `data/partial_callgraphs/apps/{project_ownler}/{project_repo}/cg.json`.
 
 Similarly, the call graph for each PyPI dependency (package:version) is stored in the file:
  `data/partial_callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
-
- Moreover, the source code of each release wil also be stored in the following directory:
-`data/partial_callgraphs/{first_letter_of_package_name}/{package_name}/{package_version}/cg.json`
-
-(e.g. `data/partial_callgraphs/a/attrs/23.2.0/cg.json`).
 
 Moreover, the source code of each release will also be stored in the following directory:
   `data/sources/{first_letter_of_package_name}/{package_name}/{package_version}/`.
@@ -243,7 +238,7 @@ This script performs the same operations as outlined in the full dataset section
 
 * Produce the partial call graphs for each project and its dependencies.
 * Store the produced partial call graphs, as well as the source code of each dependency within the `data/subset/` directory, maintaining the same organizational structure.
-* Finally, it will generate a file named `data/subset/project_dependencies_final_subset.json`, containing the final dataset of projects and dependencie after performing this step.
+* Finally, it will generate a file named `data/subset/project_dependencies_final_subset.json`, containing the final dataset of projects and dependencies after performing this step.
 
 ### Stitching of Call Graphs & Reachability Analysis (Sections 2.3.2 & 2.3.3)
 In our implementation, for efficiency we perform the stitching and the reachability analysis in one step.
@@ -251,7 +246,7 @@ In our implementation, for efficiency we perform the stitching and the reachabil
 #### Stitching & Reachability Analysis of Full Dataset (Optional)
 
 Before beginning this process, ensure that you have access to the `data/project_dependenciesfinal.json` file, which contains the resolved dependencies after the Partial Call Graph Generation phase.
-This file is included in already included in the repository but can also be generated using the process described in the [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section.
+This file is already included in the repository but can also be generated using the process described in the [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section.
 Moreover, in order to replicate the stitching as well as the reachability analysis of the whole dataset used in our study,
 you need to have produced the partial call graphs of each project and each dependency, either through performing the steps described on  [Partial Call Graph Generation of Full Dataset (Optional)](#partial-call-graph-generation-of-full-dataset-optional) section or through using the bre-baked dataset obtained through zenodo (see [here](todo)).
 
@@ -270,7 +265,7 @@ For each project, it produces 2 json files. Specifically:
 
 - `data/stitched_callgraphs/{project_ownler}/{project_repo}/cg.json`: Contains the stitched call graph for the project, integrating multiple call graphs from direct and transitive dependencies to form a comprehensive view of the project’s call architecture.
 
-- `data/stitched_callgraphs/{project_ownler}/{project_repo}/bloat_metrics.json`: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files is being used to produce [rq1a.csv](#rq1acsv), and [rq1b.csv](#rq1bcsv) which are used in subsequent steps to produce the Figures of RQ1 results.
+- `data/stitched_callgraphs/{project_ownler}/{project_repo}/bloat_metrics.json`: Contains individual project-specific results from the reachability analysis, measuring various aspects of code bloat such as the number of bloated dependencies, files, and methods, along with their corresponding lines of code. Each record from these JSON files is used to produce [rq1a.csv](#rq1acsv), and [rq1b.csv](#rq1bcsv) which are used in subsequent steps to produce the Figures of RQ1 results.
 
 #### Stitching & Reachability Analysis of Subset Dataset
 
@@ -330,9 +325,9 @@ The scirpt performs the following steps:
 // More projects...
 }
 ```
-Where each key is a project with at least one vulnerable dependencies and as values it has a a list of json objects which havbe as key the vulnerable reelase and as value a list with the affected cves.
+Where each key is a project with at least one vulnerable dependencies and as values it has a a list of json objects which have as key the vulnerable release (PyPI package:version) and as value a list with the affected cves.
 
-Then, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to asnwer RQ2. To do this you need the already existing file `data/security/vulnerability2function.json` which contains the (manually created) mapping of each vulnerability encountered in our dataset with the actual vulnerable function. Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the bre-baked dataset existing on Zenodo (for details see[here](todo)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the reachability analysis by running:
+Then, you can also run the reachability analysis on the stitched call graphs to produce the security metrics used to asnwer RQ2. To do this you need the already existing file `data/security/vulnerability2function.json` which contains the manually created mapping of each vulnerability encountered in our dataset with the actual vulnerable function (See second paragraph of section 2.4 of our paper). Moreover, you need to have produced the stitched call graphs of each project to perform this step.  You can do this either by using the bre-baked dataset existing on Zenodo (for details see[here](todo)) or by performing the steps described in the [Stitching & Reachability Analysis of Full Dataset (Optional)](#stitching--reachability-analysis-of-full-dataset-optional) section. You can run the reachability analysis by running:
 
 
 ```bash
