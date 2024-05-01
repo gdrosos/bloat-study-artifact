@@ -121,7 +121,6 @@ def process(vulnerabilities, path, vuln2func):
         metrics["vulnerable_dependencies_bloated_through_functions"] = bloated_function_lvl_cnt
         metrics["vulnerable_dependencies_unresolved_through_functions"] = unresolved_function_lvl_cnt
         metrics["exposure_dict"] = exposure_dict
-        print(metrics)
         with open(path+"/"+owner+"/"+repo+"/security_metrics.json", "w+") as f:
             f.write(json.dumps(metrics, indent=2))
 
