@@ -927,7 +927,7 @@ For each project, it produces two JSON files. Specifically:
 #### Stitching & Reachability Analysis of Subset Dataset
 
 Again, for convenience, we give the option to perform the stitching as well as the reachability analysis for the 50 sample projects used in the dependency resolution and partial call graph generation.
-The only requirement to run this analysis is to have performed the steps outlined in sections [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset) and [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset). Having performed those steps, run:
+The only requirement to run this analysis is to have performed the steps outlined in sections [Dependency Resolution of a Subset Dataset](#dependency-resolution-of-a-subset-dataset) and [Partial Call Graph Generation of Subset Dataset](#partial-call-graph-generation-of-subset-dataset). Having performed those steps, run (estimated running time: less than 5 minutes):
 
 
 ```bash
