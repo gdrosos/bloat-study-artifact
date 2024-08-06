@@ -5,8 +5,8 @@ This is the artifact for the FSE'24 paper titled:
 "Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis".
 
 * Georgios-Petros Drosos, Thodoris Sotiropoulos, Diomidis Spinellis, and Dimitris Mitropoulos. 2024.
-[Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis](https://doi.org/10.1145/3660821). In Proceedings of the ACM on Software Engineering, 1(FSE), 2584-2607.
-[doi:10.1145/366082](https://doi.org/10.1145/3660821))
+[Bloat beneath Python’s Scales: A Fine-Grained Inter-Project Dependency Analysis](https://doi.org/10.1145/3660821). In Proceedings of the ACM on Software Engineering, (FSE '24), 2024, 2584-2607.
+([doi:10.1145/366082](https://doi.org/10.1145/3660821))
 
 An archived version of the artifact
 is also available on Zenodo.
